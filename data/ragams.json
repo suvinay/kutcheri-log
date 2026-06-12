@@ -1,0 +1,1295 @@
+[
+  {
+    "name": "kanakangi",
+    "aliases": [
+      "kanakambari",
+      "kanakaangi"
+    ],
+    "mela_number": 1,
+    "arohana": "S R1 G1 M1 P D1 N1 S",
+    "avarohana": "S N1 D1 P M1 G1 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "ratnangi",
+    "aliases": [
+      "phenadyuti",
+      "rathnangi"
+    ],
+    "mela_number": 2,
+    "arohana": "S R1 G1 M1 P D1 N2 S",
+    "avarohana": "S N2 D1 P M1 G1 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "ganamurthi",
+    "aliases": [
+      "gavamambari",
+      "ganamurti",
+      "gaanamurthi"
+    ],
+    "mela_number": 3,
+    "arohana": "S R1 G1 M1 P D1 N3 S",
+    "avarohana": "S N3 D1 P M1 G1 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "vanaspati",
+    "aliases": [
+      "bhanumati",
+      "vanaspathi"
+    ],
+    "mela_number": 4,
+    "arohana": "S R1 G1 M1 P D2 N2 S",
+    "avarohana": "S N2 D2 P M1 G1 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "manavati",
+    "aliases": [
+      "manoranjani",
+      "manavathi"
+    ],
+    "mela_number": 5,
+    "arohana": "S R1 G1 M1 P D2 N3 S",
+    "avarohana": "S N3 D2 P M1 G1 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "tanarupi",
+    "aliases": [
+      "tanukirti",
+      "thanarupi",
+      "thaanaroopi"
+    ],
+    "mela_number": 6,
+    "arohana": "S R1 G1 M1 P D3 N3 S",
+    "avarohana": "S N3 D3 P M1 G1 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "senavati",
+    "aliases": [
+      "senagrani",
+      "senavathi"
+    ],
+    "mela_number": 7,
+    "arohana": "S R1 G2 M1 P D1 N1 S",
+    "avarohana": "S N1 D1 P M1 G2 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "hanumatodi",
+    "aliases": [
+      "todi",
+      "thodi",
+      "hanumathodi"
+    ],
+    "mela_number": 8,
+    "arohana": "S R1 G2 M1 P D1 N2 S",
+    "avarohana": "S N2 D1 P M1 G2 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "dhenuka",
+    "aliases": [
+      "dhunibinnashadjam",
+      "denuka"
+    ],
+    "mela_number": 9,
+    "arohana": "S R1 G2 M1 P D1 N3 S",
+    "avarohana": "S N3 D1 P M1 G2 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "natakapriya",
+    "aliases": [
+      "natabharanam",
+      "nadakapriya"
+    ],
+    "mela_number": 10,
+    "arohana": "S R1 G2 M1 P D2 N2 S",
+    "avarohana": "S N2 D2 P M1 G2 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "kokilapriya",
+    "aliases": [
+      "kokilaravam",
+      "kokilapriyaa"
+    ],
+    "mela_number": 11,
+    "arohana": "S R1 G2 M1 P D2 N3 S",
+    "avarohana": "S N3 D2 P M1 G2 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "rupavati",
+    "aliases": [
+      "roopavati",
+      "rupavathi"
+    ],
+    "mela_number": 12,
+    "arohana": "S R1 G2 M1 P D3 N3 S",
+    "avarohana": "S N3 D3 P M1 G2 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "gayakapriya",
+    "aliases": [
+      "geyakapriya",
+      "gayakapriga"
+    ],
+    "mela_number": 13,
+    "arohana": "S R1 G3 M1 P D1 N1 S",
+    "avarohana": "S N1 D1 P M1 G3 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "vakulabharanam",
+    "aliases": [
+      "vakulabharana",
+      "vatula",
+      "vativasantabhairavi"
+    ],
+    "mela_number": 14,
+    "arohana": "S R1 G3 M1 P D1 N2 S",
+    "avarohana": "S N2 D1 P M1 G3 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "mayamalavagowla",
+    "aliases": [
+      "mayamalavagaula",
+      "mayamalavagoula",
+      "malavagaula"
+    ],
+    "mela_number": 15,
+    "arohana": "S R1 G3 M1 P D1 N3 S",
+    "avarohana": "S N3 D1 P M1 G3 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "chakravakam",
+    "aliases": [
+      "chakravaka",
+      "cakravaka"
+    ],
+    "mela_number": 16,
+    "arohana": "S R1 G3 M1 P D2 N2 S",
+    "avarohana": "S N2 D2 P M1 G3 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "suryakantam",
+    "aliases": [
+      "suryakanta",
+      "suryakantham",
+      "suriyakantam"
+    ],
+    "mela_number": 17,
+    "arohana": "S R1 G3 M1 P D2 N3 S",
+    "avarohana": "S N3 D2 P M1 G3 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "hatakambari",
+    "aliases": [
+      "hatakambarim",
+      "hadakambari"
+    ],
+    "mela_number": 18,
+    "arohana": "S R1 G3 M1 P D3 N3 S",
+    "avarohana": "S N3 D3 P M1 G3 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "jhankaradhwani",
+    "aliases": [
+      "jhankaradhvani",
+      "jhankara dhvani"
+    ],
+    "mela_number": 19,
+    "arohana": "S R2 G2 M1 P D1 N1 S",
+    "avarohana": "S N1 D1 P M1 G2 R2 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "natabhairavi",
+    "aliases": [
+      "narabhairavi"
+    ],
+    "mela_number": 20,
+    "arohana": "S R2 G2 M1 P D1 N2 S",
+    "avarohana": "S N2 D1 P M1 G2 R2 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "keeravani",
+    "aliases": [
+      "kiravani",
+      "kiranavali"
+    ],
+    "mela_number": 21,
+    "arohana": "S R2 G2 M1 P D1 N3 S",
+    "avarohana": "S N3 D1 P M1 G2 R2 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "kharaharapriya",
+    "aliases": [
+      "harabhairavi",
+      "kharaharapriyas"
+    ],
+    "mela_number": 22,
+    "arohana": "S R2 G2 M1 P D2 N2 S",
+    "avarohana": "S N2 D2 P M1 G2 R2 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "gourimanohari",
+    "aliases": [
+      "gaurimanohari",
+      "gowrimanohari"
+    ],
+    "mela_number": 23,
+    "arohana": "S R2 G2 M1 P D2 N3 S",
+    "avarohana": "S N3 D2 P M1 G2 R2 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "varunapriya",
+    "aliases": [
+      "varunapriye",
+      "varunapriyam"
+    ],
+    "mela_number": 24,
+    "arohana": "S R2 G2 M1 P D3 N3 S",
+    "avarohana": "S N3 D3 P M1 G2 R2 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "mararanjani",
+    "aliases": [
+      "mararanjini"
+    ],
+    "mela_number": 25,
+    "arohana": "S R2 G3 M1 P D1 N1 S",
+    "avarohana": "S N1 D1 P M1 G3 R2 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "charukesi",
+    "aliases": [
+      "charukeshi",
+      "carukesi"
+    ],
+    "mela_number": 26,
+    "arohana": "S R2 G3 M1 P D1 N2 S",
+    "avarohana": "S N2 D1 P M1 G3 R2 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "sarasangi",
+    "aliases": [
+      "sarasanghi",
+      "saraasangi"
+    ],
+    "mela_number": 27,
+    "arohana": "S R2 G3 M1 P D1 N3 S",
+    "avarohana": "S N3 D1 P M1 G3 R2 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "harikambhoji",
+    "aliases": [
+      "harikambodhi",
+      "harikambhodi",
+      "harikamabhodi"
+    ],
+    "mela_number": 28,
+    "arohana": "S R2 G3 M1 P D2 N2 S",
+    "avarohana": "S N2 D2 P M1 G3 R2 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "dhirasankarabharanam",
+    "aliases": [
+      "sankarabharanam",
+      "dheerasankarabharanam",
+      "dhira shankarabharanam",
+      "shankarabharana"
+    ],
+    "mela_number": 29,
+    "arohana": "S R2 G3 M1 P D2 N3 S",
+    "avarohana": "S N3 D2 P M1 G3 R2 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "naganandini",
+    "aliases": [
+      "naganandhini"
+    ],
+    "mela_number": 30,
+    "arohana": "S R2 G3 M1 P D3 N3 S",
+    "avarohana": "S N3 D3 P M1 G3 R2 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "yagapriya",
+    "aliases": [
+      "yaagapriya",
+      "yagapriyaa"
+    ],
+    "mela_number": 31,
+    "arohana": "S R3 G3 M1 P D1 N1 S",
+    "avarohana": "S N1 D1 P M1 G3 R3 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "ragavardhini",
+    "aliases": [
+      "raagavardhini",
+      "raghavardhini",
+      "ragavardini"
+    ],
+    "mela_number": 32,
+    "arohana": "S R3 G3 M1 P D1 N2 S",
+    "avarohana": "S N2 D1 P M1 G3 R3 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "gangeyabhushani",
+    "aliases": [
+      "gangeyabhushini",
+      "gangejabhushani",
+      "gangeyabhusani"
+    ],
+    "mela_number": 33,
+    "arohana": "S R3 G3 M1 P D1 N3 S",
+    "avarohana": "S N3 D1 P M1 G3 R3 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "vagadheeswari",
+    "aliases": [
+      "vagadhishwari",
+      "vagadhiswari",
+      "vagadheesvari",
+      "vagadhisvari"
+    ],
+    "mela_number": 34,
+    "arohana": "S R3 G3 M1 P D2 N2 S",
+    "avarohana": "S N2 D2 P M1 G3 R3 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "sulini",
+    "aliases": [
+      "shulini",
+      "soolini",
+      "sulinis"
+    ],
+    "mela_number": 35,
+    "arohana": "S R3 G3 M1 P D2 N3 S",
+    "avarohana": "S N3 D2 P M1 G3 R3 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "chalanata",
+    "aliases": [
+      "chalanatham",
+      "chalanaata",
+      "calanata"
+    ],
+    "mela_number": 36,
+    "arohana": "S R3 G3 M1 P D3 N3 S",
+    "avarohana": "S N3 D3 P M1 G3 R3 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "salagam",
+    "aliases": [
+      "saalagam",
+      "shalagan",
+      "sowgandhini"
+    ],
+    "mela_number": 37,
+    "arohana": "S R1 G1 M2 P D1 N1 S",
+    "avarohana": "S N1 D1 P M2 G1 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "jalarnavam",
+    "aliases": [
+      "jalaarnavam",
+      "jaganmohanam"
+    ],
+    "mela_number": 38,
+    "arohana": "S R1 G1 M2 P D1 N2 S",
+    "avarohana": "S N2 D1 P M2 G1 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "jhalavarali",
+    "aliases": [
+      "jhaalaavaraali",
+      "dhalivarali"
+    ],
+    "mela_number": 39,
+    "arohana": "S R1 G1 M2 P D1 N3 S",
+    "avarohana": "S N3 D1 P M2 G1 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "navaneetam",
+    "aliases": [
+      "navaneetham",
+      "nabhomani"
+    ],
+    "mela_number": 40,
+    "arohana": "S R1 G1 M2 P D2 N2 S",
+    "avarohana": "S N2 D2 P M2 G1 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "pavani",
+    "aliases": [
+      "paavani",
+      "prabhavati"
+    ],
+    "mela_number": 41,
+    "arohana": "S R1 G1 M2 P D2 N3 S",
+    "avarohana": "S N3 D2 P M2 G1 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "raghupriya",
+    "aliases": [
+      "raghupreeya",
+      "ravipriya"
+    ],
+    "mela_number": 42,
+    "arohana": "S R1 G1 M2 P D3 N3 S",
+    "avarohana": "S N3 D3 P M2 G1 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "gavambhodhi",
+    "aliases": [
+      "gavambodi",
+      "gavaambhodhi",
+      "girvani"
+    ],
+    "mela_number": 43,
+    "arohana": "S R1 G2 M2 P D1 N1 S",
+    "avarohana": "S N1 D1 P M2 G2 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "bhavapriya",
+    "aliases": [
+      "bhavapreeya",
+      "bhavani"
+    ],
+    "mela_number": 44,
+    "arohana": "S R1 G2 M2 P D1 N2 S",
+    "avarohana": "S N2 D1 P M2 G2 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "shubhapantuvarali",
+    "aliases": [
+      "subhapantuvarali",
+      "shiva pantuvarali",
+      "shivapantuvarali"
+    ],
+    "mela_number": 45,
+    "arohana": "S R1 G2 M2 P D1 N3 S",
+    "avarohana": "S N3 D1 P M2 G2 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "shadvidamargini",
+    "aliases": [
+      "shadvidha margini",
+      "sadvidamargini",
+      "stavarajam"
+    ],
+    "mela_number": 46,
+    "arohana": "S R1 G2 M2 P D2 N2 S",
+    "avarohana": "S N2 D2 P M2 G2 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "suvarnangi",
+    "aliases": [
+      "souvarnangi",
+      "suvarnaangi",
+      "sauvarnangi"
+    ],
+    "mela_number": 47,
+    "arohana": "S R1 G2 M2 P D2 N3 S",
+    "avarohana": "S N3 D2 P M2 G2 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "divyamani",
+    "aliases": [
+      "divyamaani",
+      "jeevantika"
+    ],
+    "mela_number": 48,
+    "arohana": "S R1 G2 M2 P D3 N3 S",
+    "avarohana": "S N3 D3 P M2 G2 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "dhavalambari",
+    "aliases": [
+      "dhavalangam",
+      "dhavalambari"
+    ],
+    "mela_number": 49,
+    "arohana": "S R1 G3 M2 P D1 N1 S",
+    "avarohana": "S N1 D1 P M2 G3 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "namanarayani",
+    "aliases": [
+      "namadeshi",
+      "namanarayani"
+    ],
+    "mela_number": 50,
+    "arohana": "S R1 G3 M2 P D1 N2 S",
+    "avarohana": "S N2 D1 P M2 G3 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "kamavardhani",
+    "aliases": [
+      "pantuvarali",
+      "kamavardhini",
+      "kasiramakriya"
+    ],
+    "mela_number": 51,
+    "arohana": "S R1 G3 M2 P D1 N3 S",
+    "avarohana": "S N3 D1 P M2 G3 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "ramapriya",
+    "aliases": [
+      "ramamanohari",
+      "ramapriya"
+    ],
+    "mela_number": 52,
+    "arohana": "S R1 G3 M2 P D2 N2 S",
+    "avarohana": "S N2 D2 P M2 G3 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "gamanasrama",
+    "aliases": [
+      "gamanashrama",
+      "gamakakriya",
+      "gamani"
+    ],
+    "mela_number": 53,
+    "arohana": "S R1 G3 M2 P D2 N3 S",
+    "avarohana": "S N3 D2 P M2 G3 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "visvambhari",
+    "aliases": [
+      "vishvambhari",
+      "vamsavati"
+    ],
+    "mela_number": 54,
+    "arohana": "S R1 G3 M2 P D3 N3 S",
+    "avarohana": "S N3 D3 P M2 G3 R1 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "syamalangi",
+    "aliases": [
+      "shyamalangi",
+      "syamala"
+    ],
+    "mela_number": 55,
+    "arohana": "S R2 G2 M2 P D1 N1 S",
+    "avarohana": "S N1 D1 P M2 G2 R2 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "shanmukhapriya",
+    "aliases": [
+      "shanmukhapriya",
+      "sammukhi"
+    ],
+    "mela_number": 56,
+    "arohana": "S R2 G2 M2 P D1 N2 S",
+    "avarohana": "S N2 D1 P M2 G2 R2 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "simhendramadhyamam",
+    "aliases": [
+      "simhendramadhyama",
+      "sumadyuti"
+    ],
+    "mela_number": 57,
+    "arohana": "S R2 G2 M2 P D1 N3 S",
+    "avarohana": "S N3 D1 P M2 G2 R2 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "hemavati",
+    "aliases": [
+      "desisimharavam",
+      "hemavathy"
+    ],
+    "mela_number": 58,
+    "arohana": "S R2 G2 M2 P D2 N2 S",
+    "avarohana": "S N2 D2 P M2 G2 R2 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "dharmavati",
+    "aliases": [
+      "dhamavati",
+      "dharmavathy"
+    ],
+    "mela_number": 59,
+    "arohana": "S R2 G2 M2 P D2 N3 S",
+    "avarohana": "S N3 D2 P M2 G2 R2 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "nitimati",
+    "aliases": [
+      "neethimathi",
+      "nishadam"
+    ],
+    "mela_number": 60,
+    "arohana": "S R2 G2 M2 P D3 N3 S",
+    "avarohana": "S N3 D3 P M2 G2 R2 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "kantamani",
+    "aliases": [
+      "kaantamani",
+      "caantamani"
+    ],
+    "mela_number": 61,
+    "arohana": "S R2 G3 M2 P D1 N1 S",
+    "avarohana": "S N1 D1 P M2 G3 R2 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "rishabhapriya",
+    "aliases": [
+      "risabhapriya",
+      "rshabhapriya"
+    ],
+    "mela_number": 62,
+    "arohana": "S R2 G3 M2 P D1 N2 S",
+    "avarohana": "S N2 D1 P M2 G3 R2 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "latangi",
+    "aliases": [
+      "lataangi",
+      "dilatangi"
+    ],
+    "mela_number": 63,
+    "arohana": "S R2 G3 M2 P D1 N3 S",
+    "avarohana": "S N3 D1 P M2 G3 R2 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "vachaspati",
+    "aliases": [
+      "vachaspathi",
+      "vacaspati"
+    ],
+    "mela_number": 64,
+    "arohana": "S R2 G3 M2 P D2 N2 S",
+    "avarohana": "S N2 D2 P M2 G3 R2 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "mechakalyani",
+    "aliases": [
+      "kalyani",
+      "mecha kalyani",
+      "kalyanee"
+    ],
+    "mela_number": 65,
+    "arohana": "S R2 G3 M2 P D2 N3 S",
+    "avarohana": "S N3 D2 P M2 G3 R2 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "chitrambari",
+    "aliases": [
+      "chithrambari",
+      "citrambari",
+      "chaturangini"
+    ],
+    "mela_number": 66,
+    "arohana": "S R2 G3 M2 P D3 N3 S",
+    "avarohana": "S N3 D3 P M2 G3 R2 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "sucharitra",
+    "aliases": [
+      "sucharithra",
+      "sucaritra",
+      "santanamanjari"
+    ],
+    "mela_number": 67,
+    "arohana": "S R3 G3 M2 P D1 N1 S",
+    "avarohana": "S N1 D1 P M2 G3 R3 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "jyotisvarupini",
+    "aliases": [
+      "jyotiswarupini",
+      "jyoti swarupini",
+      "jyotishmati"
+    ],
+    "mela_number": 68,
+    "arohana": "S R3 G3 M2 P D1 N2 S",
+    "avarohana": "S N2 D1 P M2 G3 R3 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "dhatuvardhani",
+    "aliases": [
+      "dhaatuvardhani",
+      "dhatuvardhini",
+      "dhautapanchama"
+    ],
+    "mela_number": 69,
+    "arohana": "S R3 G3 M2 P D1 N3 S",
+    "avarohana": "S N3 D1 P M2 G3 R3 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "nasikabhushani",
+    "aliases": [
+      "naasikabhushani",
+      "nasikabhusani",
+      "nasamani"
+    ],
+    "mela_number": 70,
+    "arohana": "S R3 G3 M2 P D2 N2 S",
+    "avarohana": "S N2 D2 P M2 G3 R3 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "kosalam",
+    "aliases": [
+      "koshalarn",
+      "koshalm",
+      "kusumakaram"
+    ],
+    "mela_number": 71,
+    "arohana": "S R3 G3 M2 P D2 N3 S",
+    "avarohana": "S N3 D2 P M2 G3 R3 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "rasikapriya",
+    "aliases": [
+      "rasikaprriya",
+      "rasamanjari"
+    ],
+    "mela_number": 72,
+    "arohana": "S R3 G3 M2 P D3 N3 S",
+    "avarohana": "S N3 D3 P M2 G3 R3 S",
+    "janaka_or_janya": "melakarta"
+  },
+  {
+    "name": "Kadanakutuhalam",
+    "aliases": [
+      "Kathana Kuthuhalam"
+    ],
+    "arohana": "S R2 M1 D2 N3 G3 P S",
+    "avarohana": "S N3 D2 P M1 G3 R2 S",
+    "parent_mela": 29,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Kalyanavasantam",
+    "aliases": [
+      "Kalyana Vasantham"
+    ],
+    "arohana": "S G2 M1 D1 N3 S",
+    "avarohana": "S N3 D1 M1 G2 R2 S",
+    "parent_mela": 21,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Kamas",
+    "aliases": [
+      "Khamas",
+      "Khamaj"
+    ],
+    "arohana": "S M1 G3 M1 P D2 N2 S",
+    "avarohana": "S N2 D2 P M1 G3 R2 S",
+    "parent_mela": 28,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Kannada",
+    "aliases": [],
+    "arohana": "S G3 M1 P M1 D2 N3 S",
+    "avarohana": "S N3 D2 P M1 G3 S R2 S",
+    "parent_mela": 29,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Kannadagaula",
+    "aliases": [
+      "Kannada Gowla"
+    ],
+    "arohana": "S R2 G2 M1 P N2 S",
+    "avarohana": "S N2 D2 P M1 G2 S",
+    "parent_mela": 22,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Kapi",
+    "aliases": [
+      "Piloo Kapi"
+    ],
+    "arohana": "S R2 M1 P N3 S",
+    "avarohana": "S N2 D2 P M1 G2 R2 S",
+    "parent_mela": 22,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Karnataka Devagandhari",
+    "aliases": [
+      "Karnataka Devagandhari"
+    ],
+    "arohana": "S G2 M1 P N2 S",
+    "avarohana": "S N2 D2 P M1 G2 R2 S",
+    "parent_mela": 22,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Karnataka Kapi",
+    "aliases": [],
+    "arohana": "S R2 G2 M1 P D2 N2 S",
+    "avarohana": "S N2 D2 P M1 G2 R2 S",
+    "parent_mela": 22,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Kedaragaula",
+    "aliases": [
+      "Kedara Gowla"
+    ],
+    "arohana": "S R2 M1 P N2 S",
+    "avarohana": "S N2 D2 P M1 G3 R2 S",
+    "parent_mela": 28,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Kedaram",
+    "aliases": [],
+    "arohana": "S M1 G3 M1 P N3 S",
+    "avarohana": "S N3 P M1 G3 R2 S",
+    "parent_mela": 29,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Kiranavali",
+    "aliases": [],
+    "arohana": "S R2 G2 M1 P D1 S",
+    "avarohana": "S N3 D1 P M1 G2 R2 S",
+    "parent_mela": 21,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Kokilavarali",
+    "aliases": [],
+    "arohana": "S R2 M1 P D2 N2 D2 S",
+    "avarohana": "S N2 D2 P M1 G3 R2 S",
+    "parent_mela": 28,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Kolahasam",
+    "aliases": [],
+    "arohana": "S R2 G3 M1 P D2 N3 S",
+    "avarohana": "S N3 P D2 M1 G3 R2 S",
+    "parent_mela": 29,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Kuntalavarali",
+    "aliases": [],
+    "arohana": "S M1 P D2 N2 D2 S",
+    "avarohana": "S N2 D2 P M1 S",
+    "parent_mela": 28,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Kurinji",
+    "aliases": [
+      "Kuranji"
+    ],
+    "arohana": "S N3 S R2 G3 M1 P",
+    "avarohana": "P M1 G3 R2 S N3 D2 N3 S",
+    "parent_mela": 29,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Lalitha",
+    "aliases": [
+      "Lalita"
+    ],
+    "arohana": "S R1 G3 M1 D1 N3 S",
+    "avarohana": "S N3 D1 M1 G3 R1 S",
+    "parent_mela": 15,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Madhuvanti",
+    "aliases": [
+      "Madhuvandhi"
+    ],
+    "arohana": "S G2 M2 P N3 S",
+    "avarohana": "S N3 D2 P M2 G2 R2 S",
+    "parent_mela": 59,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Madhyamavati",
+    "aliases": [
+      "Madhyamavathi"
+    ],
+    "arohana": "S R2 M1 P N2 S",
+    "avarohana": "S N2 P M1 R2 S",
+    "parent_mela": 22,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Malahari",
+    "aliases": [],
+    "arohana": "S R1 M1 P D1 S",
+    "avarohana": "S D1 P M1 G3 R1 S",
+    "parent_mela": 15,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Malavi",
+    "aliases": [],
+    "arohana": "S R2 G3 M1 P M1 D2 N2 S",
+    "avarohana": "S N2 D2 P M1 G3 R2 S",
+    "parent_mela": 28,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Malayamarutam",
+    "aliases": [
+      "Malayamarutha",
+      "Malayamaarutham"
+    ],
+    "arohana": "S R1 G3 P D2 N2 S",
+    "avarohana": "S N2 D2 P G3 R1 S",
+    "parent_mela": 16,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Manirangu",
+    "aliases": [
+      "Manirang"
+    ],
+    "arohana": "S R2 M1 P N2 S",
+    "avarohana": "S N2 P M1 G2 R2 S",
+    "parent_mela": 22,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Manjari",
+    "aliases": [],
+    "arohana": "S R2 G2 M1 P N2 D2 N2 S",
+    "avarohana": "S N2 D2 P M1 G2 R2 S",
+    "parent_mela": 22,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Manohari",
+    "aliases": [],
+    "arohana": "S G2 M1 P D2 S",
+    "avarohana": "S N2 D2 P M1 G2 R2 S",
+    "parent_mela": 22,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Margahindolam",
+    "aliases": [
+      "Marga Hindolam"
+    ],
+    "arohana": "S R2 G2 M1 P D1 S",
+    "avarohana": "S N2 D1 P M1 G2 S",
+    "parent_mela": 20,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Mukhari",
+    "aliases": [],
+    "arohana": "S R2 M1 P N2 S",
+    "avarohana": "S N2 D1 P M1 G2 R2 S",
+    "parent_mela": 22,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Nagasvaravali",
+    "aliases": [
+      "Nagaswaravali"
+    ],
+    "arohana": "S G3 M1 P D2 S",
+    "avarohana": "S D2 P M1 G3 S",
+    "parent_mela": 29,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Nalinakanti",
+    "aliases": [
+      "Nalinakanthi"
+    ],
+    "arohana": "S G3 M1 P N3 S",
+    "avarohana": "S N3 P M1 G3 R2 S",
+    "parent_mela": 27,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Navarasa Kannada",
+    "aliases": [],
+    "arohana": "S G3 M1 P S",
+    "avarohana": "S N2 D2 M1 G3 R2 S",
+    "parent_mela": 28,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Navaroj",
+    "aliases": [
+      "Navaroju"
+    ],
+    "arohana": "P D2 N3 S R2 G3 M1 P",
+    "avarohana": "M1 G3 R2 S N3 D2 P",
+    "parent_mela": 29,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Nayaki",
+    "aliases": [
+      "Naayaki"
+    ],
+    "arohana": "S R2 M1 P D2 N2 D2 S",
+    "avarohana": "S N2 D2 P M1 R2 G2 R2 S",
+    "parent_mela": 22,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Nilambari",
+    "aliases": [
+      "Neelambari"
+    ],
+    "arohana": "S R2 G3 M1 P D2 P N3 S",
+    "avarohana": "S N3 P M1 G3 R2 G3 S",
+    "parent_mela": 29,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Phalamanjari",
+    "aliases": [],
+    "arohana": "S G2 M1 P D2 S",
+    "avarohana": "S N2 D2 P M1 G2 R2 S",
+    "parent_mela": 22,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Poornachandrika",
+    "aliases": [
+      "Purnachandrika"
+    ],
+    "arohana": "S R2 G3 M1 P D2 P S",
+    "avarohana": "S N3 P M1 R2 G3 M1 R2 S",
+    "parent_mela": 29,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Rageshri",
+    "aliases": [
+      "Ragesree",
+      "Rageshree"
+    ],
+    "arohana": "S G3 M1 D2 N2 S",
+    "avarohana": "S N2 D2 M1 G3 R2 S",
+    "parent_mela": 28,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Ranjani",
+    "aliases": [],
+    "arohana": "S R2 G2 M2 D2 S",
+    "avarohana": "S N3 D2 M2 G2 S",
+    "parent_mela": 59,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Ravichandrika",
+    "aliases": [],
+    "arohana": "S R2 G3 M1 D2 S",
+    "avarohana": "S D2 M1 G3 R2 S",
+    "parent_mela": 28,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Reethigowla",
+    "aliases": [
+      "Ritigowla",
+      "Reethigaula"
+    ],
+    "arohana": "S G2 R2 G2 M1 N2 D2 M1 N2 S",
+    "avarohana": "S N2 D2 M1 G2 M1 P M1 G2 R2 S",
+    "parent_mela": 22,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Revati",
+    "aliases": [
+      "Revathi"
+    ],
+    "arohana": "S R1 M1 P N2 S",
+    "avarohana": "S N2 P M1 R1 S",
+    "parent_mela": 14,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Sahana",
+    "aliases": [
+      "Sahaanaa"
+    ],
+    "arohana": "S R2 G3 M1 P M1 D2 N2 S",
+    "avarohana": "S N2 D2 P M1 G3 M1 R2 G3 R2 S",
+    "parent_mela": 28,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Sama",
+    "aliases": [
+      "Shama"
+    ],
+    "arohana": "S R2 M1 P D2 S",
+    "avarohana": "S D2 P M1 G3 R2 S",
+    "parent_mela": 29,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Saramati",
+    "aliases": [
+      "Sharada",
+      "Saramathi"
+    ],
+    "arohana": "S R2 G2 M1 D1 N2 S",
+    "avarohana": "S N2 D1 M1 G2 S",
+    "parent_mela": 20,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Saurashtram",
+    "aliases": [
+      "Sourashtram",
+      "Saurashtra"
+    ],
+    "arohana": "S R1 G3 M1 P M1 D1 N3 S",
+    "avarohana": "S N3 D1 P M1 G3 R1 S",
+    "parent_mela": 17,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Savitri",
+    "aliases": [],
+    "arohana": "S R1 M1 P N3 S",
+    "avarohana": "S N3 P M1 R1 S",
+    "parent_mela": 15,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Sindhu Bhairavi",
+    "aliases": [
+      "Sindhubhairavi"
+    ],
+    "arohana": "S R1 G2 M1 P D1 N2 S",
+    "avarohana": "S N2 D1 P M1 G2 R1 S",
+    "parent_mela": 8,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Sriranjani",
+    "aliases": [
+      "Shree Ranjani"
+    ],
+    "arohana": "S R2 G2 M1 D2 N2 S",
+    "avarohana": "S N2 D2 M1 G2 R2 S",
+    "parent_mela": 22,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Suddha Bangala",
+    "aliases": [
+      "Shuddha Bangala"
+    ],
+    "arohana": "S R2 M1 P D2 S",
+    "avarohana": "S D2 P M1 R2 G2 R2 S",
+    "parent_mela": 22,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Suddha Dhanyasi",
+    "aliases": [
+      "Shuddha Dhanyasi",
+      "Udayaravichandrika"
+    ],
+    "arohana": "S G2 M1 P N2 S",
+    "avarohana": "S N2 P M1 G2 S",
+    "parent_mela": 22,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Suddha Saveri",
+    "aliases": [
+      "Shuddha Saveri",
+      "Devakriya"
+    ],
+    "arohana": "S R2 M1 P D2 S",
+    "avarohana": "S D2 P M1 R2 S",
+    "parent_mela": 29,
+    "janaka_or_janya": "janya"
+  },
+  {
+    "name": "Surutti",
+    "aliases": [
+      "Surati",
+      "Surat"
+    ],
+    "arohana": "S R2 M1 P N2 S",
+    "avarohana": "S N2 D2 P M1 G3 P M1 R2 S",
+    "parent_mela": 28,
+    "janaka_or_janya": "janya"
+  }
+]
