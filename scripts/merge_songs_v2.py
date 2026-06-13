@@ -267,9 +267,30 @@ def main():
     print(f"  Tyagaraja blog: {len(tyagaraja)} songs")
     all_songs.extend(tyagaraja)
 
-    # Dikshitar blog
+    # Dikshitar blog (enriched with detail pages if available)
     dikshitar = load_source("dikshitar.json", "Guru Guha Blog")
-    print(f"  Dikshitar blog: {len(dikshitar)} songs")
+    dik_details_file = RAW_DIR / "dikshitar_details.json"
+    if dik_details_file.exists():
+        dik_details = json.loads(dik_details_file.read_text())
+        enriched = 0
+        for song in dikshitar:
+            url = song.get("source_url", "")
+            if not url:
+                for link in song.get("links", []):
+                    if "guru-guha" in link.get("url", ""):
+                        url = link["url"]
+                        break
+            detail = dik_details.get(url, {})
+            if detail.get("talam") and not song.get("talam"):
+                song["talam"] = detail["talam"]
+                enriched += 1
+            if detail.get("pallavi") and not song.get("pallavi"):
+                song["pallavi"] = detail["pallavi"]
+            if detail.get("language") and not song.get("language"):
+                song["language"] = detail["language"]
+        print(f"  Dikshitar blog: {len(dikshitar)} songs ({enriched} enriched from detail pages)")
+    else:
+        print(f"  Dikshitar blog: {len(dikshitar)} songs")
     all_songs.extend(dikshitar)
 
     print(f"\nTotal raw: {len(all_songs)}")
@@ -277,6 +298,36 @@ def main():
     print("Deduplicating...")
     merged = deduplicate(all_songs)
     print(f"  After dedup: {len(merged)}")
+
+    # Infer language from composer where missing
+    COMPOSER_LANG = {
+        "tyaagaraaja": "Telugu", "tyagaraja": "Telugu",
+        "muttuswaamee dikshitar": "Sanskrit", "dikshitar": "Sanskrit",
+        "shyaama shaastri": "Telugu", "shyama shastri": "Telugu",
+        "purandaradaasa": "Kannada", "purandara daasar": "Kannada", "purandaradasa": "Kannada",
+        "annamaacharya": "Telugu", "annamacharya": "Telugu",
+        "swaati tirunaal": "Sanskrit", "swati tirunal": "Sanskrit",
+        "paapanaasam shivan": "Tamil", "papanasam sivan": "Tamil",
+        "ootukkaadu": "Tamil", "ambujam krishna": "Tamil",
+        "suddhaananda bhaarati": "Tamil", "subramania bharati": "Tamil",
+        "gopalakrishna bharati": "Tamil", "arunagirinaathar": "Tamil", "arunagirinathar": "Tamil",
+        "muttu tandavar": "Tamil", "kovai subri": "Tamil",
+        "mysore vasudevaachar": "Sanskrit", "mysore vasudevachar": "Sanskrit",
+        "baalamurali krishna": "Telugu", "lalgudi jayaraman": "Telugu",
+        "patnam subramanya": "Telugu", "meera": "Hindi", "surdas": "Hindi",
+        "andal": "Tamil", "irayimman thampi": "Malayalam",
+        "harikesanallur muthiah bhagavatar": "Sanskrit", "muthiah bhagavatar": "Sanskrit",
+    }
+    lang_filled = 0
+    for s in merged:
+        if not s.get("language"):
+            lower = s.get("composer", "").lower()
+            for key, lang in COMPOSER_LANG.items():
+                if key in lower:
+                    s["language"] = lang
+                    lang_filled += 1
+                    break
+    print(f"  Language inferred from composer: {lang_filled}")
 
     print("Building final database...")
     final = build_final_db(merged)
