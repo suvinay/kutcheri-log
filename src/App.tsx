@@ -8,6 +8,16 @@ import { ConcertEditor } from './components/ConcertEditor';
 import { Settings } from './components/Settings';
 import { EntityIndexPanel } from './components/EntityIndexPanel';
 
+function HamburgerIcon() {
+  return (
+    <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round">
+      <line x1="3" y1="6" x2="21" y2="6" />
+      <line x1="3" y1="12" x2="21" y2="12" />
+      <line x1="3" y1="18" x2="21" y2="18" />
+    </svg>
+  );
+}
+
 export default function App() {
   const [dbReady, setDbReady] = useState(false);
   const [activeConcert, setActiveConcert] = useState<Concert | null>(null);
@@ -51,48 +61,49 @@ export default function App() {
     );
   }
 
-  if (activeConcert) {
-    return (
-      <ConcertEditor
-        concert={activeConcert}
-        onBack={() => setActiveConcert(null)}
-        onUpdate={updateConcert}
-        onAddItem={item => addItem(activeConcert.id, item)}
-        onUpdateItem={item => updateItem(activeConcert.id, item)}
-        onDeleteItem={itemId => deleteItem(activeConcert.id, itemId)}
-        onReorderItems={items => reorderItems(activeConcert.id, items)}
-        onUpdateArtists={artists => updateArtists(activeConcert.id, artists)}
-      />
-    );
-  }
-
   return (
     <>
-      <ConcertList
-        concerts={concerts}
-        onSelect={setActiveConcert}
-        onNew={async () => {
-          const c = await createConcert();
-          setActiveConcert(c);
-        }}
-        onDelete={admin ? deleteConcert : undefined}
-      />
-      <div className="fixed bottom-4 right-4 flex gap-2">
-        <button
-          onClick={() => setShowIndex(true)}
-          className="bg-white hover:bg-stone-50 text-stone-400 hover:text-stone-600 h-10 px-3 rounded-full flex items-center justify-center border border-stone-200 shadow-sm text-xs font-medium"
-          title="Browse ragams & composers"
-        >
-          Index
-        </button>
-        <button
-          onClick={() => setShowSettings(true)}
-          className="bg-white hover:bg-stone-50 text-stone-300 hover:text-stone-500 w-10 h-10 rounded-full flex items-center justify-center border border-stone-200 shadow-sm text-sm"
-          title="Settings"
-        >
-          ⚙
-        </button>
-      </div>
+      {activeConcert ? (
+        <ConcertEditor
+          concert={activeConcert}
+          onBack={() => setActiveConcert(null)}
+          onUpdate={updateConcert}
+          onAddItem={item => addItem(activeConcert.id, item)}
+          onUpdateItem={item => updateItem(activeConcert.id, item)}
+          onDeleteItem={itemId => deleteItem(activeConcert.id, itemId)}
+          onReorderItems={items => reorderItems(activeConcert.id, items)}
+          onUpdateArtists={artists => updateArtists(activeConcert.id, artists)}
+        />
+      ) : (
+        <ConcertList
+          concerts={concerts}
+          onSelect={setActiveConcert}
+          onNew={async () => {
+            const c = await createConcert();
+            setActiveConcert(c);
+          }}
+          onDelete={admin ? deleteConcert : undefined}
+        />
+      )}
+
+      {/* Global hamburger — always visible */}
+      <button
+        onClick={() => setShowIndex(true)}
+        className="fixed top-4 right-4 bg-white hover:bg-stone-50 text-stone-400 hover:text-stone-700 w-10 h-10 rounded-lg flex items-center justify-center border border-stone-200 shadow-sm z-30"
+        title="Index"
+      >
+        <HamburgerIcon />
+      </button>
+
+      {/* Settings gear — bottom right */}
+      <button
+        onClick={() => setShowSettings(true)}
+        className="fixed bottom-4 right-4 bg-white hover:bg-stone-50 text-stone-300 hover:text-stone-500 w-10 h-10 rounded-full flex items-center justify-center border border-stone-200 shadow-sm text-sm z-30"
+        title="Settings"
+      >
+        ⚙
+      </button>
+
       {showSettings && (
         <Settings
           onClose={() => setShowSettings(false)}
