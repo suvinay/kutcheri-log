@@ -8,3 +8,4 @@ data/aug/structured.json
 data/aug/*.checkpoint.json
 *.pyc
 __pycache__
+data/aug/to_structure.json

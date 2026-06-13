@@ -534,8 +534,11 @@
     "period": null,
     "tradition": null,
     "song_count": 7,
-    "summary": null,
-    "summary_source_ids": []
+    "summary": "Jayadeva was a 12th-century Sanskrit poet-saint from Bengal, widely regarded as a pioneer of devotional lyric poetry in the Vaishnava tradition. His sole surviving major work, the Gita Govinda, is a cycle of lyrical poems — structured as Ashtapadis, or eight-stanza songs — that dramatize the love between Radha and Krishna as an allegory of the soul's longing for the divine. Each Ashtapadi is set to a named raga and tala, making the Gita Govinda one of the earliest Indian works to integrate compositional form with poetry in a manner analogous to later classical music. The work stands at the confluence of the Bhakti and Haridasa literary traditions and had a formative influence on devotional music across South and East India. In Carnatic practice, Ashtapadis from the Gita Govinda are performed as independent concert pieces — for example, Radhika Krishna — and swara notations for the full cycle have been published as teaching resources. With 7 compositions represented in this repertoire, Jayadeva's work bridges early medieval Sanskrit devotionalism and the living Carnatic concert tradition.",
+    "summary_source_ids": [
+      "c35e2a78105f",
+      "b036d6f0f4a3"
+    ]
   },
   {
     "key": "k-ramaraj",
@@ -1950,8 +1953,31 @@
     "period": null,
     "tradition": "Trinity",
     "song_count": 1200,
-    "summary": null,
-    "summary_source_ids": []
+    "summary": "Tyaagaraaja (1767–1847) is one of the three composers of the Carnatic Trinity, rooted in the Telugu-speaking Brahmin tradition of Tiruvarur and later Thiruvaiyaru in Tamil Nadu. A devout Vaishnava whose musical output grew from intense personal bhakti directed at Rama, he composed almost entirely in Telugu and Sanskrit, weaving scriptural narratives — especially from the Ramayana and Bhagavata — into the lyrical content of his kritis. His compositional style is distinguished by melodic invention across a vast raga palette, rhythmic variety, and a deeply introspective quality that makes his works equally suited to private worship and concert performance. He is credited with over a thousand kritis as well as the five Pancharatna kritis — among them Jagadanandakaraka in Nattai and Endaro Mahanubhavulu in Sri — which stand as cornerstones of the concert repertoire and are sung collectively at the annual Tyagaraja Aradhana festival in Thiruvaiyaru. His divyanama sankirtanas, simpler devotional songs intended for group singing, demonstrate his commitment to making music accessible beyond the concert stage. Across generations, his kritis have been central to the repertoire of every major Carnatic vocalist and instrumentalist, cementing his position as the most performed composer in the tradition.",
+    "summary_source_ids": [
+      "c35e2a78105f",
+      "ffce66c78ee9",
+      "00071e14efe9",
+      "06d2ab8bd8d9",
+      "4f41e7101e0b",
+      "d0a1c07aa07c",
+      "b036d6f0f4a3",
+      "e440ae816bc9",
+      "7f0c04c0e3c6",
+      "5d6cea9c8d5d",
+      "17280ace2413",
+      "2182bd1d93ae",
+      "11a52f8ecf0d",
+      "89ae445beb83",
+      "c81385bb856b",
+      "319dd129164c",
+      "62c1e61820b5",
+      "d4afc9ddbcfc",
+      "e071c134708a",
+      "3d9e975667c5",
+      "fb5605ef3c96",
+      "1131ad14d54d"
+    ]
   },
   {
     "key": "tyajaraja",

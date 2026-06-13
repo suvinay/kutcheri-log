@@ -39,8 +39,10 @@
     "avarohana": "S N3 D1 P M1 G1 R1 S",
     "janaka_or_janya": "melakarta",
     "key": "ganamurti",
-    "summary": null,
-    "summary_source_ids": []
+    "summary": "Ganamurthi is the 3rd melakarta raga in the first chakra Indu, employing shuddha rishabha, shuddha gandhara, shuddha madhyama, shuddha dhaivata, and kakali nishada. As a vivadi scale in which the consecutive notes R1 and G1 create a dissonant semitone interval, it is rarely performed in extended concert settings but holds a significant theoretical position in the 72-melakarta system. Tyagaraja's kriti Ganamurthe is one of the few well-known compositions in this scale, and it was notably included in Maharajapuram Santhanam's landmark 1992 concert at the Parthasarathy Swami Sabha. Its unusual intervallic color gives it a distinctive, angular quality not found in the common practice ragas.",
+    "summary_source_ids": [
+      "5d6cea9c8d5d"
+    ]
   },
   {
     "name": "vanaspati",
@@ -53,8 +55,10 @@
     "avarohana": "S N2 D2 P M1 G1 R1 S",
     "janaka_or_janya": "melakarta",
     "key": "vanaspati",
-    "summary": null,
-    "summary_source_ids": []
+    "summary": "Vanaspati is the 4th melakarta raga in the first chakra Indu, employing shuddha rishabha, shuddha gandhara, shuddha madhyama, chatushruti dhaivata, and chatushruti nishada. As a vivadi melakarta — where the gandhara creates a dissonant semitone interval with the adjacent shuddha rishabha — it occupies a specialized niche in the melakarta framework and is infrequently performed in full concert. Tyagaraja's Pariyacakama is one of the rare and notable compositions set in this scale, demonstrating its characteristic angular quality. Its unusual interval structure gives it a distinctive, somewhat austere melodic color that differs markedly from the more popular scales in its vicinity.",
+    "summary_source_ids": [
+      "00071e14efe9"
+    ]
   },
   {
     "name": "manavati",
@@ -211,8 +215,11 @@
     "avarohana": "S N3 D1 P M1 G3 R1 S",
     "janaka_or_janya": "melakarta",
     "key": "mayamalavagowla",
-    "summary": null,
-    "summary_source_ids": []
+    "summary": "Mayamalavagowla is the 15th melakarta raga and is considered the most fundamental parent scale for beginners in Carnatic music, as most foundational exercises and early compositions are taught in it. It employs shuddha rishabha, antara gandhara, shuddha madhyama, shuddha dhaivata, and kakali nishada, a symmetrical structure that lends it a majestic and devotional quality, with the flat second and flat sixth giving it an ancient, modal feel. The raga is the parent of Bowli, the serene morning janya used for Suprabhathams, and underpins countless compositions across all major Carnatic composers. Tyagaraja's Tulasidala is a prominent and frequently performed kriti in this raga.",
+    "summary_source_ids": [
+      "06d2ab8bd8d9",
+      "f4ea275a1192"
+    ]
   },
   {
     "name": "chakravakam",
@@ -268,8 +275,10 @@
     "avarohana": "S N1 D1 P M1 G2 R2 S",
     "janaka_or_janya": "melakarta",
     "key": "jhankaradwani",
-    "summary": null,
-    "summary_source_ids": []
+    "summary": "Jhankaradhwani is the 19th melakarta raga in the fourth chakra Veda, employing chatushruti rishabha, sadharana gandhara, shuddha madhyama, shuddha dhaivata, and shuddha nishada. Its name meaning \"the sound of bells\" or \"the jingling sound\" suggests its bright, resonant character, and as a vivadi raga it is rarely encountered in mainstream concert performance due to the close dissonant interval between its rishabha and gandhara. Tyagaraja composed at least one kriti in this scale, and its concert appearance has been noted in recitals including a Priya Sisters performance at a Shiva temple in Hyderabad. The raga's place in the melakarta system is musically important even if its concert frequency remains low.",
+    "summary_source_ids": [
+      "62c1e61820b5"
+    ]
   },
   {
     "name": "natabhairavi",
@@ -309,8 +318,12 @@
     "avarohana": "S N2 D2 P M1 G2 R2 S",
     "janaka_or_janya": "melakarta",
     "key": "kharaharapriya",
-    "summary": null,
-    "summary_source_ids": []
+    "summary": "Kharaharapriya is the 22nd melakarta raga and parent of a large family of widely performed janya ragas including Keeravani, Ritigowla, Bhairavi, and Brindavana Saranga. Its scale uses chatushruti rishabha, sadharana gandhara, shuddha madhyama, chatushruti dhaivata, and chatushruti nishada, corresponding to the Dorian mode in Western terms, which lends it a balanced, slightly introspective yet melodious character. Regarded as the Carnatic equivalent of Kafi in Hindustani music, it has a vast repertoire of compositions from all major composers of the Trinity and supports the full spectrum of rasas. Its balanced structure makes it suitable for sustained alapana and niraval.",
+    "summary_source_ids": [
+      "97803b411e66",
+      "fd6c95e381e7",
+      "3d9e975667c5"
+    ]
   },
   {
     "name": "gourimanohari",
@@ -364,8 +377,11 @@
     "avarohana": "S N2 D1 P M1 G3 R2 S",
     "janaka_or_janya": "melakarta",
     "key": "charukesi",
-    "summary": null,
-    "summary_source_ids": []
+    "summary": "Charukesi is the 26th melakarta raga in the 5th chakra Bana, combining chatushruti rishabha, antara gandhara, shuddha madhyama, shuddha dhaivata, and chatushruti nishada — a scale corresponding to the Western harmonic minor. This versatile combination gives it a deeply moving character capable of expressing romantic longing, sorrow, and peaceful devotion in equal measure, earning it the reputation as a raga close to the heart. It is one of the few Carnatic melakarthas with a direct counterpart recognized across global musical traditions. Lalgudi Jayaraman's varnam Innam Enmanam is a celebrated composition in this scale, and it appeared in Maharajapuram Santhanam's historic 1992 concert.",
+    "summary_source_ids": [
+      "b6f2b0354af0",
+      "5d6cea9c8d5d"
+    ]
   },
   {
     "name": "sarasangi",
@@ -393,8 +409,10 @@
     "avarohana": "S N2 D2 P M1 G3 R2 S",
     "janaka_or_janya": "melakarta",
     "key": "harikambhoji",
-    "summary": null,
-    "summary_source_ids": []
+    "summary": "Harikambhoji is the 28th melakarta raga and parent of one of the largest and most popular families of janya ragas in Carnatic music, including Mohanam, Kamas, Surutti, and Kedaragowla. It employs chatushruti rishabha, antara gandhara, shuddha madhyama, chatushruti dhaivata, and chatushruti nishada — a scale corresponding to the Western Mixolydian mode — giving it a warm, pleasing, and broadly accessible character. Mohanam, derived from this melakarta as an audava-audava pentatonic raga known as Bhup in Hindustani music, is one of the most beloved ragas in Carnatic concert practice. The melakarta supports a rich corpus of compositions spanning devotional, romantic, and contemplative moods.",
+    "summary_source_ids": [
+      "f2bad640830a"
+    ]
   },
   {
     "name": "dhirasankarabharanam",
@@ -641,8 +659,10 @@
     "avarohana": "S N3 D1 P M2 G2 R1 S",
     "janaka_or_janya": "melakarta",
     "key": "shubhapantuvarali",
-    "summary": null,
-    "summary_source_ids": []
+    "summary": "Shubhapantuvarali is the 45th melakarta raga in the 8th chakra Vasu, employing shuddha rishabha, sadharana gandhara, pratimadhyama, shuddha dhaivata, and kakali nishada. The simultaneous use of the flat second, flat third, and sharp fourth creates an intense, somber, and deeply devotional character, giving it a gravity similar to that of the closely related Pantuvarali and Kamavardhani. The raga is suited to compositions of entreaty and spiritual yearning, and Tyagaraja's Ennallu is a representative kriti that captures its meditative emotional palette. Its pratimadhyama distinguishes it from the shuddha-madhyama branch of scales with similar emotional weight.",
+    "summary_source_ids": [
+      "7f0c04c0e3c6"
+    ]
   },
   {
     "name": "shadvidamargini",
@@ -728,8 +748,10 @@
     "avarohana": "S N3 D1 P M2 G3 R1 S",
     "janaka_or_janya": "melakarta",
     "key": "kamavardani",
-    "summary": null,
-    "summary_source_ids": []
+    "summary": "Kamavardhani (also known as Pantuvarali or Kasiramakriya) is the 51st melakarta raga, combining shuddha rishabha, antara gandhara, pratimadhyama, shuddha dhaivata, and kakali nishada. The simultaneous use of the flat second, major third, and sharp fourth creates one of the most powerful and austere harmonic profiles in the melakarta system, lending the raga a grave, majestic, and intensely devotional quality. It is a raga of great weight frequently chosen for elaborate concert presentations, and GNB's Sivananda Kaamavardani as rendered by Sudha Raghunathan is a well-known composition that highlights its spiritual depth. Its pratimadhyama and antara gandhara together produce a tonality that is both distinctive and highly expressive.",
+    "summary_source_ids": [
+      "034bb62bb7c4"
+    ]
   },
   {
     "name": "ramapriya",
@@ -799,8 +821,12 @@
     "avarohana": "S N2 D1 P M2 G2 R2 S",
     "janaka_or_janya": "melakarta",
     "key": "shanmukhapriya",
-    "summary": null,
-    "summary_source_ids": []
+    "summary": "Shanmukhapriya is the 56th melakarta raga, belonging to the 10th chakra Disi, and is historically referred to as Chamara in the Dikshitar system. It features chatushruti rishabha, sadharana gandhara, pratimadhyama, shuddha dhaivata, and chatushruti nishada, giving it an energetic and uplifting character said to enhance courage and mental focus. The raga is celebrated for its ability to invigorate both the performer and the listener through a connection to higher consciousness, and it is suited equally to devotional and vigorous compositions. Dikshitar's Sidhi Vinayakam and compositions in the Ganesha Murali album are notable examples associated with this melakarta.",
+    "summary_source_ids": [
+      "c713958e7c64",
+      "9cac924dd440",
+      "b586f6a91859"
+    ]
   },
   {
     "name": "simhendramadhyamam",
@@ -855,8 +881,10 @@
     "avarohana": "S N3 D3 P M2 G2 R2 S",
     "janaka_or_janya": "melakarta",
     "key": "nitimati",
-    "summary": null,
-    "summary_source_ids": []
+    "summary": "Nitimati is the 60th melakarta raga in the 10th chakra Disi, employing chatushruti rishabha, sadharana gandhara, pratimadhyama, shatshruti dhaivata, and kakali nishada. As the parent raga of the popular janya Hamsanadam, it holds a theoretically significant position in the 72-melakarta framework, though the janya derived from it far surpasses it in concert prevalence and renown. The scale's vivadi character — where the shatshruti dhaivata and kakali nishada create adjacent semitone dissonances — gives it an exotic, somewhat tense quality distinct from most commonly performed scales. Performances in Nitimati are relatively rare and tend to be reserved for musicians seeking to explore the more unusual regions of the melakarta system.",
+    "summary_source_ids": [
+      "06f9c985da39"
+    ]
   },
   {
     "name": "kantamani",
@@ -926,8 +954,10 @@
     "avarohana": "S N3 D2 P M2 G3 R2 S",
     "janaka_or_janya": "melakarta",
     "key": "mechakalyani",
-    "summary": null,
-    "summary_source_ids": []
+    "summary": "Mechakalyani is the 65th melakarta raga, belonging to the 11th chakra Rudra, and is one of the most celebrated and widely performed parent scales in Carnatic music. It employs pratimadhyama along with chatushruti rishabha, antara gandhara, chatushruti dhaivata, and kakali nishada, creating a bright, expansive character suited to a wide range of emotions. Hamir Kalyani, a popular janya raga, is derived from this melakarta and blends North Indian influences into the Carnatic fold. The scale serves as the foundation for numerous important compositions and is prized for its full-bodied, resonant sound that adapts equally well to both devotional and romantic expression.",
+    "summary_source_ids": [
+      "ac5cd959112b"
+    ]
   },
   {
     "name": "chitrambari",
@@ -1043,8 +1073,10 @@
     "parent_mela": 29,
     "janaka_or_janya": "janya",
     "key": "kadanakutuhalam",
-    "summary": null,
-    "summary_source_ids": []
+    "summary": "Kadanakutuhalam is a vakra janya raga derived from the 29th melakarta Dhirasankarabharanam, notable for its unusual zig-zag ascending phrase (S R2 M1 D2 N3 G3 P S) that skips and reintroduces notes out of natural sequence. This crooked ascending movement gives the raga a lively, playful, and sometimes dramatic character — its very name suggesting the excitement and commotion of battle. It is a specialty raga with a focused repertoire and is heard in concerts when performers wish to display technical brilliance; T.N. Krishnan's violin recitals have featured Raghuvamsasudha in this raga, a composition particularly favored by instrumentalists.",
+    "summary_source_ids": [
+      "4eb0741697ad"
+    ]
   },
   {
     "name": "Kalyanavasantam",
@@ -1056,8 +1088,10 @@
     "parent_mela": 21,
     "janaka_or_janya": "janya",
     "key": "kalyanavasantam",
-    "summary": null,
-    "summary_source_ids": []
+    "summary": "Kalyanavasantam (Kalyana Vasantham) is a janya raga derived from the 21st melakarta Keeravani, with a pentatonic ascending scale that omits rishabha and uses sadharana gandhara, shuddha madhyama, shuddha dhaivata, and kakali nishada, while the descent includes chatushruti rishabha. It has a delicate, spring-like character suggesting lightness and auspiciousness, fitting for devotional compositions addressed to Vishnu and other deities. The raga appeared in the acclaimed 1992 concert of Maharajapuram Santhanam, where Sri Venkatesham Bhajami Sathatham demonstrated its graceful melodic style. Its rarity in the mainstream repertoire gives performances in this scale a special quality.",
+    "summary_source_ids": [
+      "5d6cea9c8d5d"
+    ]
   },
   {
     "name": "Kamas",
@@ -1070,8 +1104,10 @@
     "parent_mela": 28,
     "janaka_or_janya": "janya",
     "key": "kamas",
-    "summary": null,
-    "summary_source_ids": []
+    "summary": "Kamas (also spelled Khamas or Khamaj) is a popular janya raga derived from the 28th melakarta Harikambhoji, known for its characteristic vakra phrases in the ascent that skip rishabha and weave in gandhara in a distinctive manner. It carries a devotional and slightly yearning emotional quality, making it a preferred scale for compositions addressed to Shiva and other deities. Tyagaraja's Brochevarevarura is one of the most widely recognized compositions in this raga, and it is frequently performed at Shiva-themed concert events. Its engaging melodic contours make it a concert favorite suited to extended improvisation.",
+    "summary_source_ids": [
+      "b6ae0a1009da"
+    ]
   },
   {
     "name": "Kannada",
@@ -1155,8 +1191,11 @@
     "parent_mela": 29,
     "janaka_or_janya": "janya",
     "key": "kedaram",
-    "summary": null,
-    "summary_source_ids": []
+    "summary": "Kedaram is a vakra janya raga derived from the 29th melakarta Dhirasankarabharanam, with a distinctive ascending phrase that introduces gandhara after madhyama (S M1 G3 M1 P N3 S) and a comparatively simpler descent. This crooked movement gives the raga a brisk, engaging, and devotional character particularly associated with compositions dedicated to Shiva, reflecting its connection to the sacred Kedara pilgrimage site. The raga appears in the repertoire of stalwarts such as Sankaran Namboothiri and Shankar Mahadevan at the Cleveland Thyagaraja Aradhana, and Tyagaraja Guru composed in honor of the great saint is one of its celebrated pieces. The raga balances technical display with a meditative mood.",
+    "summary_source_ids": [
+      "89ae445beb83",
+      "1131ad14d54d"
+    ]
   },
   {
     "name": "Kiranavali",
@@ -1225,8 +1264,10 @@
     "parent_mela": 15,
     "janaka_or_janya": "janya",
     "key": "lalita",
-    "summary": null,
-    "summary_source_ids": []
+    "summary": "Lalita (Lalitha) is an audava (pentatonic) janya raga derived from the 15th melakarta Mayamalavagowla, employing shuddha rishabha, antara gandhara, shuddha madhyama, shuddha dhaivata, and kakali nishada while omitting panchama. Its scale creates a dignified, meditative, and contemplative mood, and the absence of panchama gives it a leaner, more ethereal texture compared to its parent melakarta. The raga is associated with devotional compositions in praise of deities such as Lakshmi, and it has been performed by artists including Vaikom Vijayalakshmi. Its elegant simplicity and the interplay of its characteristic swaras make it suitable for lyrical, unhurried elaboration.",
+    "summary_source_ids": [
+      "b586f6a91859"
+    ]
   },
   {
     "name": "Madhuvanti",
@@ -1251,8 +1292,10 @@
     "parent_mela": 22,
     "janaka_or_janya": "janya",
     "key": "madyamavati",
-    "summary": null,
-    "summary_source_ids": []
+    "summary": "Madhyamavati is a pentatonic (audava-audava) janya raga derived from the 22nd melakarta Kharaharapriya, with a simple, symmetrical scale using chatushruti rishabha, shuddha madhyama, panchama, and chatushruti nishada. Its austere structure gives it a direct, poignant emotional quality associated with earnest devotion and longing, making it one of the most widely sung janya ragas in the Carnatic concert repertoire. It is a favored scale for compositions addressed to Krishna, Rama, and other deities, and Swathi Thirunal's Kosalendra is a celebrated example in this raga. Its melodic simplicity allows for rich elaboration through gamaka and neraval.",
+    "summary_source_ids": [
+      "d936e0768169"
+    ]
   },
   {
     "name": "Malahari",
@@ -1287,8 +1330,10 @@
     "parent_mela": 16,
     "janaka_or_janya": "janya",
     "key": "malayamarutam",
-    "summary": null,
-    "summary_source_ids": []
+    "summary": "Malayamarutam (Malayamarutha) is a janya raga derived from the 16th melakarta Chakravakam, employing a hexatonic scale that omits madhyama in both ascent and descent, using shuddha rishabha, antara gandhara, panchama, chatushruti dhaivata, and chatushruti nishada. Its name evokes the cool, fragrant breeze from the Malaya mountains, and the raga carries a breezy, pleasant, and moderately romantic character. It is used for compositions of gentle devotion, and Tyagaraja's Manasatethulo in Rupaka tala is one of its recognized compositions as rendered by artists including Nithyasree Mahadevan. Its distinctive omission of madhyama gives it a lean, transparent melodic texture.",
+    "summary_source_ids": [
+      "17280ace2413"
+    ]
   },
   {
     "name": "Manirangu",
@@ -1300,8 +1345,10 @@
     "parent_mela": 22,
     "janaka_or_janya": "janya",
     "key": "manirangu",
-    "summary": null,
-    "summary_source_ids": []
+    "summary": "Manirangu (also known as Manirang in Hindustani music) is a janya raga derived from the 22nd melakarta Kharaharapriya, using an audava (pentatonic) ascending scale with chatushruti rishabha, shuddha madhyama, panchama, and chatushruti nishada, with gandhara appearing in the descent. It is associated with a gentle, meditative quality that lends itself well to devotional compositions, and its sparse melodic texture invites expressive gamaka. The raga appears in repertoire dedicated to Shiva's cosmic dance and in albums by artists such as Swathi Murali with Kudamaloor Janardhanan. Its melodic simplicity and emotional clarity make it suitable for calm, unhurried renditions.",
+    "summary_source_ids": [
+      "b6ae0a1009da"
+    ]
   },
   {
     "name": "Manjari",
@@ -1446,8 +1493,10 @@
     "parent_mela": 29,
     "janaka_or_janya": "janya",
     "key": "purnachandrika",
-    "summary": null,
-    "summary_source_ids": []
+    "summary": "Poornachandrika (Purnachandrika) is a janya raga derived from the 29th melakarta Dhirasankarabharanam, featuring a vakra ascending pattern (S R2 G3 M1 P D2 P S) that reintroduces panchama after dhaivata before reaching the upper tonic. This unusual oscillation in the ascent combined with a complex descent gives the raga a distinctive, ornate, and celebratory character — its name evoking the full moon in all its splendor. It is a specialty janya raga appearing in focused repertoire and was included in the Navarathri 2011 veena recital by Anuradha Mahesh. Compositions in this raga typically explore its characteristic melodic inflections with careful elaboration.",
+    "summary_source_ids": [
+      "fb5605ef3c96"
+    ]
   },
   {
     "name": "Rageshri",
@@ -1471,8 +1520,10 @@
     "parent_mela": 59,
     "janaka_or_janya": "janya",
     "key": "ranjani",
-    "summary": null,
-    "summary_source_ids": []
+    "summary": "Ranjani is a janya raga derived from the 59th melakarta Dharmavati, employing a pentatonic ascending scale with chatushruti rishabha, sadharana gandhara, pratimadhyama, and chatushruti dhaivata, while kakali nishada appears in the descent. Its name meaning \"one who delights\" aptly describes its pleasing and slightly romantic character, which makes it highly accessible for both performers and listeners. The raga is performed in a variety of settings from devotional bhajans to classical kritis, and Swami Dayananda Saraswathi's Dakshina Murthe as rendered by Maharajapuram Santhanam is a notable devotional work in this scale. Its melodic contour appeals broadly across Carnatic and related traditions.",
+    "summary_source_ids": [
+      "1db1a297ac6c"
+    ]
   },
   {
     "name": "Ravichandrika",
@@ -1496,8 +1547,12 @@
     "parent_mela": 22,
     "janaka_or_janya": "janya",
     "key": "ritigowla",
-    "summary": null,
-    "summary_source_ids": []
+    "summary": "Reethigowla is a deeply emotive vakra janya raga derived from the 22nd melakarta Kharaharapriya, known for its highly distinctive crooked melodic movements that set it apart from its parent scale. It is classified as a bhashanga raga and belongs to the second group of ghana ragas, with karuna and bhakti rasas as its primary emotional colors, making it a preferred choice for slow, contemplative renditions in concert settings. Its intricate melodic phrases demand precise intonation, and it is particularly associated with songs of compassion and surrender. Celebrated compositions in this raga include Tatvamariya by Papanasam Sivan and pieces featured in concerts by artists such as Ranjani-Gayathri.",
+    "summary_source_ids": [
+      "ffce66c78ee9",
+      "fd6c95e381e7",
+      "d4057dcb5d11"
+    ]
   },
   {
     "name": "Revati",
@@ -1522,8 +1577,10 @@
     "parent_mela": 28,
     "janaka_or_janya": "janya",
     "key": "sahana",
-    "summary": null,
-    "summary_source_ids": []
+    "summary": "Sahana is a popular janya raga derived from the 28th melakarta Harikambhoji, celebrated for its intensely romantic and pining character that makes it one of the most emotionally evocative scales in Carnatic music. Its ascending and descending phrases both employ vakra movements, with the distinctive repeated interplay of gandhara and rishabha in the descent creating a signature sighing quality. The raga is well suited for slow, elaborate renditions supporting deeply lyrical alapana, and it is associated with compositions of longing and devotion. Tyagaraja's Vandanamo is a beloved composition in Sahana that exemplifies the raga's gentle, yearning mood.",
+    "summary_source_ids": [
+      "17280ace2413"
+    ]
   },
   {
     "name": "Sama",
@@ -1587,8 +1644,11 @@
     "parent_mela": 8,
     "janaka_or_janya": "janya",
     "key": "sindubhairavi",
-    "summary": null,
-    "summary_source_ids": []
+    "summary": "Sindhu Bhairavi is a janya raga derived from the 8th melakarta Hanumatodi, notable for its Hindustani origins and its rare distinction of using all sixteen swarasthanas available in the Carnatic system. It carries a vibrant yet tranquil character that bridges folk and classical idioms, evoking joy and emotional warmth. Traditionally regarded as a morning raga in the North Indian system, it is celebrated in the Carnatic tradition for its soothing, therapeutic quality and is commonly performed at the close of concerts to leave the audience in a serene mood. Representative compositions include devotional pieces by Tyagaraja set to this expressive scale.",
+    "summary_source_ids": [
+      "a36ae3dbc255",
+      "7f0c04c0e3c6"
+    ]
   },
   {
     "name": "Sriranjani",
@@ -1600,8 +1660,10 @@
     "parent_mela": 22,
     "janaka_or_janya": "janya",
     "key": "sriranjani",
-    "summary": null,
-    "summary_source_ids": []
+    "summary": "Sriranjani (Shree Ranjani) is a popular janya raga derived from the 22nd melakarta Kharaharapriya, with a hexatonic scale that omits panchama in both ascent and descent, using chatushruti rishabha, sadharana gandhara, shuddha madhyama, chatushruti dhaivata, and chatushruti nishada. Its pleasing, romantic, and slightly yearning character makes it one of the most accessible and beloved ragas in the Carnatic tradition, performed in settings ranging from Vinayaka Chaturthi compositions to mainstream kritis. Distinguished artists including MLV, GNB, and Semmangudi Srinivasa Iyer have rendered celebrated compositions in this scale. Its omission of panchama gives it a distinctive, transparent texture that is immediately recognizable to trained ears.",
+    "summary_source_ids": [
+      "bc7010ee92d0"
+    ]
   },
   {
     "name": "Suddha Bangala",
@@ -1627,8 +1689,10 @@
     "parent_mela": 22,
     "janaka_or_janya": "janya",
     "key": "suddadanyasi",
-    "summary": null,
-    "summary_source_ids": []
+    "summary": "Suddha Dhanyasi (Shuddha Dhanyasi), also known as Udayaravichandrika, is a pentatonic (audava-audava) janya raga derived from the 22nd melakarta Kharaharapriya, employing sadharana gandhara, shuddha madhyama, panchama, and chatushruti nishada while omitting rishabha and dhaivata. Its simple, sparse scale gives it a serene, introspective, and slightly melancholic quality that makes it particularly suited for devotional compositions of quiet surrender. The raga has been featured in the kritis of composers such as Harikesanallur Muthaiah Bhagavathar, as rendered by Nityasree Mahadevan. Its pure, uncluttered melodic line evokes stillness and inner contemplation.",
+    "summary_source_ids": [
+      "d656990302a2"
+    ]
   },
   {
     "name": "Suddha Saveri",
