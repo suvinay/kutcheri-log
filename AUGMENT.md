@@ -191,7 +191,7 @@ Add `Composer`, `PageRecord`, `SourceLink`, `Augmentations`; extend `Song` (`rag
 ### Stage 0 — Entity foundation & consistent schema (no scraping)
 Goal: three consistent, cross-referenced entity files; app builds.
 1. **Add key emission to `scripts/merge_songs_v2.py`** final schema step so future waves keep
-   `ragam_key` and `composer_key`. Also write a one-time backfill `scripts/aug_keys.py` that
+   `ragam_key` and `composer_key`. Also write a one-time backfill `scripts/augmented_keys.py` that
    adds these keys to the current `data/songs.json` without a full re-merge.
 2. **`scripts/build_composers.py`**: derive `composers.json` from distinct `composer_key` in
    songs; canonical `name` from `COMPOSER_CANONICAL`; `aliases` = observed variants;
@@ -268,8 +268,8 @@ phrasing from the inputs. Return JSON {summary, used_source_ids}."*
 ### Stage 6 — Update `DESIGN.md` (required) and `REQUIREMENTS.md` if scope changed
 Update `DESIGN.md` to reflect what was actually built:
 - **Architecture**: the three-entity model + augmentation registry; static-bundle, offline.
-- **Directory Structure**: new `scripts/` (`aug_keys.py`, `build_composers.py`,
-  `aug_discover.py`, `aug_fetch.py`, `aug_structure.py`, `aug_synthesize.py` — name to match
+- **Directory Structure**: new `scripts/` (`augmented_keys.py`, `build_composers.py`,
+  `augmented_discover.py`, `augmented_fetch.py`, `augmented_structure.py`, `augmented_synthesize.py` — name to match
   what you implement), new `data/augmented/` artifacts, new `src/data/composers.json` +
   `augmentations.json`, new components/hooks.
 - **Data Pipeline**: add the discovery → fetch → structure → synthesize stages and the
