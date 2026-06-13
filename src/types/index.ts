@@ -79,6 +79,7 @@ export interface Concert {
   artists: Artist[];
   items: ConcertItem[];
   notes: string;
+  logged_by: string;
   created_at: string;
   updated_at: string;
 }

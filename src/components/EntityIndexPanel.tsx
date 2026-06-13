@@ -33,7 +33,7 @@ const SOURCES = [
   { name: 'Wikipedia', url: 'https://en.wikipedia.org/', desc: 'Encyclopedic references for ragas and composers (CC BY-SA).' },
 ];
 
-export function EntityIndexPanel({ onClose, onSelectSongForAdd }: Props) {
+export function EntityIndexPanel({ onClose }: Props) {
   const [tab, setTab] = useState<Tab>('songs');
   const [query, setQuery] = useState('');
   const [selectedRagam, setSelectedRagam] = useState<Ragam | null>(null);
@@ -100,10 +100,11 @@ export function EntityIndexPanel({ onClose, onSelectSongForAdd }: Props) {
           {tabs.map(t => (
             <button
               key={t.key}
+              data-tab={t.key}
               onClick={() => { setTab(t.key); setQuery(''); }}
               className={`px-2.5 py-2 text-xs font-medium whitespace-nowrap border-b-2 transition-colors ${
                 tab === t.key
-                  ? 'border-stone-800 text-stone-800'
+                  ? 'border-red-600 text-stone-800'
                   : 'border-transparent text-stone-400 hover:text-stone-600'
               }`}
             >

@@ -9,33 +9,62 @@ interface Props {
 
 export function ConcertList({ concerts, onSelect, onNew, onDelete }: Props) {
   return (
-    <div className="min-h-screen bg-stone-50 text-stone-900 px-4 py-8 max-w-xl mx-auto font-sans">
-      <header className="mb-10">
-        <h1 className="text-2xl font-light tracking-tight text-stone-800">
-          Kutcheri Log
-        </h1>
-        <p className="text-stone-400 text-sm mt-1">Concert setlist logger</p>
+    <div className="min-h-screen bg-white text-stone-900 px-4 py-8 max-w-xl mx-auto font-sans">
+      {/* Hero */}
+      <header className="mb-10 pt-4">
+        <div className="flex items-center gap-3 mb-4">
+          <div className="w-10 h-10 bg-red-600 rounded-lg flex items-center justify-center">
+            <span className="text-white text-lg font-bold tracking-tight">K</span>
+          </div>
+          <h1 className="text-xl font-semibold tracking-tight text-stone-900">
+            Kutcheri Log
+          </h1>
+        </div>
+
+        <p className="text-stone-800 text-lg font-light">
+          Log<span className="text-red-500 mx-1.5">·</span>Share<span className="text-red-500 mx-1.5">·</span>Discover
+        </p>
+
+        <p className="text-stone-400 text-sm mt-3 leading-relaxed max-w-md">
+          Log Carnatic kutcheris. Share as markdown for your own notes, or share
+          a link here. Quick index of popular Carnatic songs, ragams &amp;
+          compositions sourced from the web.{' '}
+          <button
+            onClick={() => {
+              const hamburger = document.querySelector<HTMLButtonElement>('[title="Index"]');
+              hamburger?.click();
+              setTimeout(() => {
+                const creditsTab = document.querySelector<HTMLButtonElement>('[data-tab="credits"]');
+                creditsTab?.click();
+              }, 100);
+            }}
+            className="text-red-500 hover:text-red-600 underline underline-offset-2"
+          >
+            View credits
+          </button>
+        </p>
       </header>
 
       <button
         onClick={onNew}
-        className="w-full border border-stone-200 hover:border-stone-300 text-stone-600 hover:text-stone-800 px-4 py-3 rounded-lg text-sm font-medium min-h-[44px] transition-colors mb-8"
+        className="w-full bg-red-600 hover:bg-red-700 text-white px-4 py-3 rounded-lg text-sm font-medium min-h-[44px] transition-colors mb-10 active:scale-[0.98] transition-transform"
       >
         + New Concert
       </button>
 
       {concerts.length === 0 ? (
-        <div className="text-center py-16 text-stone-400">
+        <div className="text-center py-16 text-stone-300">
           <p>No concerts logged yet.</p>
         </div>
       ) : (
         <>
-          <h2 className="text-stone-400 text-xs font-medium mb-3">Recently Logged</h2>
+          <h2 className="text-stone-400 text-xs font-medium mb-1">Recently Logged</h2>
+          <p className="text-stone-300 text-xs mb-4">Click any to view details</p>
           <ul className="divide-y divide-stone-100">
             {concerts.map(concert => (
               <li
                 key={concert.id}
-                className="py-4 hover:bg-stone-100/50 -mx-3 px-3 rounded-lg cursor-pointer transition-colors"
+                className="py-4 hover:bg-stone-50 -mx-3 px-3 rounded-lg cursor-pointer transition-colors"
                 onClick={() => onSelect(concert)}
               >
                 <div className="flex justify-between items-start w-full">

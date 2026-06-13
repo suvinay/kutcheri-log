@@ -26,6 +26,7 @@ export function useConcerts() {
       artists: [{ role: 'Vocal', name: '' }],
       items: [],
       notes: '',
+      logged_by: '',
       created_at: new Date().toISOString(),
       updated_at: new Date().toISOString(),
     };

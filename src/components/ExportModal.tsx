@@ -8,13 +8,22 @@ interface Props {
 }
 
 export function ExportModal({ concert, onClose }: Props) {
-  const [copied, setCopied] = useState(false);
+  const [copiedMd, setCopiedMd] = useState(false);
+  const [copiedLink, setCopiedLink] = useState(false);
   const markdown = concertToMarkdown(concert);
 
-  const handleCopy = async () => {
+  const shareUrl = `${window.location.origin}${window.location.pathname}?concert=${concert.id}`;
+
+  const handleCopyMarkdown = async () => {
     await copyToClipboard(markdown);
-    setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
+    setCopiedMd(true);
+    setTimeout(() => setCopiedMd(false), 2000);
+  };
+
+  const handleCopyLink = async () => {
+    await copyToClipboard(shareUrl);
+    setCopiedLink(true);
+    setTimeout(() => setCopiedLink(false), 2000);
   };
 
   return (
@@ -24,7 +33,7 @@ export function ExportModal({ concert, onClose }: Props) {
         onClick={e => e.stopPropagation()}
       >
         <div className="flex justify-between items-center p-4 border-b border-stone-100">
-          <h2 className="text-stone-800 font-medium text-sm">Export Markdown</h2>
+          <h2 className="text-stone-800 font-medium text-sm">Share</h2>
           <button
             onClick={onClose}
             className="text-stone-300 hover:text-stone-500 min-w-[44px] min-h-[44px] flex items-center justify-center"
@@ -33,20 +42,47 @@ export function ExportModal({ concert, onClose }: Props) {
           </button>
         </div>
 
-        <pre className="flex-1 overflow-auto p-4 text-stone-600 text-xs font-mono whitespace-pre-wrap leading-relaxed">
+        {/* Share link */}
+        <div className="px-4 pt-4">
+          <label className="text-stone-400 text-xs font-medium">Shareable Link</label>
+          <div className="flex gap-2 mt-1">
+            <input
+              type="text"
+              readOnly
+              value={shareUrl}
+              className="flex-1 bg-stone-50 text-stone-600 rounded-lg px-3 py-2 text-xs font-mono border border-stone-100 focus:outline-none"
+            />
+            <button
+              onClick={handleCopyLink}
+              className={`px-3 py-2 rounded-lg text-xs font-medium min-h-[40px] transition-colors ${
+                copiedLink
+                  ? 'bg-emerald-50 text-emerald-600 border border-emerald-200'
+                  : 'bg-red-600 hover:bg-red-700 text-white'
+              }`}
+            >
+              {copiedLink ? 'Copied!' : 'Copy link'}
+            </button>
+          </div>
+        </div>
+
+        {/* Markdown preview */}
+        <div className="px-4 pt-4">
+          <label className="text-stone-400 text-xs font-medium">Markdown</label>
+        </div>
+        <pre className="flex-1 overflow-auto px-4 py-2 text-stone-500 text-xs font-mono whitespace-pre-wrap leading-relaxed max-h-48">
           {markdown}
         </pre>
 
         <div className="p-4 border-t border-stone-100">
           <button
-            onClick={handleCopy}
-            className={`w-full py-3 rounded-lg min-h-[44px] text-sm font-medium transition-colors ${
-              copied
+            onClick={handleCopyMarkdown}
+            className={`w-full py-3 rounded-lg min-h-[44px] text-sm font-medium transition-all ${
+              copiedMd
                 ? 'bg-emerald-50 text-emerald-600 border border-emerald-200'
-                : 'bg-stone-800 hover:bg-stone-700 text-white active:scale-[0.98]'
-            } transition-transform`}
+                : 'border border-stone-200 hover:border-stone-300 text-stone-600 hover:text-stone-800 active:scale-[0.98]'
+            }`}
           >
-            {copied ? 'Copied!' : 'Copy to clipboard'}
+            {copiedMd ? 'Copied!' : 'Copy markdown'}
           </button>
         </div>
       </div>

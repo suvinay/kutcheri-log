@@ -80,6 +80,17 @@ export function ConcertHeader({ concert, onUpdate, onUpdateArtists }: Props) {
           </div>
 
           <div>
+            <label className="text-stone-400 text-xs font-medium">Logged by</label>
+            <input
+              type="text"
+              value={concert.logged_by || ''}
+              onChange={e => updateField('logged_by', e.target.value)}
+              placeholder="Your name (optional)"
+              className="w-full bg-white text-stone-800 rounded-lg px-3 py-2 mt-1 min-h-[44px] border border-stone-200 focus:border-stone-400 focus:outline-none placeholder-stone-300"
+            />
+          </div>
+
+          <div>
             <label className="text-stone-400 text-xs font-medium">Artists</label>
             <div className="space-y-2 mt-2">
               {concert.artists.map((artist, idx) => (

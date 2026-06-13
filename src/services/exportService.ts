@@ -13,6 +13,7 @@ export function concertToMarkdown(concert: Concert): string {
   if (date) lines.push(`**Date:** ${date}`);
   if (concert.venue) lines.push(`**Venue:** ${concert.venue}`);
   if (concert.organization) lines.push(`**Organization:** ${concert.organization}`);
+  if (concert.logged_by) lines.push(`**Logged by:** ${concert.logged_by}`);
 
   if (concert.artists.length > 0) {
     lines.push('', '**Artists:**');
@@ -43,7 +44,7 @@ export function concertToMarkdown(concert: Concert): string {
   if (concert.notes) {
     lines.push('', `**Notes:** ${concert.notes}`);
   }
-  lines.push('*Logged with Carnatic Concert Logger*');
+  lines.push('*Logged with [Kutcheri Log](https://suvinay.github.io/kutcheri-log/)*');
 
   return lines.join('\n');
 }

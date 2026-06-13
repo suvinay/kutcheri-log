@@ -262,7 +262,7 @@ export function SongSearch({ onAdd }: Props) {
           <div className="flex gap-2 pt-1">
             <button
               onClick={submitItem}
-              className="flex-1 bg-stone-800 hover:bg-stone-700 text-white py-3 rounded-lg min-h-[44px] text-sm font-medium active:scale-[0.98] transition-all"
+              className="flex-1 bg-red-600 hover:bg-red-700 text-white py-3 rounded-lg min-h-[44px] text-sm font-medium active:scale-[0.98] transition-all"
             >
               Add to concert
             </button>

@@ -42,10 +42,30 @@ export default function App() {
     initDb().then(() => setDbReady(true));
   }, []);
 
+  // URL-based concert routing
+  useEffect(() => {
+    if (!loading && concerts.length > 0 && !activeConcert) {
+      const params = new URLSearchParams(window.location.search);
+      const concertId = params.get('concert');
+      if (concertId) {
+        const found = concerts.find(c => c.id === concertId);
+        if (found) setActiveConcert(found);
+      }
+    }
+  }, [loading, concerts, activeConcert]);
+
+  // Keep activeConcert in sync and update URL
   useEffect(() => {
     if (activeConcert) {
       const updated = concerts.find(c => c.id === activeConcert.id);
       if (updated) setActiveConcert(updated);
+      const url = new URL(window.location.href);
+      url.searchParams.set('concert', activeConcert.id);
+      window.history.replaceState({}, '', url.toString());
+    } else {
+      const url = new URL(window.location.href);
+      url.searchParams.delete('concert');
+      window.history.replaceState({}, '', url.toString());
     }
   }, [concerts, activeConcert]);
 
