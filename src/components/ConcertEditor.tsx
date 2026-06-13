@@ -4,6 +4,7 @@ import { ConcertHeader } from './ConcertHeader';
 import { SongSearch } from './SongSearch';
 import { Setlist } from './Setlist';
 import { ExportModal } from './ExportModal';
+import { EntityIndexPanel } from './EntityIndexPanel';
 
 interface Props {
   concert: Concert;
@@ -27,6 +28,7 @@ export function ConcertEditor({
   onUpdateArtists,
 }: Props) {
   const [showExport, setShowExport] = useState(false);
+  const [showIndex, setShowIndex] = useState(false);
 
   return (
     <div className="min-h-screen bg-stone-50 text-stone-900 px-4 py-6 max-w-xl mx-auto pb-20 font-sans">
@@ -37,12 +39,21 @@ export function ConcertEditor({
         >
           ← Back
         </button>
-        <button
-          onClick={() => setShowExport(true)}
-          className="border border-stone-200 hover:border-stone-300 text-stone-500 hover:text-stone-700 px-4 py-2 rounded-lg min-h-[44px] text-sm transition-colors"
-        >
-          Export
-        </button>
+        <div className="flex gap-2">
+          <button
+            onClick={() => setShowIndex(true)}
+            className="border border-stone-200 hover:border-stone-300 text-stone-500 hover:text-stone-700 px-3 py-2 rounded-lg min-h-[44px] text-sm transition-colors"
+            title="Browse ragams & composers"
+          >
+            Index
+          </button>
+          <button
+            onClick={() => setShowExport(true)}
+            className="border border-stone-200 hover:border-stone-300 text-stone-500 hover:text-stone-700 px-3 py-2 rounded-lg min-h-[44px] text-sm transition-colors"
+          >
+            Export
+          </button>
+        </div>
       </header>
 
       <ConcertHeader
@@ -62,6 +73,12 @@ export function ConcertEditor({
 
       {showExport && (
         <ExportModal concert={concert} onClose={() => setShowExport(false)} />
+      )}
+
+      {showIndex && (
+        <EntityIndexPanel
+          onClose={() => setShowIndex(false)}
+        />
       )}
     </div>
   );

@@ -6,11 +6,13 @@ import { useConcerts } from './hooks/useConcerts';
 import { ConcertList } from './components/ConcertList';
 import { ConcertEditor } from './components/ConcertEditor';
 import { Settings } from './components/Settings';
+import { EntityIndexPanel } from './components/EntityIndexPanel';
 
 export default function App() {
   const [dbReady, setDbReady] = useState(false);
   const [activeConcert, setActiveConcert] = useState<Concert | null>(null);
   const [showSettings, setShowSettings] = useState(false);
+  const [showIndex, setShowIndex] = useState(false);
   const [admin, setAdmin] = useState(isAdmin());
 
   const {
@@ -75,18 +77,30 @@ export default function App() {
         }}
         onDelete={admin ? deleteConcert : undefined}
       />
-      <button
-        onClick={() => setShowSettings(true)}
-        className="fixed bottom-4 right-4 bg-white hover:bg-stone-50 text-stone-300 hover:text-stone-500 w-10 h-10 rounded-full flex items-center justify-center border border-stone-200 shadow-sm text-sm"
-        title="Settings"
-      >
-        ⚙
-      </button>
+      <div className="fixed bottom-4 right-4 flex gap-2">
+        <button
+          onClick={() => setShowIndex(true)}
+          className="bg-white hover:bg-stone-50 text-stone-400 hover:text-stone-600 h-10 px-3 rounded-full flex items-center justify-center border border-stone-200 shadow-sm text-xs font-medium"
+          title="Browse ragams & composers"
+        >
+          Index
+        </button>
+        <button
+          onClick={() => setShowSettings(true)}
+          className="bg-white hover:bg-stone-50 text-stone-300 hover:text-stone-500 w-10 h-10 rounded-full flex items-center justify-center border border-stone-200 shadow-sm text-sm"
+          title="Settings"
+        >
+          ⚙
+        </button>
+      </div>
       {showSettings && (
         <Settings
           onClose={() => setShowSettings(false)}
           onAdminChange={handleAdminChange}
         />
+      )}
+      {showIndex && (
+        <EntityIndexPanel onClose={() => setShowIndex(false)} />
       )}
     </>
   );

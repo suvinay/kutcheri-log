@@ -9,7 +9,7 @@ Carnatic Concert Logger is a React single-page application for logging setlists 
 - **React 19 SPA** with Vite 8 as the build tool. No routing library -- the app uses simple state-driven view switching (`ConcertList` vs. `ConcertEditor`).
 - **Tailwind CSS v4** for styling, configured as a Vite plugin. Dark mode is the default and only theme. The palette is slate backgrounds with amber/ochre accents.
 - **localStorage persistence** behind a `StorageProvider` interface, designed so Google Drive sync can be swapped in as Phase 2 without restructuring.
-- **Bundled JSON databases** for songs (~9,500 kritis) and ragams (72 melakartas + 50 janya ragams), imported as ES modules via Vite's JSON support.
+- **Bundled JSON databases** for songs (~9,500 kritis), ragams (72 melakartas + 50 janya ragams), composers, and augmentations (source registry + entity link maps), imported as ES modules via Vite's JSON support.
 - **Fuse.js** for fuzzy search across song names, ragams, composers, and pallavi text -- critical because Carnatic transliterations vary widely.
 - **Claude API fallback** (`claude-sonnet-4-6`) for songs not found in the local database. The API key is stored in localStorage and configured via a Settings modal.
 - **Fully offline-capable**: all saved data and the bundled database work without network. Only the "Ask Claude" fallback requires connectivity.
@@ -18,9 +18,10 @@ Carnatic Concert Logger is a React single-page application for logging setlists 
 
 ```
 App boot
-  --> initDb() loads songs.json + ragams.json, builds Fuse.js indices
+  --> initDb() loads songs.json + ragams.json + composers.json + augmentations.json, builds Fuse.js indices
   --> loadConcerts() hydrates state from localStorage
   --> Render ConcertList (home) or ConcertEditor (active concert)
+  --> EntityIndexPanel (slide-over) available from home or editor via "Index" button
 ```
 
 ---
@@ -44,9 +45,12 @@ carnatic-log/
       RagamInfo.tsx             # Bottom-sheet popover showing ragam scale info
       ExportModal.tsx           # Markdown preview and copy-to-clipboard
       Settings.tsx              # Claude API key configuration modal
+      EntityIndexPanel.tsx      # Slide-over panel: Ragam/Composer tabs, searchable lists
+      EntityDetail.tsx          # Shared entity detail: summary, sources, song list
+      SourceLinks.tsx           # Reusable source link row with domain labels
 
     services/
-      songDb.ts                 # Fuse.js index init, search functions, ragam lookup
+      songDb.ts                 # Fuse.js index init, search functions, ragam/composer/augmentation lookup
       claudeService.ts          # Claude API integration + audio identification stub
       exportService.ts          # Concert-to-Markdown conversion, clipboard copy
 
@@ -58,11 +62,13 @@ carnatic-log/
       useConcerts.ts            # React hook: CRUD for concerts, items, artists, reorder
 
     types/
-      index.ts                  # TypeScript interfaces: Song, Ragam, Concert, ConcertItem, Artist, SongMetadata
+      index.ts                  # TypeScript interfaces: Song, Ragam, Composer, Concert, ConcertItem, Artist, AugSourceLink, etc.
 
     data/
-      songs.json                # Bundled song database (~9,500 entries)
-      ragams.json               # Bundled ragam database (122 entries)
+      songs.json                # Bundled song database (~9,500 entries, with ragam_key + composer_key)
+      ragams.json               # Bundled ragam database (122 entries, with key + summary)
+      composers.json            # Bundled composer database (derived from songs, with summaries)
+      augmentations.json        # Source registry + entity link maps for augmentation
 
   scripts/
     parse_all_sources.py        # Parse saved HTML into per-source raw JSON
@@ -71,6 +77,12 @@ carnatic-log/
     merge_songs.py              # Earlier merge script (Gemini-based enrichment + dedup)
     merge_songs_v2.py           # Current merge script (fuzzy dedup, link aggregation, composer canonicalization)
     build_ragam_db.py           # Generate ragam DB (72 melakartas + janya ragams) via Gemini
+    aug_keys.py                 # Backfill ragam_key/composer_key on songs, key on ragams
+    build_composers.py          # Derive composers.json from songs.json (merge-safe)
+    aug_discover.py             # Stage 1: URL discovery (blogs, sitemaps, Wikipedia)
+    aug_fetch.py                # Stage 2: Polite fetch + content extraction, checkpointed
+    aug_structure.py            # Stage 3: Gemini page structuring, entity linking -> augmentations.json
+    aug_synthesize.py           # Stage 4: Per-entity summary synthesis -> ragams/composers
 
   data/
     html/                       # Saved HTML source pages (scraped once, cached locally)
@@ -88,6 +100,12 @@ carnatic-log/
       dikshitar.json
       karnatik_details.json     # Detail-page scrape results (talam, language, pallavi)
       all_raw.json              # Combined raw entries before dedup
+    aug/                        # Intermediate augmentation pipeline data
+      urls.json                 # Stage 1 output: discovered URLs
+      fetched.json              # Stage 2 output: fetched content with hashes
+      structured.json           # Stage 3 intermediate: structured PageRecords
+      orphan_ragams.json        # Ragams from pages not matching DB
+      unmatched.json            # Kritis from pages not matching songs DB
     songs.json                  # Final merged song DB (copied to src/data/)
     ragams.json                 # Final ragam DB (copied to src/data/)
 
@@ -433,3 +451,260 @@ These features are designed for but not yet implemented. The codebase has explic
 
 - **Not yet implemented**: REQUIREMENTS.md mentions eventual Google Docs API export for multi-user scenarios.
 - **Current alternative**: Markdown copy-to-clipboard works for pasting into any editor.
+
+---
+
+## 9. Entity Model
+
+The app manages three cross-referenced entity tables. All share consistent lookup keys derived from deterministic normalization functions.
+
+### 9.1 songs.json (extended)
+
+The original song database (~9,500 entries) now carries two additional fields:
+
+- **`ragam_key`**: Output of `normalize_ragam(ragam)`. Collapses transliteration variants (`aa`->`a`, `th`->`t`, etc.) and strips non-alphanumeric characters. Used to join songs to ragam entities and augmentation link maps.
+- **`composer_key`**: Output of `composer_slug(composer)`. Lowercased, whitespace-collapsed, canonicalized via `COMPOSER_CANONICAL`, then slugified. Used to join songs to composer entities.
+
+Generated by `scripts/aug_keys.py`.
+
+### 9.2 ragams.json (extended)
+
+Each ragam entry now also carries:
+
+- **`key`**: The normalized ragam key (same function as `ragam_key` on songs). Enables O(1) lookup from songs and augmentation link maps.
+- **`summary`**: A curated <=6-sentence summary synthesized from page-level summaries of augmentation sources.
+- **`summary_source_ids`**: Array of source IDs (references into the augmentations.json source registry) that contributed to the summary.
+
+### 9.3 composers.json (NEW)
+
+Derived from `songs.json` by `scripts/build_composers.py`. Each composer entry contains:
+
+- **`key`**: The `composer_slug()` output. Matches `composer_key` on songs.
+- **`name`**: Canonical display name (via `COMPOSER_CANONICAL` mapping).
+- **`song_count`**: Number of songs attributed to this composer in the database.
+- **`summary`**: Curated <=6-sentence summary (populated by `aug_synthesize.py`).
+- **`summary_source_ids`**: Source IDs that contributed to the summary.
+- **`period`**, **`tradition`**: Optional enrichment fields, preserved across re-runs.
+
+The build script is merge-safe: re-running it preserves any existing `summary`, `period`, and `tradition` values.
+
+### 9.4 Key Functions
+
+| Function | Module | Purpose |
+|----------|--------|---------|
+| `normalize_ragam(ragam)` | `aug_keys.py`, `build_composers.py` | Deterministic ragam key: lowercase, collapse digraphs, strip non-alnum |
+| `composer_slug(composer)` | `aug_keys.py`, `build_composers.py` | Deterministic composer key: canonicalize via `COMPOSER_CANONICAL`, then slugify |
+| `normalize_for_dedup(name)` | `merge_songs_v2.py` | Aggressive song-name normalization for dedup (also used in kriti matching during augmentation) |
+
+---
+
+## 10. Augmentation Registry
+
+### 10.1 augmentations.json
+
+A single file at `src/data/augmentations.json` that stores all augmentation metadata. It contains two top-level sections:
+
+**Source Registry** (`sources`): A deduplicated array of `PageRecord` objects, each representing one fetched and structured web page:
+
+| Field | Description |
+|-------|-------------|
+| `id` | Unique source identifier (integer) |
+| `url` | Original page URL |
+| `title` | Page title |
+| `summary` | <=3-sentence summary in original wording (never verbatim source text) |
+| `content_hash` | SHA-256 of fetched content, used for change detection |
+| `license` | `null` for most sources; `"cc-by-sa"` for Wikipedia pages |
+| `stored_text` | `null` for most sources; full extracted text only for Wikipedia (CC BY-SA) |
+
+**Link Maps**: Three maps that associate entities with their sources:
+
+- **`song_links`**: Maps `song_id` -> array of `{ source_id, context }` objects. Context is a brief note about how the source relates to the song.
+- **`ragam_links`**: Maps `ragam_key` -> array of `{ source_id, context }` objects.
+- **`composer_links`**: Maps `composer_key` -> array of `{ source_id, context }` objects.
+
+### 10.2 Copyright/Attribution Model
+
+All augmentation content follows a **pointer+summary** model:
+
+- **Page summaries**: <=3 sentences, written in original wording (not copied from the source).
+- **Entity summaries** (on ragams.json and composers.json): <=6 sentences, synthesized from page summaries in original wording.
+- **No verbatim text** is stored from any source, with one exception: Wikipedia pages are stored with `license: "cc-by-sa"` and full `stored_text`, because Wikipedia's CC BY-SA license permits redistribution with attribution.
+- **Every summary is shown alongside its source links** in the UI, so users can click through to the original source.
+
+---
+
+## 11. Data Pipeline -- Augmentation Stages
+
+The augmentation pipeline enriches the entity model with curated information from external Carnatic music blogs, WordPress sites, and Wikipedia. It runs in four sequential stages, each producing a checkpoint file.
+
+### 11.1 Stage 1: URL Discovery (`aug_discover.py`)
+
+Discovers URLs to fetch from three source types:
+
+- **Saved blog indices**: Parses already-downloaded HTML from `data/html/` (Thyagaraja Vaibhavam, Guru Guha) to extract individual post URLs.
+- **WordPress sitemaps**: Fetches `sitemap.xml` from WordPress blog sites to discover all post URLs.
+- **Wikipedia API targets**: Generates Wikipedia article URLs for all ragams and composers in the database using the MediaWiki REST API naming convention.
+
+**Input**: `src/data/songs.json`, `src/data/ragams.json`, `src/data/composers.json`
+**Output**: `data/aug/urls.json` (deduplicated URL list with source site metadata)
+
+```bash
+uv run scripts/aug_discover.py
+```
+
+### 11.2 Stage 2: Polite Fetch (`aug_fetch.py`)
+
+Fetches page content from discovered URLs with polite rate limiting and content extraction:
+
+- **Blogspot**: Extracts post body from Blogger HTML structure.
+- **WordPress**: Extracts post content from WordPress HTML structure.
+- **Wikipedia**: Uses the MediaWiki REST API (`/api/rest_v1/page/html/`) for clean content extraction.
+- **Checkpointing**: Each fetched page is hashed (`content_hash`). Re-runs skip pages whose content has not changed. Progress is checkpointed incrementally to `data/aug/fetched.json`.
+
+**Input**: `data/aug/urls.json`
+**Output**: `data/aug/fetched.json` (fetched content with metadata and content hashes)
+
+```bash
+uv run scripts/aug_fetch.py
+```
+
+### 11.3 Stage 3: Structure and Link (`aug_structure.py`)
+
+Uses the Gemini API to analyze each fetched page and produce structured `PageRecord` objects:
+
+1. **Page structuring**: Sends page content to Gemini with a prompt that extracts: page summary (<=3 sentences), mentioned kritis (song name + ragam), mentioned ragams, mentioned composers.
+2. **Kriti matching**: Matches extracted kritis to songs in `songs.json` using `normalize_for_dedup(name)` + `ragam_key` join. Unmatched kritis are logged to `data/aug/orphan_ragams.json`.
+3. **Entity linking**: Builds the three link maps (`song_links`, `ragam_links`, `composer_links`) by associating each structured page with the entities it references.
+4. **Output assembly**: Writes the complete `augmentations.json` (source registry + link maps) to `src/data/augmentations.json`.
+
+**Input**: `data/aug/fetched.json`, `src/data/songs.json`, `src/data/ragams.json`, `src/data/composers.json`
+**Output**: `data/aug/structured.json` (intermediate), `src/data/augmentations.json`, `data/aug/orphan_ragams.json`, `data/aug/unmatched.json` (diagnostic)
+
+Requires `GEMINI_API_KEY` in `.env`.
+
+```bash
+uv run scripts/aug_structure.py
+```
+
+### 11.4 Stage 4: Synthesize Summaries (`aug_synthesize.py`)
+
+Generates per-entity curated summaries from the page-level summaries in the augmentation registry:
+
+1. **Ragam summaries**: For each ragam with linked sources, collects the page summaries and sends them to Gemini to produce a <=6-sentence synthesis. Writes `summary` and `summary_source_ids` onto the ragam entry in `src/data/ragams.json`.
+2. **Composer summaries**: Same process for composers, writing onto `src/data/composers.json`.
+3. **Incremental**: Only regenerates a summary when the set of source IDs for an entity has changed since the last run.
+
+**Input**: `src/data/augmentations.json`, `src/data/ragams.json`, `src/data/composers.json`, `src/data/songs.json`
+**Output**: Updated `src/data/ragams.json`, updated `src/data/composers.json`
+
+Requires `GEMINI_API_KEY` in `.env`.
+
+```bash
+uv run scripts/aug_synthesize.py
+```
+
+### 11.5 Re-running the Full Augmentation Pipeline
+
+```bash
+# Prerequisites: Python 3.11+, uv, .env with GEMINI_API_KEY
+
+# 0. Build keys and composers (if not already present)
+uv run scripts/aug_keys.py
+uv run scripts/build_composers.py
+
+# 1. Discover URLs
+uv run scripts/aug_discover.py
+
+# 2. Fetch content (polite, checkpointed)
+uv run scripts/aug_fetch.py
+
+# 3. Structure pages and build augmentations.json (requires GEMINI_API_KEY)
+uv run scripts/aug_structure.py
+
+# 4. Synthesize entity summaries (requires GEMINI_API_KEY)
+uv run scripts/aug_synthesize.py
+```
+
+---
+
+## 12. Scraping Sources (Augmentation)
+
+The augmentation pipeline draws from the following external sources:
+
+| Source | URL Pattern | Content Type |
+|--------|-------------|--------------|
+| Anuradha Mahesh | `anuradhamahesh.wordpress.com` | WordPress blog posts on kritis and composers |
+| KP Jayan | `kpjayan.wordpress.com` | WordPress blog posts on Carnatic music topics |
+| Carnatic Connection | `carnaticconnection.wordpress.com` | WordPress blog posts on ragams and kritis |
+| Thyagaraja Vaibhavam | `thyagaraja-vaibhavam.blogspot.com` | Blogspot posts on Tyaagaraaja kritis (also used as a song source in the base pipeline) |
+| Guru Guha Blog | `guru-guha.blogspot.com` | Blogspot posts on Dikshitar kritis (also used as a song source in the base pipeline) |
+| Wikipedia | MediaWiki REST API (`en.wikipedia.org/api/rest_v1/`) | Articles on ragams and composers |
+
+**Note**: `ragasurabhi.com` was considered but its sitemap returns 404, so it is excluded.
+
+All sources use the **pointer+summary** attribution model (see Section 10.2), except Wikipedia which permits `stored_text` under CC BY-SA.
+
+---
+
+## 13. UI -- Entity Index Panel
+
+### 13.1 EntityIndexPanel.tsx
+
+A full-screen slide-over panel accessible from both the home screen (`ConcertList`) and the concert editor (`ConcertEditor`) via an "Index" button. Features:
+
+- **Two tabs**: Ragam and Composer, switchable at the top.
+- **Searchable lists**: A search bar filters the entity list in real time. The ragam tab shows all ragams sorted alphabetically; the composer tab shows all composers sorted by song count (descending).
+- **List entries**: Each entry shows the entity name and, for composers, the song count. Tapping an entry navigates to the detail view.
+
+### 13.2 EntityDetail.tsx
+
+A shared detail view component used for both ragam and composer entities. Displays:
+
+- **Summary**: The curated entity summary (from ragams.json or composers.json), shown at the top.
+- **Source links with attribution**: Below the summary, a list of all linked sources (from augmentations.json link maps). Each source shows its title as a clickable link to the original URL, plus its page-level summary.
+- **Song list**: All songs in the database associated with this entity (by `ragam_key` or `composer_key`). Each song is tappable.
+- **Ragam info**: For ragam entities, also shows the arohana/avarohana scale information (reusing the data from the ragam database).
+
+### 13.3 SourceLinks.tsx
+
+A reusable component that renders a compact row of clickable source links with domain-based labels. Used in `EntityDetail` and potentially in other views where source attribution is needed.
+
+---
+
+## 14. New Files (Augmentation System)
+
+### 14.1 Scripts
+
+| File | Purpose |
+|------|---------|
+| `scripts/aug_keys.py` | Backfill `ragam_key` and `composer_key` onto songs.json, `key` onto ragams.json |
+| `scripts/build_composers.py` | Derive composers.json from songs.json (merge-safe, preserves enrichment fields) |
+| `scripts/aug_discover.py` | Stage 1: URL discovery from blog indices, WordPress sitemaps, Wikipedia API |
+| `scripts/aug_fetch.py` | Stage 2: Polite fetch with content extraction and content_hash checkpointing |
+| `scripts/aug_structure.py` | Stage 3: Gemini-powered page structuring, entity linking, builds augmentations.json |
+| `scripts/aug_synthesize.py` | Stage 4: Per-entity summary synthesis from page summaries |
+
+### 14.2 Intermediate Data (`data/aug/`)
+
+| File | Purpose |
+|------|---------|
+| `data/aug/urls.json` | Discovered URLs from all augmentation sources |
+| `data/aug/fetched.json` | Fetched page content with content hashes |
+| `data/aug/structured.json` | Intermediate structured PageRecords (before assembly into augmentations.json) |
+| `data/aug/orphan_ragams.json` | Ragam names found in pages that do not match any ragam in the database |
+| `data/aug/unmatched.json` | Kritis mentioned in pages that could not be matched to songs in the database |
+
+### 14.3 Bundled Data (`src/data/`)
+
+| File | Purpose |
+|------|---------|
+| `src/data/composers.json` | Composer entity database (derived from songs, enriched by augmentation) |
+| `src/data/augmentations.json` | Source registry + entity link maps (loaded at runtime for Entity Index) |
+
+### 14.4 Components (`src/components/`)
+
+| File | Purpose |
+|------|---------|
+| `src/components/EntityIndexPanel.tsx` | Slide-over panel with Ragam/Composer tabs and searchable entity lists |
+| `src/components/EntityDetail.tsx` | Shared detail view: summary, source links, song list |
+| `src/components/SourceLinks.tsx` | Reusable source link display with domain-based labels |

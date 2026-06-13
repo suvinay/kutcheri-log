@@ -1,0 +1,4665 @@
+[
+  {
+    "key": "abhang",
+    "display_examples": [
+      "Abhang"
+    ]
+  },
+  {
+    "key": "abheri",
+    "display_examples": [
+      "AbhEri"
+    ]
+  },
+  {
+    "key": "abherikarnatakadevagandari",
+    "display_examples": [
+      "Abheri (Karnataka Devagandhari)"
+    ]
+  },
+  {
+    "key": "abhiramam",
+    "display_examples": [
+      "abhirAmam"
+    ]
+  },
+  {
+    "key": "abhogi",
+    "display_examples": [
+      "AbhOgi"
+    ]
+  },
+  {
+    "key": "adi",
+    "display_examples": [
+      "Adi"
+    ]
+  },
+  {
+    "key": "ahari",
+    "display_examples": [
+      "Ahari"
+    ]
+  },
+  {
+    "key": "ahirbhairav",
+    "display_examples": [
+      "ahIrbhairav",
+      "Ahir bhairav"
+    ]
+  },
+  {
+    "key": "ahiri",
+    "display_examples": [
+      "Ahiri"
+    ]
+  },
+  {
+    "key": "alankari",
+    "display_examples": [
+      "alankAri"
+    ]
+  },
+  {
+    "key": "ambujamkrishna",
+    "display_examples": [
+      "Ambujam Krishna"
+    ]
+  },
+  {
+    "key": "amritabehag",
+    "display_examples": [
+      "amrita behAg"
+    ]
+  },
+  {
+    "key": "amritavahini",
+    "display_examples": [
+      "amritavAhini"
+    ]
+  },
+  {
+    "key": "amritavarshini",
+    "display_examples": [
+      "amritavarshini"
+    ]
+  },
+  {
+    "key": "amrtadanyasi",
+    "display_examples": [
+      "amrtadhanyAsi"
+    ]
+  },
+  {
+    "key": "amrtavahini",
+    "display_examples": [
+      "amrtavAhini",
+      "amRta vAhini"
+    ]
+  },
+  {
+    "key": "amrtavarsani",
+    "display_examples": [
+      "amrtavarSaNi"
+    ]
+  },
+  {
+    "key": "amrtavarshini",
+    "display_examples": [
+      "amRta varshiNi"
+    ]
+  },
+  {
+    "key": "amrtavarsini",
+    "display_examples": [
+      "amrtavarSiNi"
+    ]
+  },
+  {
+    "key": "amrutavarshini",
+    "display_examples": [
+      "Amrutavarshini"
+    ]
+  },
+  {
+    "key": "ananda",
+    "display_examples": [
+      "Ananda"
+    ]
+  },
+  {
+    "key": "anandabhairavi",
+    "display_examples": [
+      "Anandabhairavi",
+      "Aananda bhairavi",
+      "Ananda bhairavi"
+    ]
+  },
+  {
+    "key": "anandarupa",
+    "display_examples": [
+      "AnandarUpA"
+    ]
+  },
+  {
+    "key": "andali",
+    "display_examples": [
+      "AndhALi",
+      "andhali",
+      "AndALi"
+    ]
+  },
+  {
+    "key": "andolika",
+    "display_examples": [
+      "AndOLikA"
+    ]
+  },
+  {
+    "key": "anndabhairavi",
+    "display_examples": [
+      "Anndabhairavi"
+    ]
+  },
+  {
+    "key": "arabhi",
+    "display_examples": [
+      "Arabhi"
+    ]
+  },
+  {
+    "key": "arabhihamsanandi",
+    "display_examples": [
+      "Arabhi/hamsAnandi"
+    ]
+  },
+  {
+    "key": "arabi",
+    "display_examples": [
+      "Arabi"
+    ]
+  },
+  {
+    "key": "ardradeshi",
+    "display_examples": [
+      "ArdradEshi"
+    ]
+  },
+  {
+    "key": "ardradesi",
+    "display_examples": [
+      "Ardra dESi"
+    ]
+  },
+  {
+    "key": "asaveri",
+    "display_examples": [
+      "asAvEri",
+      "asAvERi"
+    ]
+  },
+  {
+    "key": "ata",
+    "display_examples": [
+      "aTa"
+    ]
+  },
+  {
+    "key": "atana",
+    "display_examples": [
+      "aThANA"
+    ]
+  },
+  {
+    "key": "bageshri",
+    "display_examples": [
+      "bAgEshrI"
+    ]
+  },
+  {
+    "key": "bahudari",
+    "display_examples": [
+      "bahudAri"
+    ]
+  },
+  {
+    "key": "balacandrika",
+    "display_examples": [
+      "bAlacandrikA"
+    ]
+  },
+  {
+    "key": "balahamsa",
+    "display_examples": [
+      "balahamsa",
+      "bAlahamsa"
+    ]
+  },
+  {
+    "key": "bangala",
+    "display_examples": [
+      "bangALa"
+    ]
+  },
+  {
+    "key": "bauli",
+    "display_examples": [
+      "bauLi"
+    ]
+  },
+  {
+    "key": "begada",
+    "display_examples": [
+      "bEgaDa"
+    ]
+  },
+  {
+    "key": "begade",
+    "display_examples": [
+      "bEgaDe"
+    ]
+  },
+  {
+    "key": "behag",
+    "display_examples": [
+      "behAg"
+    ]
+  },
+  {
+    "key": "bhageshri",
+    "display_examples": [
+      "bhAgEshri"
+    ]
+  },
+  {
+    "key": "bhagyashabari",
+    "display_examples": [
+      "bhAgyashabari"
+    ]
+  },
+  {
+    "key": "bhairav",
+    "display_examples": [
+      "bhairav"
+    ]
+  },
+  {
+    "key": "bhairavam",
+    "display_examples": [
+      "bhairavaM",
+      "bhairavam"
+    ]
+  },
+  {
+    "key": "bhairavi",
+    "display_examples": [
+      "Bhairavi",
+      "bhairavi"
+    ]
+  },
+  {
+    "key": "bhairavishankarabharana",
+    "display_examples": [
+      "bhairavi/shankarAbharaNa"
+    ]
+  },
+  {
+    "key": "bhanumanjari",
+    "display_examples": [
+      "bhAnumanjari"
+    ]
+  },
+  {
+    "key": "bhanumati",
+    "display_examples": [
+      "bhAnumati",
+      "bhanumati"
+    ]
+  },
+  {
+    "key": "bharati",
+    "display_examples": [
+      "bhArati"
+    ]
+  },
+  {
+    "key": "bhatiyar",
+    "display_examples": [
+      "bhaTiyAr"
+    ]
+  },
+  {
+    "key": "bhauli",
+    "display_examples": [
+      "bhauLi"
+    ]
+  },
+  {
+    "key": "bhavani",
+    "display_examples": [
+      "bhavANi",
+      "bhavAni"
+    ]
+  },
+  {
+    "key": "bhavanibhavapriya",
+    "display_examples": [
+      "bhavAni (bhAvapriyA)"
+    ]
+  },
+  {
+    "key": "bhimpalas",
+    "display_examples": [
+      "bhimpalAs",
+      "bhImpalAs"
+    ]
+  },
+  {
+    "key": "bhinnapancamam",
+    "display_examples": [
+      "bhinnapancamam"
+    ]
+  },
+  {
+    "key": "bhinnashadjam",
+    "display_examples": [
+      "bhinna shaDjaM",
+      "bhinnashaDjam"
+    ]
+  },
+  {
+    "key": "bhogacchayanata",
+    "display_examples": [
+      "bhOgacchAyAnATa"
+    ]
+  },
+  {
+    "key": "bhogachayanata",
+    "display_examples": [
+      "bhOgachAyAnATa"
+    ]
+  },
+  {
+    "key": "bhupala",
+    "display_examples": [
+      "bhUpALa"
+    ]
+  },
+  {
+    "key": "bhupalam",
+    "display_examples": [
+      "bhUpALam",
+      "Bhoopaalam"
+    ]
+  },
+  {
+    "key": "bhupali",
+    "display_examples": [
+      "bhUpALi"
+    ]
+  },
+  {
+    "key": "bhusavali",
+    "display_examples": [
+      "bhUSavaLI",
+      "bhUSAvaLi"
+    ]
+  },
+  {
+    "key": "bhusavati",
+    "display_examples": [
+      "bhUSAvati"
+    ]
+  },
+  {
+    "key": "bhushavali",
+    "display_examples": [
+      "bhUshAvaLi",
+      "Bhooshavali"
+    ]
+  },
+  {
+    "key": "bhushavati",
+    "display_examples": [
+      "bhUshAvati"
+    ]
+  },
+  {
+    "key": "bhuvanagandari",
+    "display_examples": [
+      "bhuvanagAndhAri"
+    ]
+  },
+  {
+    "key": "bibhas",
+    "display_examples": [
+      "bibhAs",
+      "Bibhas"
+    ]
+  },
+  {
+    "key": "bihag",
+    "display_examples": [
+      "Bihaag"
+    ]
+  },
+  {
+    "key": "bilahari",
+    "display_examples": [
+      "Bilahari",
+      "bilahari"
+    ]
+  },
+  {
+    "key": "bindumalini",
+    "display_examples": [
+      "bindumAlini",
+      "bindu mAlini"
+    ]
+  },
+  {
+    "key": "binnapancamam",
+    "display_examples": [
+      "binna pancamaM"
+    ]
+  },
+  {
+    "key": "bowli",
+    "display_examples": [
+      "bowLi"
+    ]
+  },
+  {
+    "key": "brindavanasaranga",
+    "display_examples": [
+      "brindAvana sAranga",
+      "Brindaavana saaranga"
+    ]
+  },
+  {
+    "key": "brindavani",
+    "display_examples": [
+      "brindAvani"
+    ]
+  },
+  {
+    "key": "brindavanibrindavanasaranga",
+    "display_examples": [
+      "Brindavani (Brindavana Saranga)"
+    ]
+  },
+  {
+    "key": "brindavansarang",
+    "display_examples": [
+      "brindAvan sArang"
+    ]
+  },
+  {
+    "key": "brndavanasaranga",
+    "display_examples": [
+      "brndAvanasArangA",
+      "bRndAvana sAranga"
+    ]
+  },
+  {
+    "key": "brndavani",
+    "display_examples": [
+      "bRndAvani",
+      "brndAvanI"
+    ]
+  },
+  {
+    "key": "budamanohari",
+    "display_examples": [
+      "budhamanOhari"
+    ]
+  },
+  {
+    "key": "budaranjani",
+    "display_examples": [
+      "budharanjani"
+    ]
+  },
+  {
+    "key": "cakrapradipta",
+    "display_examples": [
+      "cakrapradipta"
+    ]
+  },
+  {
+    "key": "cakravaka",
+    "display_examples": [
+      "cakravAka"
+    ]
+  },
+  {
+    "key": "cakravakam",
+    "display_examples": [
+      "cakravAkam"
+    ]
+  },
+  {
+    "key": "calanata",
+    "display_examples": [
+      "cala nATa",
+      "calanATa"
+    ]
+  },
+  {
+    "key": "calanattai",
+    "display_examples": [
+      "calanATTai"
+    ]
+  },
+  {
+    "key": "camaram",
+    "display_examples": [
+      "cAmaraM",
+      "cAmaram"
+    ]
+  },
+  {
+    "key": "candracuda",
+    "display_examples": [
+      "candracUDa"
+    ]
+  },
+  {
+    "key": "candrajyoti",
+    "display_examples": [
+      "candrajyOti",
+      "candra jyOti"
+    ]
+  },
+  {
+    "key": "candrakauns",
+    "display_examples": [
+      "candrakauns"
+    ]
+  },
+  {
+    "key": "candrakowns",
+    "display_examples": [
+      "candrakowns"
+    ]
+  },
+  {
+    "key": "candrika",
+    "display_examples": [
+      "candrikA"
+    ]
+  },
+  {
+    "key": "carukeshi",
+    "display_examples": [
+      "cArukEshi"
+    ]
+  },
+  {
+    "key": "carukesi",
+    "display_examples": [
+      "cArukEsi"
+    ]
+  },
+  {
+    "key": "caturangini",
+    "display_examples": [
+      "caturangiNi"
+    ]
+  },
+  {
+    "key": "cayanattai",
+    "display_examples": [
+      "cAyanATTai"
+    ]
+  },
+  {
+    "key": "cayaranjani",
+    "display_examples": [
+      "cAyaranjani"
+    ]
+  },
+  {
+    "key": "cayatarangini",
+    "display_examples": [
+      "cAyatArangini"
+    ]
+  },
+  {
+    "key": "cencukambhoji",
+    "display_examples": [
+      "cencu kAmbhOji",
+      "cencukAmbhOji"
+    ]
+  },
+  {
+    "key": "cencuruti",
+    "display_examples": [
+      "cencuruTi"
+    ]
+  },
+  {
+    "key": "cenjuruti",
+    "display_examples": [
+      "cenjuruTi"
+    ]
+  },
+  {
+    "key": "cenjurutti",
+    "display_examples": [
+      "cenjuruTTi"
+    ]
+  },
+  {
+    "key": "chayagaula",
+    "display_examples": [
+      "chAyAgauLa"
+    ]
+  },
+  {
+    "key": "chayanata",
+    "display_examples": [
+      "chAyA nATa"
+    ]
+  },
+  {
+    "key": "chayatarangini",
+    "display_examples": [
+      "chAyA tarangiNi",
+      "chAyAtarangiNi"
+    ]
+  },
+  {
+    "key": "chayavati",
+    "display_examples": [
+      "chAyAvati"
+    ]
+  },
+  {
+    "key": "chenjuruti",
+    "display_examples": [
+      "chenjuruTi"
+    ]
+  },
+  {
+    "key": "chittaranjani",
+    "display_examples": [
+      "Chittaranjani"
+    ]
+  },
+  {
+    "key": "cintamani",
+    "display_examples": [
+      "cintAmaNI",
+      "cintAmaNi"
+    ]
+  },
+  {
+    "key": "citrambari",
+    "display_examples": [
+      "citrAmbari",
+      "citrambari"
+    ]
+  },
+  {
+    "key": "cittaranjani",
+    "display_examples": [
+      "citta ranjani",
+      "cittaranjani"
+    ]
+  },
+  {
+    "key": "clicktolisten",
+    "display_examples": [
+      "Click to listen!"
+    ]
+  },
+  {
+    "key": "clicktolistenumaayyar",
+    "display_examples": [
+      "Click to listen (Uma Ayyar)!"
+    ]
+  },
+  {
+    "key": "curnikavinodini",
+    "display_examples": [
+      "curnikavinOdhini"
+    ]
+  },
+  {
+    "key": "damavati",
+    "display_examples": [
+      "dhAmavati"
+    ]
+  },
+  {
+    "key": "danakapi",
+    "display_examples": [
+      "dhanakApi"
+    ]
+  },
+  {
+    "key": "danashri",
+    "display_examples": [
+      "dhanAshrI"
+    ]
+  },
+  {
+    "key": "danasri",
+    "display_examples": [
+      "Dhanaasri"
+    ]
+  },
+  {
+    "key": "dandaka",
+    "display_examples": [
+      "daNDaka"
+    ]
+  },
+  {
+    "key": "danijhinjhoti",
+    "display_examples": [
+      "dhani/jhinjhOTi"
+    ]
+  },
+  {
+    "key": "danyashi",
+    "display_examples": [
+      "dhanyAshi"
+    ]
+  },
+  {
+    "key": "danyasi",
+    "display_examples": [
+      "dhanyAsi"
+    ]
+  },
+  {
+    "key": "danyasipunnagavarali",
+    "display_examples": [
+      "dhanyAsi/punnAgavarALi"
+    ]
+  },
+  {
+    "key": "darbar",
+    "display_examples": [
+      "darbAr"
+    ]
+  },
+  {
+    "key": "darbarikanada",
+    "display_examples": [
+      "darbAri kAnaDa",
+      "darbAri kAnaDA",
+      "darbArikAnaDA"
+    ]
+  },
+  {
+    "key": "darmavativaram",
+    "display_examples": [
+      "dharmAvati,varam"
+    ]
+  },
+  {
+    "key": "dautapancamam",
+    "display_examples": [
+      "dhautapancamam"
+    ]
+  },
+  {
+    "key": "davalangam",
+    "display_examples": [
+      "dhavaLAngaM",
+      "dhavaLAngam"
+    ]
+  },
+  {
+    "key": "davlambari",
+    "display_examples": [
+      "dhavLAmbari"
+    ]
+  },
+  {
+    "key": "des",
+    "display_examples": [
+      "dEs"
+    ]
+  },
+  {
+    "key": "desakshi",
+    "display_examples": [
+      "dEsAkshi",
+      "Desaakshi"
+    ]
+  },
+  {
+    "key": "desh",
+    "display_examples": [
+      "dEsh -",
+      "dEsh"
+    ]
+  },
+  {
+    "key": "deshaksi",
+    "display_examples": [
+      "dEshAkSi"
+    ]
+  },
+  {
+    "key": "deshisimharavam",
+    "display_examples": [
+      "dEshIsimhAravam",
+      "dEshisimhAravam"
+    ]
+  },
+  {
+    "key": "deshyaranjani",
+    "display_examples": [
+      "dEshyaranjani"
+    ]
+  },
+  {
+    "key": "deshyatodi",
+    "display_examples": [
+      "dEshyatODi"
+    ]
+  },
+  {
+    "key": "desi",
+    "display_examples": [
+      "dEsi"
+    ]
+  },
+  {
+    "key": "desisimharavam",
+    "display_examples": [
+      "dESi siMhAravaM"
+    ]
+  },
+  {
+    "key": "desiyatodi",
+    "display_examples": [
+      "dESiya tODi"
+    ]
+  },
+  {
+    "key": "devagandara",
+    "display_examples": [
+      "dEvagAndhAra"
+    ]
+  },
+  {
+    "key": "devagandaram",
+    "display_examples": [
+      "dEva gAndhAraM",
+      "Devagaandhaaram"
+    ]
+  },
+  {
+    "key": "devagandari",
+    "display_examples": [
+      "dEvagAndhAri"
+    ]
+  },
+  {
+    "key": "devakriya",
+    "display_examples": [
+      "dEva kriya",
+      "dEvakriyA",
+      "dEvakriya"
+    ]
+  },
+  {
+    "key": "devamanohari",
+    "display_examples": [
+      "dEvamanOhari",
+      "dEva manOhari"
+    ]
+  },
+  {
+    "key": "devamrtavarshini",
+    "display_examples": [
+      "dEvAmRta varshiNi"
+    ]
+  },
+  {
+    "key": "devamrutavarshani",
+    "display_examples": [
+      "dEvAmrutavarshani"
+    ]
+  },
+  {
+    "key": "devaranji",
+    "display_examples": [
+      "dEvaranji"
+    ]
+  },
+  {
+    "key": "devgandari",
+    "display_examples": [
+      "dEvgAndhAri"
+    ]
+  },
+  {
+    "key": "dipakam",
+    "display_examples": [
+      "dIpakam"
+    ]
+  },
+  {
+    "key": "diparam",
+    "display_examples": [
+      "dIparam"
+    ]
+  },
+  {
+    "key": "dipavali",
+    "display_examples": [
+      "dIpAvaLi"
+    ]
+  },
+  {
+    "key": "divyamanidundubhi",
+    "display_examples": [
+      "divya maNi-dundubhi"
+    ]
+  },
+  {
+    "key": "dunibhinnasadjam",
+    "display_examples": [
+      "dhunibhinnaSaDjam"
+    ]
+  },
+  {
+    "key": "dunibhinnashadjam",
+    "display_examples": [
+      "dhuni bhinna shaDjaM"
+    ]
+  },
+  {
+    "key": "durbar",
+    "display_examples": [
+      "Durbar"
+    ]
+  },
+  {
+    "key": "durbarikanada",
+    "display_examples": [
+      "Durbari Kaanada"
+    ]
+  },
+  {
+    "key": "durga",
+    "display_examples": [
+      "durga",
+      "durgA"
+    ]
+  },
+  {
+    "key": "dvijavanti",
+    "display_examples": [
+      "dvijAvanti",
+      "dVijAvanti"
+    ]
+  },
+  {
+    "key": "dwijavanti",
+    "display_examples": [
+      "Dwijavanthi",
+      "dwijAvanti"
+    ]
+  },
+  {
+    "key": "eka",
+    "display_examples": [
+      "Eka"
+    ]
+  },
+  {
+    "key": "galipantuvarali",
+    "display_examples": [
+      "gaLipantuvarALi"
+    ]
+  },
+  {
+    "key": "gamakakriya",
+    "display_examples": [
+      "gamakakriyA",
+      "gamaka kriyA"
+    ]
+  },
+  {
+    "key": "gamanapriya",
+    "display_examples": [
+      "gamanapriyA"
+    ]
+  },
+  {
+    "key": "gamanashrama",
+    "display_examples": [
+      "gamanAshrama"
+    ]
+  },
+  {
+    "key": "gamanshraya",
+    "display_examples": [
+      "gamanshraya"
+    ]
+  },
+  {
+    "key": "gambhiranasta",
+    "display_examples": [
+      "gambhIranASTa"
+    ]
+  },
+  {
+    "key": "gambhiranata",
+    "display_examples": [
+      "gambhIranATa"
+    ]
+  },
+  {
+    "key": "gambhiranattai",
+    "display_examples": [
+      "gambhIranATTai",
+      "gambhIra nATTai"
+    ]
+  },
+  {
+    "key": "gambhiravani",
+    "display_examples": [
+      "gambhIra vANi",
+      "gambhIravani"
+    ]
+  },
+  {
+    "key": "ganasamavarali",
+    "display_examples": [
+      "gAna sAma varALi",
+      "gAnasAmavarALi"
+    ]
+  },
+  {
+    "key": "ganavaridi",
+    "display_examples": [
+      "gAnavAridhi"
+    ]
+  },
+  {
+    "key": "gangatarangini",
+    "display_examples": [
+      "gangA tarangiNi"
+    ]
+  },
+  {
+    "key": "gangayabhushhani",
+    "display_examples": [
+      "gangayabhUshhani"
+    ]
+  },
+  {
+    "key": "gangeyabhusani",
+    "display_examples": [
+      "gAngEyabhUSaNi"
+    ]
+  },
+  {
+    "key": "garudadvani",
+    "display_examples": [
+      "garuDadhvani"
+    ]
+  },
+  {
+    "key": "gaula",
+    "display_examples": [
+      "gauLa"
+    ]
+  },
+  {
+    "key": "gaulipantu",
+    "display_examples": [
+      "gauLipantu"
+    ]
+  },
+  {
+    "key": "gauri",
+    "display_examples": [
+      "gauri",
+      "Gauri"
+    ]
+  },
+  {
+    "key": "gaurimanohari",
+    "display_examples": [
+      "gaurImanOhari",
+      "gaurimanOhari"
+    ]
+  },
+  {
+    "key": "gaurivalavali",
+    "display_examples": [
+      "gauri vAlAvali"
+    ]
+  },
+  {
+    "key": "gaurivelavali",
+    "display_examples": [
+      "gaurivELAvaLi",
+      "gaurIvELAvaLi"
+    ]
+  },
+  {
+    "key": "gavambodi",
+    "display_examples": [
+      "gavAmbOdhi"
+    ]
+  },
+  {
+    "key": "gavati",
+    "display_examples": [
+      "gAvati"
+    ]
+  },
+  {
+    "key": "geya",
+    "display_examples": [
+      "gEya"
+    ]
+  },
+  {
+    "key": "geyahejjajji",
+    "display_examples": [
+      "gEya hejjajji"
+    ]
+  },
+  {
+    "key": "ghad",
+    "display_examples": [
+      "ghaD"
+    ]
+  },
+  {
+    "key": "ghambira",
+    "display_examples": [
+      "ghambIra"
+    ]
+  },
+  {
+    "key": "ghanta",
+    "display_examples": [
+      "ghanTa",
+      "ghaNTA"
+    ]
+  },
+  {
+    "key": "ghantarava",
+    "display_examples": [
+      "ghaNTArava"
+    ]
+  },
+  {
+    "key": "ghavambhodi",
+    "display_examples": [
+      "ghavAmbhodi"
+    ]
+  },
+  {
+    "key": "ghurjari",
+    "display_examples": [
+      "ghurjari"
+    ]
+  },
+  {
+    "key": "girvani",
+    "display_examples": [
+      "gIrvANi"
+    ]
+  },
+  {
+    "key": "gitapriya",
+    "display_examples": [
+      "gItapriyA",
+      "gIta priyA"
+    ]
+  },
+  {
+    "key": "gopikatilaka",
+    "display_examples": [
+      "gOpikAtilaka"
+    ]
+  },
+  {
+    "key": "gopikatilakakambhoji",
+    "display_examples": [
+      "gOpikAtilaka/kAmbhOji"
+    ]
+  },
+  {
+    "key": "gopikatilakam",
+    "display_examples": [
+      "gOpikatilakam",
+      "gOpikAtilakam"
+    ]
+  },
+  {
+    "key": "gopikavasanta",
+    "display_examples": [
+      "gOpikAvasanta"
+    ]
+  },
+  {
+    "key": "gopikavasantam",
+    "display_examples": [
+      "Gopikaa vasantham",
+      "gOpikavasantam",
+      "gOpikA vasantaM"
+    ]
+  },
+  {
+    "key": "gore",
+    "display_examples": [
+      "gOre"
+    ]
+  },
+  {
+    "key": "gowdamalhar",
+    "display_examples": [
+      "gowDamalhAr"
+    ]
+  },
+  {
+    "key": "gowdamallar",
+    "display_examples": [
+      "gowDa mallAr"
+    ]
+  },
+  {
+    "key": "gowla",
+    "display_examples": [
+      "gowLa -",
+      "gowLa"
+    ]
+  },
+  {
+    "key": "gowlai",
+    "display_examples": [
+      "Gowlai"
+    ]
+  },
+  {
+    "key": "gowlipantu",
+    "display_examples": [
+      "gowLipantu"
+    ]
+  },
+  {
+    "key": "gowri",
+    "display_examples": [
+      "gowri"
+    ]
+  },
+  {
+    "key": "gowrimanohari",
+    "display_examples": [
+      "Gowri Manohari",
+      "gowri manOhari"
+    ]
+  },
+  {
+    "key": "guharanjani",
+    "display_examples": [
+      "guharanjani"
+    ]
+  },
+  {
+    "key": "gunavati",
+    "display_examples": [
+      "guNavati"
+    ]
+  },
+  {
+    "key": "gundakriya",
+    "display_examples": [
+      "gunDakriya",
+      "guNDakriyA",
+      "guNDakriya"
+    ]
+  },
+  {
+    "key": "gurjari",
+    "display_examples": [
+      "gurjari",
+      "Gurjari"
+    ]
+  },
+  {
+    "key": "gurjaritodi",
+    "display_examples": [
+      "gUrjaritODi"
+    ]
+  },
+  {
+    "key": "gurunatapriya",
+    "display_examples": [
+      "gurunAthapriya"
+    ]
+  },
+  {
+    "key": "gurupriya",
+    "display_examples": [
+      "gurupriyA",
+      "gurupriya"
+    ]
+  },
+  {
+    "key": "hamir",
+    "display_examples": [
+      "hamIr -"
+    ]
+  },
+  {
+    "key": "hamirkalyani",
+    "display_examples": [
+      "Hamir kalyaani",
+      "hamIrkalyANi"
+    ]
+  },
+  {
+    "key": "hamsabhramari",
+    "display_examples": [
+      "hamsabhramari",
+      "hamsa bhramari"
+    ]
+  },
+  {
+    "key": "hamsadipika",
+    "display_examples": [
+      "hamsadIpika"
+    ]
+  },
+  {
+    "key": "hamsadvani",
+    "display_examples": [
+      "hamsadhvani"
+    ]
+  },
+  {
+    "key": "hamsadwani",
+    "display_examples": [
+      "hamsadwani"
+    ]
+  },
+  {
+    "key": "hamsagamani",
+    "display_examples": [
+      "hamsagamani"
+    ]
+  },
+  {
+    "key": "hamsagamini",
+    "display_examples": [
+      "hamsagamini"
+    ]
+  },
+  {
+    "key": "hamsagirvani",
+    "display_examples": [
+      "hamsagIrvANi"
+    ]
+  },
+  {
+    "key": "hamsakalyani",
+    "display_examples": [
+      "hamsakalyANi"
+    ]
+  },
+  {
+    "key": "hamsanada",
+    "display_examples": [
+      "hamsanAda"
+    ]
+  },
+  {
+    "key": "hamsanadam",
+    "display_examples": [
+      "Hamsanadam",
+      "hamsanAdam"
+    ]
+  },
+  {
+    "key": "hamsanandi",
+    "display_examples": [
+      "hamsAnandi"
+    ]
+  },
+  {
+    "key": "hamsanantini",
+    "display_examples": [
+      "hamsAnantini",
+      "hamsanantini"
+    ]
+  },
+  {
+    "key": "hamsavinodini",
+    "display_examples": [
+      "hamsavinOdini"
+    ]
+  },
+  {
+    "key": "harikambodi",
+    "display_examples": [
+      "Hari Kambodhi"
+    ]
+  },
+  {
+    "key": "harikamboji",
+    "display_examples": [
+      "harikAmbOji"
+    ]
+  },
+  {
+    "key": "harinarayani",
+    "display_examples": [
+      "harinArAyaNi"
+    ]
+  },
+  {
+    "key": "hindola",
+    "display_examples": [
+      "hindOLa"
+    ]
+  },
+  {
+    "key": "hindolam",
+    "display_examples": [
+      "hindOLam"
+    ]
+  },
+  {
+    "key": "hindolavasanta",
+    "display_examples": [
+      "hindOLavasantA",
+      "hindOLa vasanta",
+      "hindOLavasanta"
+    ]
+  },
+  {
+    "key": "hindolavasantam",
+    "display_examples": [
+      "hindOla vasantaM",
+      "Hindola Vasantam"
+    ]
+  },
+  {
+    "key": "hindustanibehag",
+    "display_examples": [
+      "hindustAni behAg"
+    ]
+  },
+  {
+    "key": "hindustanibhairavi",
+    "display_examples": [
+      "hindustAnibhairavi"
+    ]
+  },
+  {
+    "key": "hindustanikapi",
+    "display_examples": [
+      "hindustAnikApi",
+      "hindustAni kApi"
+    ]
+  },
+  {
+    "key": "hindustanitodi",
+    "display_examples": [
+      "hindustAni tODi",
+      "hindustanitODi",
+      "hindustAnitODi"
+    ]
+  },
+  {
+    "key": "husani",
+    "display_examples": [
+      "huSani"
+    ]
+  },
+  {
+    "key": "huseni",
+    "display_examples": [
+      "husEni"
+    ]
+  },
+  {
+    "key": "isamanohari",
+    "display_examples": [
+      "IsamanOhari",
+      "ISa manOhari"
+    ]
+  },
+  {
+    "key": "ishamanohari",
+    "display_examples": [
+      "IshamanOhari"
+    ]
+  },
+  {
+    "key": "jaganmohana",
+    "display_examples": [
+      "jaganmOhana"
+    ]
+  },
+  {
+    "key": "jaganmohanam",
+    "display_examples": [
+      "jaganmOhanaM"
+    ]
+  },
+  {
+    "key": "jaganmohini",
+    "display_examples": [
+      "jaganmOhini"
+    ]
+  },
+  {
+    "key": "jalarnava",
+    "display_examples": [
+      "jalArNava"
+    ]
+  },
+  {
+    "key": "janaranajani",
+    "display_examples": [
+      "janaranajani"
+    ]
+  },
+  {
+    "key": "janaranjani",
+    "display_examples": [
+      "janaranjani",
+      "Janaranjani"
+    ]
+  },
+  {
+    "key": "janasammodini",
+    "display_examples": [
+      "jana sammOdhini",
+      "janasammOdini"
+    ]
+  },
+  {
+    "key": "janjuti",
+    "display_examples": [
+      "janjUTi"
+    ]
+  },
+  {
+    "key": "jayamanohari",
+    "display_examples": [
+      "jayamanOhari",
+      "jaya manOhari"
+    ]
+  },
+  {
+    "key": "jayanarayani",
+    "display_examples": [
+      "jayanArAyaNi"
+    ]
+  },
+  {
+    "key": "jayantasena",
+    "display_examples": [
+      "jayantasena",
+      "jayantasEna"
+    ]
+  },
+  {
+    "key": "jayantashri",
+    "display_examples": [
+      "jayantashrI"
+    ]
+  },
+  {
+    "key": "jayantasri",
+    "display_examples": [
+      "JayanthasrI",
+      "jayanta SrI"
+    ]
+  },
+  {
+    "key": "jayashuddamalavi",
+    "display_examples": [
+      "jayashuddhamALavi"
+    ]
+  },
+  {
+    "key": "jayasuddamalavi",
+    "display_examples": [
+      "jaya Suddha mALavi"
+    ]
+  },
+  {
+    "key": "jhanjuti",
+    "display_examples": [
+      "jhanjUTi"
+    ]
+  },
+  {
+    "key": "jhankarabhramari",
+    "display_examples": [
+      "jhankArabhramari"
+    ]
+  },
+  {
+    "key": "jhankaradvani",
+    "display_examples": [
+      "jhankAradhvani",
+      "jhankAra dhvani"
+    ]
+  },
+  {
+    "key": "jhinjhoti",
+    "display_examples": [
+      "Jhinjhoti"
+    ]
+  },
+  {
+    "key": "jhinjoti",
+    "display_examples": [
+      "jhinjOTi",
+      "jhinjoTi"
+    ]
+  },
+  {
+    "key": "jingala",
+    "display_examples": [
+      "Jingala",
+      "jingala"
+    ]
+  },
+  {
+    "key": "jingalakapi",
+    "display_examples": [
+      "jingaLAkApi"
+    ]
+  },
+  {
+    "key": "jingla",
+    "display_examples": [
+      "jinglA"
+    ]
+  },
+  {
+    "key": "jivantika",
+    "display_examples": [
+      "jIvantikA"
+    ]
+  },
+  {
+    "key": "jnanappon",
+    "display_examples": [
+      "jnAnappon"
+    ]
+  },
+  {
+    "key": "jog",
+    "display_examples": [
+      "jOg"
+    ]
+  },
+  {
+    "key": "jogula",
+    "display_examples": [
+      "jOguLa"
+    ]
+  },
+  {
+    "key": "jonpuri",
+    "display_examples": [
+      "jOnpuri"
+    ]
+  },
+  {
+    "key": "jujahuli",
+    "display_examples": [
+      "jujahuli"
+    ]
+  },
+  {
+    "key": "jujavanti",
+    "display_examples": [
+      "jujAvanti"
+    ]
+  },
+  {
+    "key": "jyoti",
+    "display_examples": [
+      "jyOti"
+    ]
+  },
+  {
+    "key": "jyotiswarupini",
+    "display_examples": [
+      "jyOtiswarUpini"
+    ]
+  },
+  {
+    "key": "kadanakutuhala",
+    "display_examples": [
+      "kadanakutUhala"
+    ]
+  },
+  {
+    "key": "kafi",
+    "display_examples": [
+      "kAfi"
+    ]
+  },
+  {
+    "key": "kaikavashi",
+    "display_examples": [
+      "kaikavashi"
+    ]
+  },
+  {
+    "key": "kaikavasi",
+    "display_examples": [
+      "Kaikavasi"
+    ]
+  },
+  {
+    "key": "kalakanti",
+    "display_examples": [
+      "kalAkAnti"
+    ]
+  },
+  {
+    "key": "kalanidi",
+    "display_examples": [
+      "kalAnidhi"
+    ]
+  },
+  {
+    "key": "kalavati",
+    "display_examples": [
+      "kalAvati"
+    ]
+  },
+  {
+    "key": "kalayani",
+    "display_examples": [
+      "Kalayani"
+    ]
+  },
+  {
+    "key": "kalgada",
+    "display_examples": [
+      "kalgaDa"
+    ]
+  },
+  {
+    "key": "kalika",
+    "display_examples": [
+      "kAlikA"
+    ]
+  },
+  {
+    "key": "kalkada",
+    "display_examples": [
+      "kalkaDa"
+    ]
+  },
+  {
+    "key": "kalyanavasanta",
+    "display_examples": [
+      "kalyANavasanta"
+    ]
+  },
+  {
+    "key": "kalyanavasantakambhoji",
+    "display_examples": [
+      "kalyANavasanta/kAmbhOji"
+    ]
+  },
+  {
+    "key": "kalyanavasantamkambhoji",
+    "display_examples": [
+      "kalyANa vasantam,kAmbhOji"
+    ]
+  },
+  {
+    "key": "kalyani",
+    "display_examples": [
+      "Kalyaani",
+      "kalyANi"
+    ]
+  },
+  {
+    "key": "kalyanihamirkalyani",
+    "display_examples": [
+      "kalyANi/hamIrkalyANi"
+    ]
+  },
+  {
+    "key": "kalyni",
+    "display_examples": [
+      "kalyNi"
+    ]
+  },
+  {
+    "key": "kamalamanohari",
+    "display_examples": [
+      "kamalA manOhari",
+      "Kamala Manohari"
+    ]
+  },
+  {
+    "key": "kamavardahani",
+    "display_examples": [
+      "kAmavardahani"
+    ]
+  },
+  {
+    "key": "kamavardini",
+    "display_examples": [
+      "kAmavardhini"
+    ]
+  },
+  {
+    "key": "kambhoji",
+    "display_examples": [
+      "kAmbhOji"
+    ]
+  },
+  {
+    "key": "kambodi",
+    "display_examples": [
+      "Kambodhi"
+    ]
+  },
+  {
+    "key": "kambodikhamboji",
+    "display_examples": [
+      "Kambodhi (Khamboji)"
+    ]
+  },
+  {
+    "key": "kambodikhambojikambhoji",
+    "display_examples": [
+      "Kambodhi (Khamboji, Kambhoji)"
+    ]
+  },
+  {
+    "key": "kamboji",
+    "display_examples": [
+      "kAmbOji"
+    ]
+  },
+  {
+    "key": "kambojikambodi",
+    "display_examples": [
+      "Kamboji (Kambodhi)"
+    ]
+  },
+  {
+    "key": "kamvardani",
+    "display_examples": [
+      "kAmvardhani"
+    ]
+  },
+  {
+    "key": "kanada",
+    "display_examples": [
+      "kAnaDa",
+      "kAnaDA"
+    ]
+  },
+  {
+    "key": "kanadda",
+    "display_examples": [
+      "kAnadDA"
+    ]
+  },
+  {
+    "key": "kanakambari",
+    "display_examples": [
+      "kanakAmbari"
+    ]
+  },
+  {
+    "key": "kanakasaveri",
+    "display_examples": [
+      "kanakasAvEri"
+    ]
+  },
+  {
+    "key": "kannadabangala",
+    "display_examples": [
+      "kannaDa bangALa"
+    ]
+  },
+  {
+    "key": "kannadagowla",
+    "display_examples": [
+      "kannaDagowLa"
+    ]
+  },
+  {
+    "key": "kannadakambhoji",
+    "display_examples": [
+      "kannaDakAmbhOji"
+    ]
+  },
+  {
+    "key": "kannadamaruva",
+    "display_examples": [
+      "kannaDamAruva"
+    ]
+  },
+  {
+    "key": "kapijingala",
+    "display_examples": [
+      "kApijingaLa",
+      "kApijingala"
+    ]
+  },
+  {
+    "key": "kapilam",
+    "display_examples": [
+      "kapilam"
+    ]
+  },
+  {
+    "key": "kapinarayani",
+    "display_examples": [
+      "kApi nArAyaNi",
+      "kApinArAyaNi"
+    ]
+  },
+  {
+    "key": "kapisaranga",
+    "display_examples": [
+      "kApi/sArangA"
+    ]
+  },
+  {
+    "key": "karnaranjani",
+    "display_examples": [
+      "karnaranjani",
+      "karNaranjani"
+    ]
+  },
+  {
+    "key": "karnataka",
+    "display_examples": [
+      "karnATaka"
+    ]
+  },
+  {
+    "key": "karnatakabehag",
+    "display_examples": [
+      "karnATakabehAg",
+      "karnATaka behAg"
+    ]
+  },
+  {
+    "key": "karnatakashuddasaveri",
+    "display_examples": [
+      "karnATakashuddhasAvEri"
+    ]
+  },
+  {
+    "key": "karunakari",
+    "display_examples": [
+      "karuNAkari"
+    ]
+  },
+  {
+    "key": "kashiramakriya",
+    "display_examples": [
+      "kAshIrAmakriyA",
+      "kAshIrAmakriya"
+    ]
+  },
+  {
+    "key": "kasiramakriya",
+    "display_examples": [
+      "kASi rAmakriyA",
+      "kASi rAmakriya"
+    ]
+  },
+  {
+    "key": "katanakutuhalam",
+    "display_examples": [
+      "katanakutUhalam"
+    ]
+  },
+  {
+    "key": "katyayani",
+    "display_examples": [
+      "kAtyAyani",
+      "kAtyAyanI"
+    ]
+  },
+  {
+    "key": "kaushikadvani",
+    "display_examples": [
+      "kaushikadhvani"
+    ]
+  },
+  {
+    "key": "kedara",
+    "display_examples": [
+      "kEdAra"
+    ]
+  },
+  {
+    "key": "kedaragamula",
+    "display_examples": [
+      "kEdArAgamula"
+    ]
+  },
+  {
+    "key": "kedaragowla",
+    "display_examples": [
+      "kEdAra gowLa",
+      "Kedaragowla"
+    ]
+  },
+  {
+    "key": "kedaragowlai",
+    "display_examples": [
+      "Kedaragowlai"
+    ]
+  },
+  {
+    "key": "kedarshuddasarang",
+    "display_examples": [
+      "kEdAr/shuddhasArang"
+    ]
+  },
+  {
+    "key": "kesari",
+    "display_examples": [
+      "kEsari"
+    ]
+  },
+  {
+    "key": "khamas",
+    "display_examples": [
+      "khamAs",
+      "Khamaas"
+    ]
+  },
+  {
+    "key": "khambojikambodi",
+    "display_examples": [
+      "Khamboji (Kambodhi)"
+    ]
+  },
+  {
+    "key": "khammaj",
+    "display_examples": [
+      "khammAj"
+    ]
+  },
+  {
+    "key": "kharharapriya",
+    "display_examples": [
+      "kharharapriyA"
+    ]
+  },
+  {
+    "key": "kiranavalim",
+    "display_examples": [
+      "kiraNAvaLim"
+    ]
+  },
+  {
+    "key": "kmavardani",
+    "display_examples": [
+      "kmavardhani"
+    ]
+  },
+  {
+    "key": "koilapriya",
+    "display_examples": [
+      "kOila priya"
+    ]
+  },
+  {
+    "key": "kokilabhashani",
+    "display_examples": [
+      "kOkilabhAshani"
+    ]
+  },
+  {
+    "key": "kokiladvani",
+    "display_examples": [
+      "kOkiladhvani",
+      "kOkila dhvani"
+    ]
+  },
+  {
+    "key": "kokiladwani",
+    "display_examples": [
+      "kOkiladhwani"
+    ]
+  },
+  {
+    "key": "kokilarava",
+    "display_examples": [
+      "kOkilArava"
+    ]
+  },
+  {
+    "key": "kokilaravam",
+    "display_examples": [
+      "kOkilAravaM"
+    ]
+  },
+  {
+    "key": "kolahalam",
+    "display_examples": [
+      "kOlAhalam"
+    ]
+  },
+  {
+    "key": "kosala",
+    "display_examples": [
+      "kOsala"
+    ]
+  },
+  {
+    "key": "koshalam",
+    "display_examples": [
+      "koshalam"
+    ]
+  },
+  {
+    "key": "kovaisubri",
+    "display_examples": [
+      "Kovai Subri"
+    ]
+  },
+  {
+    "key": "krishnamani",
+    "display_examples": [
+      "krishnamaNi"
+    ]
+  },
+  {
+    "key": "kukubham",
+    "display_examples": [
+      "Kukubham"
+    ]
+  },
+  {
+    "key": "kumbhini",
+    "display_examples": [
+      "kumbhini"
+    ]
+  },
+  {
+    "key": "kumudakriya",
+    "display_examples": [
+      "kumudakriyA"
+    ]
+  },
+  {
+    "key": "kunjari",
+    "display_examples": [
+      "kunjari"
+    ]
+  },
+  {
+    "key": "kuntala",
+    "display_examples": [
+      "kuntaLa"
+    ]
+  },
+  {
+    "key": "kuntalam",
+    "display_examples": [
+      "kuntaLaM",
+      "kuntalam"
+    ]
+  },
+  {
+    "key": "kuntalashrikanti",
+    "display_examples": [
+      "kuntalashrIkaNThi"
+    ]
+  },
+  {
+    "key": "kuntlavarali",
+    "display_examples": [
+      "kuntlavarALi"
+    ]
+  },
+  {
+    "key": "kuranji",
+    "display_examples": [
+      "kuranji"
+    ]
+  },
+  {
+    "key": "kusumakaram",
+    "display_examples": [
+      "kusumAkaram"
+    ]
+  },
+  {
+    "key": "lalitagandarva",
+    "display_examples": [
+      "lalitagandharva"
+    ]
+  },
+  {
+    "key": "lalitapancama",
+    "display_examples": [
+      "lalitapancama"
+    ]
+  },
+  {
+    "key": "lalitapancamam",
+    "display_examples": [
+      "lalita pancamaM",
+      "lalitapancamam"
+    ]
+  },
+  {
+    "key": "lalitapanchamam",
+    "display_examples": [
+      "Lalitha panchamam"
+    ]
+  },
+  {
+    "key": "lalitavasanta",
+    "display_examples": [
+      "lalitA/vasantA"
+    ]
+  },
+  {
+    "key": "lavangi",
+    "display_examples": [
+      "lavAngi",
+      "lavangi"
+    ]
+  },
+  {
+    "key": "madavamanohari",
+    "display_examples": [
+      "mAdhavamanOharI",
+      "mAdhava manOhari",
+      "mAdhavamanOhari"
+    ]
+  },
+  {
+    "key": "madukauns",
+    "display_examples": [
+      "madhukauns"
+    ]
+  },
+  {
+    "key": "madumadavi",
+    "display_examples": [
+      "madhumAdhavi"
+    ]
+  },
+  {
+    "key": "madyamavatikalika",
+    "display_examples": [
+      "madhyamAvati/kAlikA"
+    ]
+  },
+  {
+    "key": "madyamavti",
+    "display_examples": [
+      "madhyamAvti"
+    ]
+  },
+  {
+    "key": "madymavati",
+    "display_examples": [
+      "madymAvati"
+    ]
+  },
+  {
+    "key": "mahati",
+    "display_examples": [
+      "mahatI"
+    ]
+  },
+  {
+    "key": "mahuri",
+    "display_examples": [
+      "mAhuri"
+    ]
+  },
+  {
+    "key": "maitrabhavini",
+    "display_examples": [
+      "maitrabhAvini"
+    ]
+  },
+  {
+    "key": "malavapancama",
+    "display_examples": [
+      "mALavapancama"
+    ]
+  },
+  {
+    "key": "malavapancamam",
+    "display_examples": [
+      "mALava pancamaM"
+    ]
+  },
+  {
+    "key": "malavashri",
+    "display_examples": [
+      "mALavashrI"
+    ]
+  },
+  {
+    "key": "malavasri",
+    "display_examples": [
+      "mALava SrI"
+    ]
+  },
+  {
+    "key": "malayamaruta",
+    "display_examples": [
+      "malayamAruta"
+    ]
+  },
+  {
+    "key": "malkauns",
+    "display_examples": [
+      "mAlkauns"
+    ]
+  },
+  {
+    "key": "manasijapriya",
+    "display_examples": [
+      "manasijapriyA"
+    ]
+  },
+  {
+    "key": "mand",
+    "display_examples": [
+      "mAnD",
+      "mAND"
+    ]
+  },
+  {
+    "key": "mandari",
+    "display_examples": [
+      "mandAri"
+    ]
+  },
+  {
+    "key": "mangalakaishiki",
+    "display_examples": [
+      "mangaLakaishiki"
+    ]
+  },
+  {
+    "key": "mangalakaisiki",
+    "display_examples": [
+      "mangaLa kaiSiki",
+      "mangaLa kaisiki"
+    ]
+  },
+  {
+    "key": "mangalakausika",
+    "display_examples": [
+      "Mangala kausika"
+    ]
+  },
+  {
+    "key": "manji",
+    "display_examples": [
+      "mAnji"
+    ]
+  },
+  {
+    "key": "manjisabhairavi",
+    "display_examples": [
+      "mAnjisabhairavi"
+    ]
+  },
+  {
+    "key": "manorama",
+    "display_examples": [
+      "manOrama",
+      "manOramA"
+    ]
+  },
+  {
+    "key": "manoranjani",
+    "display_examples": [
+      "manOranjani"
+    ]
+  },
+  {
+    "key": "marakatamani",
+    "display_examples": [
+      "marakatamani"
+    ]
+  },
+  {
+    "key": "maravi",
+    "display_examples": [
+      "mAravi"
+    ]
+  },
+  {
+    "key": "margadeshi",
+    "display_examples": [
+      "mArgadEshi"
+    ]
+  },
+  {
+    "key": "margadesi",
+    "display_examples": [
+      "mArga dESi"
+    ]
+  },
+  {
+    "key": "margahindola",
+    "display_examples": [
+      "mArgahindOLa"
+    ]
+  },
+  {
+    "key": "maruva",
+    "display_examples": [
+      "mAruva"
+    ]
+  },
+  {
+    "key": "maruvadanyasi",
+    "display_examples": [
+      "maruvadhanyAsi"
+    ]
+  },
+  {
+    "key": "mayamalavagaula",
+    "display_examples": [
+      "mAyAmALavagauLa"
+    ]
+  },
+  {
+    "key": "mayamalavagowlai",
+    "display_examples": [
+      "Mayamalavagowlai"
+    ]
+  },
+  {
+    "key": "mayapradiptam",
+    "display_examples": [
+      "mAyapradIptam"
+    ]
+  },
+  {
+    "key": "mayuradvani",
+    "display_examples": [
+      "mayUradhvani"
+    ]
+  },
+  {
+    "key": "mecabauli",
+    "display_examples": [
+      "mEca bauLi",
+      "mEcabauLi"
+    ]
+  },
+  {
+    "key": "mecagaula",
+    "display_examples": [
+      "mEcagauLa"
+    ]
+  },
+  {
+    "key": "megharanjani",
+    "display_examples": [
+      "mEgharanjani"
+    ]
+  },
+  {
+    "key": "mianmalhar",
+    "display_examples": [
+      "mianmalhAr"
+    ]
+  },
+  {
+    "key": "mishra",
+    "display_examples": [
+      "mishra"
+    ]
+  },
+  {
+    "key": "mishrakamaj",
+    "display_examples": [
+      "mishra kamAj"
+    ]
+  },
+  {
+    "key": "mohana",
+    "display_examples": [
+      "mOhana"
+    ]
+  },
+  {
+    "key": "mohanakaishiki",
+    "display_examples": [
+      "mOhanakaishiki"
+    ]
+  },
+  {
+    "key": "mohanakalyani",
+    "display_examples": [
+      "mOhana kalyANi"
+    ]
+  },
+  {
+    "key": "mohanam",
+    "display_examples": [
+      "Mohanam",
+      "mOhanam"
+    ]
+  },
+  {
+    "key": "mohananata",
+    "display_examples": [
+      "mOhananATa",
+      "mOhana nATa"
+    ]
+  },
+  {
+    "key": "mohanangi",
+    "display_examples": [
+      "mOhanAngi"
+    ]
+  },
+  {
+    "key": "muktidayini",
+    "display_examples": [
+      "muktidAyini"
+    ]
+  },
+  {
+    "key": "murali",
+    "display_examples": [
+      "muraLI"
+    ]
+  },
+  {
+    "key": "mysoresadashivarao",
+    "display_examples": [
+      "Mysore Sadaashiva Rao"
+    ]
+  },
+  {
+    "key": "nabhomani",
+    "display_examples": [
+      "nabhOmaNi",
+      "nabhO maNi"
+    ]
+  },
+  {
+    "key": "nadabrahma",
+    "display_examples": [
+      "nAdabrahma"
+    ]
+  },
+  {
+    "key": "nadanamakriya",
+    "display_examples": [
+      "nAdanAmakriya",
+      "nAdanAmakriyA"
+    ]
+  },
+  {
+    "key": "nadanamakriyashankarabharana",
+    "display_examples": [
+      "nAdanAmakriyA/shankarAbharaNa"
+    ]
+  },
+  {
+    "key": "nadanamkriya",
+    "display_examples": [
+      "nAdanAmkriya"
+    ]
+  },
+  {
+    "key": "nadaramakriya",
+    "display_examples": [
+      "nAda rAmakriya"
+    ]
+  },
+  {
+    "key": "nadavarangini",
+    "display_examples": [
+      "nAda varAngiNi",
+      "nAdavarangini"
+    ]
+  },
+  {
+    "key": "nagabharanam",
+    "display_examples": [
+      "nAgAbharaNam"
+    ]
+  },
+  {
+    "key": "nagabhusani",
+    "display_examples": [
+      "nAgabhUSaNi"
+    ]
+  },
+  {
+    "key": "nagabhushani",
+    "display_examples": [
+      "nAgabhUshani"
+    ]
+  },
+  {
+    "key": "nagadvani",
+    "display_examples": [
+      "nAga dhvani",
+      "nAgadhvani"
+    ]
+  },
+  {
+    "key": "nagagandari",
+    "display_examples": [
+      "nAgagAndhAri",
+      "Naaga gaandhaari"
+    ]
+  },
+  {
+    "key": "nagasvarali",
+    "display_examples": [
+      "nAgasvarALi"
+    ]
+  },
+  {
+    "key": "nagaswaravali",
+    "display_examples": [
+      "nAgaswarAvaLi"
+    ]
+  },
+  {
+    "key": "nagavarali",
+    "display_examples": [
+      "nAgavarALi",
+      "nAga varALi"
+    ]
+  },
+  {
+    "key": "namadesi",
+    "display_examples": [
+      "nAmadEsi",
+      "nAma dESi"
+    ]
+  },
+  {
+    "key": "narayanadesakshi",
+    "display_examples": [
+      "nArAyaNa dESAkshi"
+    ]
+  },
+  {
+    "key": "narayanadeshaksi",
+    "display_examples": [
+      "nArAyaNadEshAkSi"
+    ]
+  },
+  {
+    "key": "narayanagaula",
+    "display_examples": [
+      "nArAyaNa gauLa",
+      "nArAyaNagauLa"
+    ]
+  },
+  {
+    "key": "narayanagowla",
+    "display_examples": [
+      "nArAyaNa gowLa"
+    ]
+  },
+  {
+    "key": "narayani",
+    "display_examples": [
+      "nArAyaNi"
+    ]
+  },
+  {
+    "key": "nariritigaula",
+    "display_examples": [
+      "nArIrItigauLa"
+    ]
+  },
+  {
+    "key": "nasamani",
+    "display_examples": [
+      "nAsAmaNi"
+    ]
+  },
+  {
+    "key": "nasikabhusai",
+    "display_examples": [
+      "nAsikAbhUSai"
+    ]
+  },
+  {
+    "key": "nasikabhusani",
+    "display_examples": [
+      "nAsikAbhUSaNi"
+    ]
+  },
+  {
+    "key": "nasikabhushhani",
+    "display_examples": [
+      "nAsikabhUshhaNi"
+    ]
+  },
+  {
+    "key": "nata",
+    "display_examples": [
+      "nATa"
+    ]
+  },
+  {
+    "key": "natabairavi",
+    "display_examples": [
+      "naTabairavi"
+    ]
+  },
+  {
+    "key": "natabharanam",
+    "display_examples": [
+      "naTAbharaNam",
+      "naTAbharaNaM"
+    ]
+  },
+  {
+    "key": "natagambhiranata",
+    "display_examples": [
+      "nATa/gambhIranATa"
+    ]
+  },
+  {
+    "key": "natakuranji",
+    "display_examples": [
+      "nATakuranji"
+    ]
+  },
+  {
+    "key": "natakurinji",
+    "display_examples": [
+      "Naata kurinji"
+    ]
+  },
+  {
+    "key": "natanarayani",
+    "display_examples": [
+      "naTanArAyaNi",
+      "naTa nArAyaNi"
+    ]
+  },
+  {
+    "key": "nattai",
+    "display_examples": [
+      "nATTai"
+    ]
+  },
+  {
+    "key": "nattaigambhiranattai",
+    "display_examples": [
+      "nATTai,gambhIranATTai"
+    ]
+  },
+  {
+    "key": "nattaikurinji",
+    "display_examples": [
+      "nATTai kurinji"
+    ]
+  },
+  {
+    "key": "nattainata",
+    "display_examples": [
+      "Nattai (Nata)"
+    ]
+  },
+  {
+    "key": "nattakuranji",
+    "display_examples": [
+      "nATTakuranji"
+    ]
+  },
+  {
+    "key": "navanita",
+    "display_examples": [
+      "navanIta"
+    ]
+  },
+  {
+    "key": "navarasa",
+    "display_examples": [
+      "navarasa"
+    ]
+  },
+  {
+    "key": "navarasakalanidi",
+    "display_examples": [
+      "navarasakalAnidhi"
+    ]
+  },
+  {
+    "key": "navarasam",
+    "display_examples": [
+      "navarasam",
+      "Navarasam"
+    ]
+  },
+  {
+    "key": "navaratnavilasa",
+    "display_examples": [
+      "navaratnavilAsa"
+    ]
+  },
+  {
+    "key": "navaratnavilasam",
+    "display_examples": [
+      "navaratnavilAsam",
+      "nava ratna vilAsaM",
+      "navaratna vilAsam"
+    ]
+  },
+  {
+    "key": "navroj",
+    "display_examples": [
+      "navrOj"
+    ]
+  },
+  {
+    "key": "nila",
+    "display_examples": [
+      "nIlA"
+    ]
+  },
+  {
+    "key": "nilamani",
+    "display_examples": [
+      "nIlamaNi"
+    ]
+  },
+  {
+    "key": "nilambri",
+    "display_examples": [
+      "nIlAmbri"
+    ]
+  },
+  {
+    "key": "niranjani",
+    "display_examples": [
+      "niranjani"
+    ]
+  },
+  {
+    "key": "niroshta",
+    "display_examples": [
+      "niroshTa",
+      "nirOshTa"
+    ]
+  },
+  {
+    "key": "nirosta",
+    "display_examples": [
+      "nirOSTA"
+    ]
+  },
+  {
+    "key": "nisadam",
+    "display_examples": [
+      "niSadam"
+    ]
+  },
+  {
+    "key": "nishada",
+    "display_examples": [
+      "nishada"
+    ]
+  },
+  {
+    "key": "padi",
+    "display_examples": [
+      "pADi"
+    ]
+  },
+  {
+    "key": "pahadi",
+    "display_examples": [
+      "pahADi"
+    ]
+  },
+  {
+    "key": "pancamam",
+    "display_examples": [
+      "pancamam"
+    ]
+  },
+  {
+    "key": "pantuvarali",
+    "display_examples": [
+      "pantuvarALi",
+      "Panthuvarali"
+    ]
+  },
+  {
+    "key": "paraju",
+    "display_examples": [
+      "paraju"
+    ]
+  },
+  {
+    "key": "paras",
+    "display_examples": [
+      "paras"
+    ]
+  },
+  {
+    "key": "parasu",
+    "display_examples": [
+      "Parasu"
+    ]
+  },
+  {
+    "key": "part1",
+    "display_examples": [
+      "Part 1"
+    ]
+  },
+  {
+    "key": "part2",
+    "display_examples": [
+      "Part 2"
+    ]
+  },
+  {
+    "key": "part3",
+    "display_examples": [
+      "Part 3"
+    ]
+  },
+  {
+    "key": "part4",
+    "display_examples": [
+      "Part 4"
+    ]
+  },
+  {
+    "key": "part5",
+    "display_examples": [
+      "Part 5"
+    ]
+  },
+  {
+    "key": "pashupatipriya",
+    "display_examples": [
+      "pashupatipriyA"
+    ]
+  },
+  {
+    "key": "patadip",
+    "display_examples": [
+      "paTadIp"
+    ]
+  },
+  {
+    "key": "patdip",
+    "display_examples": [
+      "paTdIp",
+      "Pat Deep"
+    ]
+  },
+  {
+    "key": "phalaranjani",
+    "display_examples": [
+      "phala ranjani"
+    ]
+  },
+  {
+    "key": "pharaju",
+    "display_examples": [
+      "pharaju"
+    ]
+  },
+  {
+    "key": "phenadyuti",
+    "display_examples": [
+      "phEnadyuti"
+    ]
+  },
+  {
+    "key": "pilu",
+    "display_examples": [
+      "pilU",
+      "pIlu"
+    ]
+  },
+  {
+    "key": "pratapavarali",
+    "display_examples": [
+      "pratApavarALi"
+    ]
+  },
+  {
+    "key": "priyadarshani",
+    "display_examples": [
+      "priyadarshani"
+    ]
+  },
+  {
+    "key": "pulusumadhimam",
+    "display_examples": [
+      "pulusumadhhimam"
+    ]
+  },
+  {
+    "key": "punagavarali",
+    "display_examples": [
+      "punAgavarALi"
+    ]
+  },
+  {
+    "key": "punnagatodi",
+    "display_examples": [
+      "punnAgatODi"
+    ]
+  },
+  {
+    "key": "punnagavarali",
+    "display_examples": [
+      "Punnaga varaali",
+      "punnAgavarALi"
+    ]
+  },
+  {
+    "key": "punnagvarali",
+    "display_examples": [
+      "punnAgvarALi"
+    ]
+  },
+  {
+    "key": "purandaradasar",
+    "display_examples": [
+      "Purandara Daasar"
+    ]
+  },
+  {
+    "key": "purikalyani",
+    "display_examples": [
+      "pUri kalyANi"
+    ]
+  },
+  {
+    "key": "purnacandrika",
+    "display_examples": [
+      "pUrnacandrikA",
+      "pUrNacandrikA"
+    ]
+  },
+  {
+    "key": "purnalalita",
+    "display_examples": [
+      "pUrNa lalitA",
+      "pUrnalalitA"
+    ]
+  },
+  {
+    "key": "purnapancama",
+    "display_examples": [
+      "pUrNapancama"
+    ]
+  },
+  {
+    "key": "purnapancamam",
+    "display_examples": [
+      "pUrNa pancamaM"
+    ]
+  },
+  {
+    "key": "purnasadja",
+    "display_examples": [
+      "pUrNaSaDja"
+    ]
+  },
+  {
+    "key": "purnasadjam",
+    "display_examples": [
+      "pUrNaSaDjam"
+    ]
+  },
+  {
+    "key": "purnashadjam",
+    "display_examples": [
+      "pUrnashadjam"
+    ]
+  },
+  {
+    "key": "purvagaula",
+    "display_examples": [
+      "pUrva gauLa",
+      "pUrvagauLa"
+    ]
+  },
+  {
+    "key": "purvavarali",
+    "display_examples": [
+      "pUrva varALi"
+    ]
+  },
+  {
+    "key": "purvavaralikamavardani",
+    "display_examples": [
+      "pUrvavarALi/kAmavardhani"
+    ]
+  },
+  {
+    "key": "purvi",
+    "display_examples": [
+      "Poorvi",
+      "pUrvi"
+    ]
+  },
+  {
+    "key": "purvikalyani",
+    "display_examples": [
+      "pUrvikalyANi"
+    ]
+  },
+  {
+    "key": "purvikambhoji",
+    "display_examples": [
+      "Poorvi kaambhoji"
+    ]
+  },
+  {
+    "key": "pushakalyani",
+    "display_examples": [
+      "pUshakalyANi"
+    ]
+  },
+  {
+    "key": "pushpalatika",
+    "display_examples": [
+      "Pushpa lathika",
+      "pushpalatika"
+    ]
+  },
+  {
+    "key": "puspalatika",
+    "display_examples": [
+      "puSpalatikA"
+    ]
+  },
+  {
+    "key": "ragacudamani",
+    "display_examples": [
+      "rAga cUDAmaNi"
+    ]
+  },
+  {
+    "key": "ragamalika",
+    "display_examples": [
+      "rAgamAlika",
+      "RAgamAlikA",
+      "rAgamAlikA"
+    ]
+  },
+  {
+    "key": "ragamalikabrindavanimayamalavagowla",
+    "display_examples": [
+      "rAgamAlikA,brindAvani,mAyamALava gowLa"
+    ]
+  },
+  {
+    "key": "ragamalikasaraswatimanoharishripunnagavarali",
+    "display_examples": [
+      "rAgamAlikA,saraswati manOhari,shrI,punnAgavarALi"
+    ]
+  },
+  {
+    "key": "ragapanjara",
+    "display_examples": [
+      "rAgapanjara"
+    ]
+  },
+  {
+    "key": "ragapanjaram",
+    "display_examples": [
+      "rAga panjaraM"
+    ]
+  },
+  {
+    "key": "ragapanjaramu",
+    "display_examples": [
+      "rAgapanjaramu"
+    ]
+  },
+  {
+    "key": "ragavardani",
+    "display_examples": [
+      "rAgavardani",
+      "rAgavardhani"
+    ]
+  },
+  {
+    "key": "ragavinodini",
+    "display_examples": [
+      "rAgavinOdini"
+    ]
+  },
+  {
+    "key": "raktimargini",
+    "display_examples": [
+      "raktimArgini"
+    ]
+  },
+  {
+    "key": "ramakali",
+    "display_examples": [
+      "rAmakali"
+    ]
+  },
+  {
+    "key": "ramamanohari",
+    "display_examples": [
+      "ramAmanOhari"
+    ]
+  },
+  {
+    "key": "rasali",
+    "display_examples": [
+      "Rasali",
+      "rasALi"
+    ]
+  },
+  {
+    "key": "rasalivanalivanavali",
+    "display_examples": [
+      "rasALi-vanALi-vanAvaLi"
+    ]
+  },
+  {
+    "key": "rasamanjari",
+    "display_examples": [
+      "rasamanjari"
+    ]
+  },
+  {
+    "key": "ratipatipriya",
+    "display_examples": [
+      "ratipatipriyA"
+    ]
+  },
+  {
+    "key": "ratipriya",
+    "display_examples": [
+      "rati priya"
+    ]
+  },
+  {
+    "key": "ratnakanti",
+    "display_examples": [
+      "ratnakAnti"
+    ]
+  },
+  {
+    "key": "ravicandirka",
+    "display_examples": [
+      "ravi candirka"
+    ]
+  },
+  {
+    "key": "ravicandrika",
+    "display_examples": [
+      "ravicandrikA",
+      "ravi candrikA"
+    ]
+  },
+  {
+    "key": "ravikriya",
+    "display_examples": [
+      "ravikriyA"
+    ]
+  },
+  {
+    "key": "ravisvarupini",
+    "display_examples": [
+      "ravisvarUpiNi"
+    ]
+  },
+  {
+    "key": "revagupti",
+    "display_examples": [
+      "rEvagupti"
+    ]
+  },
+  {
+    "key": "risabhapriya",
+    "display_examples": [
+      "riSabhapriyA"
+    ]
+  },
+  {
+    "key": "rishhabapriya",
+    "display_examples": [
+      "rishhabapriyA"
+    ]
+  },
+  {
+    "key": "rishhabhapriya",
+    "display_examples": [
+      "rishhabhapriyA"
+    ]
+  },
+  {
+    "key": "ritigaula",
+    "display_examples": [
+      "rIti gauLa",
+      "rItigauLa",
+      "Reethi Gaula"
+    ]
+  },
+  {
+    "key": "ritigowlai",
+    "display_examples": [
+      "Reethigowlai"
+    ]
+  },
+  {
+    "key": "rohini",
+    "display_examples": [
+      "rOhiNi"
+    ]
+  },
+  {
+    "key": "rudrapriya",
+    "display_examples": [
+      "rudrapriya",
+      "rudra priya",
+      "Rudrapriya"
+    ]
+  },
+  {
+    "key": "sadvidamargini",
+    "display_examples": [
+      "SaDvidhamArgiNi"
+    ]
+  },
+  {
+    "key": "sailadesakshi",
+    "display_examples": [
+      "Saila dESAkshi"
+    ]
+  },
+  {
+    "key": "saindavi",
+    "display_examples": [
+      "Saindhavi",
+      "saindhavi"
+    ]
+  },
+  {
+    "key": "salaga",
+    "display_examples": [
+      "sAlaga"
+    ]
+  },
+  {
+    "key": "salagabhairavi",
+    "display_examples": [
+      "sAlagabhairavi"
+    ]
+  },
+  {
+    "key": "salakabhairavi",
+    "display_examples": [
+      "sAlaka bhairavi"
+    ]
+  },
+  {
+    "key": "salanganata",
+    "display_examples": [
+      "sALanganATa",
+      "sAlanga nATa"
+    ]
+  },
+  {
+    "key": "samanta",
+    "display_examples": [
+      "sAmanta"
+    ]
+  },
+  {
+    "key": "samantadiparam",
+    "display_examples": [
+      "sAmantadIparam"
+    ]
+  },
+  {
+    "key": "samantam",
+    "display_examples": [
+      "sAmantAm"
+    ]
+  },
+  {
+    "key": "sanagrani",
+    "display_examples": [
+      "sAnAgraNi"
+    ]
+  },
+  {
+    "key": "sankarabharanam",
+    "display_examples": [
+      "SankarAbharaNaM",
+      "Sankaraabharanam"
+    ]
+  },
+  {
+    "key": "sanmukhapriya",
+    "display_examples": [
+      "SaNmukhapriya",
+      "SaNmukhapriyA"
+    ]
+  },
+  {
+    "key": "santanamanjari",
+    "display_examples": [
+      "santAna manjari",
+      "santAnamanjari"
+    ]
+  },
+  {
+    "key": "saraga",
+    "display_examples": [
+      "sAragA"
+    ]
+  },
+  {
+    "key": "saranga",
+    "display_examples": [
+      "sAranga",
+      "sArangA"
+    ]
+  },
+  {
+    "key": "sarangam",
+    "display_examples": [
+      "Saarangam"
+    ]
+  },
+  {
+    "key": "sarangamalhar",
+    "display_examples": [
+      "sAranga malhAr",
+      "sArangamalhAr"
+    ]
+  },
+  {
+    "key": "saranganata",
+    "display_examples": [
+      "Saaranga naata"
+    ]
+  },
+  {
+    "key": "sarangatarangini",
+    "display_examples": [
+      "sAranga tArangini"
+    ]
+  },
+  {
+    "key": "sarasvati",
+    "display_examples": [
+      "sarasvati"
+    ]
+  },
+  {
+    "key": "sarasvatimanohari",
+    "display_examples": [
+      "sarasvati manOhari",
+      "Sarasvati manohari",
+      "sarasvatimanOhari"
+    ]
+  },
+  {
+    "key": "saraswati",
+    "display_examples": [
+      "saraswati"
+    ]
+  },
+  {
+    "key": "saraswatimanohari",
+    "display_examples": [
+      "saraswati manOhari"
+    ]
+  },
+  {
+    "key": "saravati",
+    "display_examples": [
+      "SarAvatI"
+    ]
+  },
+  {
+    "key": "sarvashri",
+    "display_examples": [
+      "sarvashrI"
+    ]
+  },
+  {
+    "key": "saugandini",
+    "display_examples": [
+      "saugandhini"
+    ]
+  },
+  {
+    "key": "saujanya",
+    "display_examples": [
+      "saujanyA"
+    ]
+  },
+  {
+    "key": "saurasena",
+    "display_examples": [
+      "saura sEna",
+      "saurasEna"
+    ]
+  },
+  {
+    "key": "saurastra",
+    "display_examples": [
+      "saurASTra"
+    ]
+  },
+  {
+    "key": "saurstra",
+    "display_examples": [
+      "saurSTra"
+    ]
+  },
+  {
+    "key": "sauviram",
+    "display_examples": [
+      "sauvIram",
+      "sauvIraM"
+    ]
+  },
+  {
+    "key": "saveri",
+    "display_examples": [
+      "sAvEri",
+      "Saaveri"
+    ]
+  },
+  {
+    "key": "senagrani",
+    "display_examples": [
+      "sEnAgraNi"
+    ]
+  },
+  {
+    "key": "senjurutti",
+    "display_examples": [
+      "Senjurutti"
+    ]
+  },
+  {
+    "key": "shahana",
+    "display_examples": [
+      "shahAnA",
+      "Shahana",
+      "shahAna"
+    ]
+  },
+  {
+    "key": "shailadeshaksi",
+    "display_examples": [
+      "shailadEshAkSi"
+    ]
+  },
+  {
+    "key": "shakuntala",
+    "display_examples": [
+      "shakuntALA"
+    ]
+  },
+  {
+    "key": "shankarabarana",
+    "display_examples": [
+      "shankarAbaraNa"
+    ]
+  },
+  {
+    "key": "shankarabharana",
+    "display_examples": [
+      "shankarAbharaNa"
+    ]
+  },
+  {
+    "key": "shankarabharanam",
+    "display_examples": [
+      "shankarAbharaNam"
+    ]
+  },
+  {
+    "key": "shankarabharanasindubhairavi",
+    "display_examples": [
+      "shankarAbharaNa/sindhubhairavi"
+    ]
+  },
+  {
+    "key": "shankarbharana",
+    "display_examples": [
+      "shankarbharaNa"
+    ]
+  },
+  {
+    "key": "shanmugapriya",
+    "display_examples": [
+      "shanmugapriyA"
+    ]
+  },
+  {
+    "key": "sharavati",
+    "display_examples": [
+      "sharAvati"
+    ]
+  },
+  {
+    "key": "shencukambhoji",
+    "display_examples": [
+      "shencukAmbhOji"
+    ]
+  },
+  {
+    "key": "shenjurutti",
+    "display_examples": [
+      "shenjuruTTi"
+    ]
+  },
+  {
+    "key": "shhadvidamargini",
+    "display_examples": [
+      "shhadvidamArgini"
+    ]
+  },
+  {
+    "key": "shhanmugapriya",
+    "display_examples": [
+      "shhanmugapriyA"
+    ]
+  },
+  {
+    "key": "shilangi",
+    "display_examples": [
+      "shIlAngi"
+    ]
+  },
+  {
+    "key": "shivapantuvarali",
+    "display_examples": [
+      "shivapantuvarALi"
+    ]
+  },
+  {
+    "key": "shivaranjani",
+    "display_examples": [
+      "shivaranjani -",
+      "shiva ranjani -",
+      "shiva ranjani"
+    ]
+  },
+  {
+    "key": "shivashakti",
+    "display_examples": [
+      "shivashakti"
+    ]
+  },
+  {
+    "key": "shokapantuvarali",
+    "display_examples": [
+      "shOkapantuvarALi"
+    ]
+  },
+  {
+    "key": "shri",
+    "display_examples": [
+      "shri",
+      "shrI"
+    ]
+  },
+  {
+    "key": "shrimani",
+    "display_examples": [
+      "shrImaNi"
+    ]
+  },
+  {
+    "key": "shriragam",
+    "display_examples": [
+      "Shree Ragam",
+      "shrI rAgam"
+    ]
+  },
+  {
+    "key": "shriranjani",
+    "display_examples": [
+      "shrIranjani"
+    ]
+  },
+  {
+    "key": "shuddabangala",
+    "display_examples": [
+      "shuddhabangALA",
+      "shuddhabangALa"
+    ]
+  },
+  {
+    "key": "shuddadanyasi",
+    "display_examples": [
+      "shuddhadhanyAsi"
+    ]
+  },
+  {
+    "key": "shuddadasnyasi",
+    "display_examples": [
+      "shuddhadhasnyAsi"
+    ]
+  },
+  {
+    "key": "shuddadesi",
+    "display_examples": [
+      "shuddhadEsi"
+    ]
+  },
+  {
+    "key": "shuddalalita",
+    "display_examples": [
+      "shuddhalalita",
+      "shuddhalalitA"
+    ]
+  },
+  {
+    "key": "shuddamanohari",
+    "display_examples": [
+      "shuddhamanOhari"
+    ]
+  },
+  {
+    "key": "shuddamukhari",
+    "display_examples": [
+      "shuddhamukhAri"
+    ]
+  },
+  {
+    "key": "shuddasarang",
+    "display_examples": [
+      "shuddhasArang"
+    ]
+  },
+  {
+    "key": "shuddasaveri",
+    "display_examples": [
+      "shuddhasAveri",
+      "shuddhasAvEri"
+    ]
+  },
+  {
+    "key": "shuddasaveridevakriya",
+    "display_examples": [
+      "Shuddha Saveri (Devakriya)"
+    ]
+  },
+  {
+    "key": "shuddasimantini",
+    "display_examples": [
+      "Shuddha Seemanthini",
+      "shudhdhasImantini",
+      "shuddhasImantini"
+    ]
+  },
+  {
+    "key": "shuddavasanta",
+    "display_examples": [
+      "shuddhavasantA"
+    ]
+  },
+  {
+    "key": "shuddsarang",
+    "display_examples": [
+      "shuddhsArang"
+    ]
+  },
+  {
+    "key": "shulini",
+    "display_examples": [
+      "shUlini"
+    ]
+  },
+  {
+    "key": "shurutti",
+    "display_examples": [
+      "shuruTTi"
+    ]
+  },
+  {
+    "key": "shyama",
+    "display_examples": [
+      "shyAmA"
+    ]
+  },
+  {
+    "key": "shyamakalyani",
+    "display_examples": [
+      "shyAmakalyANi"
+    ]
+  },
+  {
+    "key": "shyamala",
+    "display_examples": [
+      "shyAmaLa"
+    ]
+  },
+  {
+    "key": "shyamalangi",
+    "display_examples": [
+      "shyAmaLAngi"
+    ]
+  },
+  {
+    "key": "siddasena",
+    "display_examples": [
+      "siddhasEnA",
+      "siddhasEna"
+    ]
+  },
+  {
+    "key": "simantini",
+    "display_examples": [
+      "sImantini"
+    ]
+  },
+  {
+    "key": "simendramadyam",
+    "display_examples": [
+      "simEndramadhyam"
+    ]
+  },
+  {
+    "key": "simharava",
+    "display_examples": [
+      "simhArava"
+    ]
+  },
+  {
+    "key": "simhavahini",
+    "display_examples": [
+      "simhavAhini",
+      "Simhavahini"
+    ]
+  },
+  {
+    "key": "simhendramadyam",
+    "display_examples": [
+      "simhEndramadhyam"
+    ]
+  },
+  {
+    "key": "simhendramdyam",
+    "display_examples": [
+      "simhEndramdhyam"
+    ]
+  },
+  {
+    "key": "sindubhairaviabheri",
+    "display_examples": [
+      "sindhubhairavi/AbhEri"
+    ]
+  },
+  {
+    "key": "sindukannada",
+    "display_examples": [
+      "Sindhu Kannada",
+      "sindhukannada",
+      "sindhu kannaDa"
+    ]
+  },
+  {
+    "key": "sindumandari",
+    "display_examples": [
+      "sindhumandAri",
+      "sindu mandAri"
+    ]
+  },
+  {
+    "key": "sinduramakriya",
+    "display_examples": [
+      "sindu rAmakriyA",
+      "sindhurAmakriyA"
+    ]
+  },
+  {
+    "key": "sivapantuvarali",
+    "display_examples": [
+      "Siva pantuvarALi"
+    ]
+  },
+  {
+    "key": "sohini",
+    "display_examples": [
+      "sOhini"
+    ]
+  },
+  {
+    "key": "sorat",
+    "display_examples": [
+      "sOraTh"
+    ]
+  },
+  {
+    "key": "sowrashtram",
+    "display_examples": [
+      "sowrAshTram"
+    ]
+  },
+  {
+    "key": "sowrastram",
+    "display_examples": [
+      "Sowrastram"
+    ]
+  },
+  {
+    "key": "sri",
+    "display_examples": [
+      "Sri"
+    ]
+  },
+  {
+    "key": "srimani",
+    "display_examples": [
+      "SrImaNi"
+    ]
+  },
+  {
+    "key": "sriragam",
+    "display_examples": [
+      "Sri Ragam",
+      "SrI rAgaM"
+    ]
+  },
+  {
+    "key": "sriranjini",
+    "display_examples": [
+      "Sri ranjini"
+    ]
+  },
+  {
+    "key": "srutiranjani",
+    "display_examples": [
+      "Sruti ranjani"
+    ]
+  },
+  {
+    "key": "stavarajam",
+    "display_examples": [
+      "stavarAjam",
+      "stava rAjaM"
+    ]
+  },
+  {
+    "key": "subhapantuvarali",
+    "display_examples": [
+      "Subha pantuvarALi"
+    ]
+  },
+  {
+    "key": "sucaritra",
+    "display_examples": [
+      "sucaritra"
+    ]
+  },
+  {
+    "key": "sudalalita",
+    "display_examples": [
+      "Sudha lalitha"
+    ]
+  },
+  {
+    "key": "sudasaveri",
+    "display_examples": [
+      "Sudha Saveri"
+    ]
+  },
+  {
+    "key": "suddabhairavi",
+    "display_examples": [
+      "Suddha bhairavi"
+    ]
+  },
+  {
+    "key": "suddadesi",
+    "display_examples": [
+      "Suddha dESi",
+      "sudda dEsi"
+    ]
+  },
+  {
+    "key": "suddahindolam",
+    "display_examples": [
+      "sudda hindOLam"
+    ]
+  },
+  {
+    "key": "suddahindolamvaram",
+    "display_examples": [
+      "sudda hindOLam (varam)"
+    ]
+  },
+  {
+    "key": "suddalalita",
+    "display_examples": [
+      "sudda lalitA"
+    ]
+  },
+  {
+    "key": "suddamukhari",
+    "display_examples": [
+      "Suddha mukhAri"
+    ]
+  },
+  {
+    "key": "suddasimantini",
+    "display_examples": [
+      "sudda sImantini"
+    ]
+  },
+  {
+    "key": "suddavasatam",
+    "display_examples": [
+      "Suddha vasataM"
+    ]
+  },
+  {
+    "key": "sugunabhushani",
+    "display_examples": [
+      "suguNabhUshani"
+    ]
+  },
+  {
+    "key": "suksma",
+    "display_examples": [
+      "sUkSma"
+    ]
+  },
+  {
+    "key": "sumadyuti",
+    "display_examples": [
+      "sumadyuti"
+    ]
+  },
+  {
+    "key": "sumanapriya",
+    "display_examples": [
+      "sumanapriyA"
+    ]
+  },
+  {
+    "key": "sumanesharanjani",
+    "display_examples": [
+      "sumanEsharanjani"
+    ]
+  },
+  {
+    "key": "sumukhi",
+    "display_examples": [
+      "sumukhi"
+    ]
+  },
+  {
+    "key": "sunadavinodini",
+    "display_examples": [
+      "sunAda vinOdini",
+      "sunAdavinOdini"
+    ]
+  },
+  {
+    "key": "sundarangi",
+    "display_examples": [
+      "sundarAngi"
+    ]
+  },
+  {
+    "key": "suposhini",
+    "display_examples": [
+      "supOshini"
+    ]
+  },
+  {
+    "key": "suposini",
+    "display_examples": [
+      "supOSiNi"
+    ]
+  },
+  {
+    "key": "supradipa",
+    "display_examples": [
+      "supradIpa"
+    ]
+  },
+  {
+    "key": "supradipam",
+    "display_examples": [
+      "supradIpam"
+    ]
+  },
+  {
+    "key": "supradipama",
+    "display_examples": [
+      "supradIpaMa"
+    ]
+  },
+  {
+    "key": "suraranjani",
+    "display_examples": [
+      "suraranjani"
+    ]
+  },
+  {
+    "key": "surati",
+    "display_examples": [
+      "suraTi"
+    ]
+  },
+  {
+    "key": "surya",
+    "display_examples": [
+      "sUrya"
+    ]
+  },
+  {
+    "key": "suryakanta",
+    "display_examples": [
+      "sUryakAnta"
+    ]
+  },
+  {
+    "key": "suvarnadipaka",
+    "display_examples": [
+      "suvarNadIpaka"
+    ]
+  },
+  {
+    "key": "svarabhushani",
+    "display_examples": [
+      "svara bhUshaNi"
+    ]
+  },
+  {
+    "key": "svaravali",
+    "display_examples": [
+      "svarAvaLi"
+    ]
+  },
+  {
+    "key": "swarabhushani",
+    "display_examples": [
+      "swarabhUshani"
+    ]
+  },
+  {
+    "key": "swaravali",
+    "display_examples": [
+      "swarAvaLi"
+    ]
+  },
+  {
+    "key": "swatitirunal",
+    "display_examples": [
+      "Swaati TirunaaL"
+    ]
+  },
+  {
+    "key": "syamalam",
+    "display_examples": [
+      "SyAmaLaM"
+    ]
+  },
+  {
+    "key": "takka",
+    "display_examples": [
+      "Takka",
+      "takka"
+    ]
+  },
+  {
+    "key": "takkesi",
+    "display_examples": [
+      "takkEsi"
+    ]
+  },
+  {
+    "key": "tandavam",
+    "display_examples": [
+      "tANDavam"
+    ]
+  },
+  {
+    "key": "tanukirti",
+    "display_examples": [
+      "tAnukIrti"
+    ]
+  },
+  {
+    "key": "tarangini",
+    "display_examples": [
+      "tArangini",
+      "tarangiNi"
+    ]
+  },
+  {
+    "key": "tatillatika",
+    "display_examples": [
+      "taTillatikA"
+    ]
+  },
+  {
+    "key": "tilang",
+    "display_examples": [
+      "tilang"
+    ]
+  },
+  {
+    "key": "tivravahini",
+    "display_examples": [
+      "tIvravAhini"
+    ]
+  },
+  {
+    "key": "todi",
+    "display_examples": [
+      "tODi"
+    ]
+  },
+  {
+    "key": "triveni",
+    "display_examples": [
+      "trivENi"
+    ]
+  },
+  {
+    "key": "udaya",
+    "display_examples": [
+      "udaya"
+    ]
+  },
+  {
+    "key": "udayaraga",
+    "display_examples": [
+      "udayarAga"
+    ]
+  },
+  {
+    "key": "udayaravicandrika",
+    "display_examples": [
+      "udayaravicandrikA",
+      "udhaya ravi candrikA"
+    ]
+  },
+  {
+    "key": "udayaravichandrika",
+    "display_examples": [
+      "Udaya ravi chandrika"
+    ]
+  },
+  {
+    "key": "umabharana",
+    "display_examples": [
+      "umAbharaNa"
+    ]
+  },
+  {
+    "key": "umabharanam",
+    "display_examples": [
+      "umAbharaNaM",
+      "umAbharaNam"
+    ]
+  },
+  {
+    "key": "unknown",
+    "display_examples": [
+      "unknown"
+    ]
+  },
+  {
+    "key": "urmika",
+    "display_examples": [
+      "urmikA"
+    ]
+  },
+  {
+    "key": "vacaspati",
+    "display_examples": [
+      "vAcaspati"
+    ]
+  },
+  {
+    "key": "vagadishvari",
+    "display_examples": [
+      "vAgadIshvari"
+    ]
+  },
+  {
+    "key": "vagadishwari",
+    "display_examples": [
+      "vAgadIshwari"
+    ]
+  },
+  {
+    "key": "vagadisvari",
+    "display_examples": [
+      "vAgadhISvari"
+    ]
+  },
+  {
+    "key": "vagishwari",
+    "display_examples": [
+      "vAgIshwari"
+    ]
+  },
+  {
+    "key": "vajrakanti",
+    "display_examples": [
+      "vajrakAnti"
+    ]
+  },
+  {
+    "key": "vakulabharana",
+    "display_examples": [
+      "vakuLabharaNa",
+      "vakuLAbharaNa"
+    ]
+  },
+  {
+    "key": "valaci",
+    "display_examples": [
+      "valaci"
+    ]
+  },
+  {
+    "key": "valaji",
+    "display_examples": [
+      "valaji"
+    ]
+  },
+  {
+    "key": "valajimand",
+    "display_examples": [
+      "valaji/mAND"
+    ]
+  },
+  {
+    "key": "vallabhi",
+    "display_examples": [
+      "vallabhI"
+    ]
+  },
+  {
+    "key": "vamsavati",
+    "display_examples": [
+      "vaMSavati"
+    ]
+  },
+  {
+    "key": "vamshavati",
+    "display_examples": [
+      "vamshavati"
+    ]
+  },
+  {
+    "key": "vandanadarini",
+    "display_examples": [
+      "vandanadhAriNi"
+    ]
+  },
+  {
+    "key": "varali",
+    "display_examples": [
+      "Varali",
+      "varALi"
+    ]
+  },
+  {
+    "key": "varam",
+    "display_examples": [
+      "varam"
+    ]
+  },
+  {
+    "key": "varamu",
+    "display_examples": [
+      "Varamu",
+      "varamu"
+    ]
+  },
+  {
+    "key": "vardani",
+    "display_examples": [
+      "vardhani"
+    ]
+  },
+  {
+    "key": "vasanta",
+    "display_examples": [
+      "vasantA"
+    ]
+  },
+  {
+    "key": "vasantabhairavi",
+    "display_examples": [
+      "vasantabhairavi"
+    ]
+  },
+  {
+    "key": "vasantavarali",
+    "display_examples": [
+      "vasantavarALi"
+    ]
+  },
+  {
+    "key": "vasanti",
+    "display_examples": [
+      "vAsanti"
+    ]
+  },
+  {
+    "key": "vativasantabhairavi",
+    "display_examples": [
+      "vATI vasanta bhairavi"
+    ]
+  },
+  {
+    "key": "vegavahini",
+    "display_examples": [
+      "vEgavAhini"
+    ]
+  },
+  {
+    "key": "vegavahinichakravakam",
+    "display_examples": [
+      "Vegavahini (Chakravakam)"
+    ]
+  },
+  {
+    "key": "vijayanagari",
+    "display_examples": [
+      "vijayanAgari",
+      "vijayanagari"
+    ]
+  },
+  {
+    "key": "vijayasaraswati",
+    "display_examples": [
+      "vijayasaraswati"
+    ]
+  },
+  {
+    "key": "vijayashri",
+    "display_examples": [
+      "vijayashrI"
+    ]
+  },
+  {
+    "key": "vijayasri",
+    "display_examples": [
+      "vijaya SrI"
+    ]
+  },
+  {
+    "key": "vijayavasanta",
+    "display_examples": [
+      "vijaya vasanta"
+    ]
+  },
+  {
+    "key": "vijayavasantam",
+    "display_examples": [
+      "vijayavasantam"
+    ]
+  },
+  {
+    "key": "vilasini",
+    "display_examples": [
+      "vilAsini"
+    ]
+  },
+  {
+    "key": "vinadari",
+    "display_examples": [
+      "vINAdhAri",
+      "vInadhAri"
+    ]
+  },
+  {
+    "key": "viravasanta",
+    "display_examples": [
+      "vIravasanta",
+      "vIra vasanta"
+    ]
+  },
+  {
+    "key": "viravasantam",
+    "display_examples": [
+      "vIra vasantaM"
+    ]
+  },
+  {
+    "key": "vishnupriya",
+    "display_examples": [
+      "vishnupriya",
+      "Vishnupriya"
+    ]
+  },
+  {
+    "key": "vishvambari",
+    "display_examples": [
+      "vishvambari",
+      "vishvAmbari"
+    ]
+  },
+  {
+    "key": "vivardani",
+    "display_examples": [
+      "vivardhani"
+    ]
+  },
+  {
+    "key": "vivardini",
+    "display_examples": [
+      "Vivardhini",
+      "vivardhini"
+    ]
+  },
+  {
+    "key": "yadukula",
+    "display_examples": [
+      "yadukula"
+    ]
+  },
+  {
+    "key": "yadukulakambhoji",
+    "display_examples": [
+      "yadukula kAmbhOji"
+    ]
+  },
+  {
+    "key": "yadukulakambodi",
+    "display_examples": [
+      "Yadukula Kambodhi"
+    ]
+  },
+  {
+    "key": "yadukulakhambodi",
+    "display_examples": [
+      "Yadukula Khambodhi"
+    ]
+  },
+  {
+    "key": "yaman",
+    "display_examples": [
+      "yaman",
+      "yaman -"
+    ]
+  },
+  {
+    "key": "yamankalyan",
+    "display_examples": [
+      "yamankalyAN"
+    ]
+  },
+  {
+    "key": "yamankalyandurga",
+    "display_examples": [
+      "yamankalyAN/durgA"
+    ]
+  },
+  {
+    "key": "yamankalyani",
+    "display_examples": [
+      "yaman kalyANi -",
+      "yamankalyANi",
+      "yaman kalyANi"
+    ]
+  },
+  {
+    "key": "yamuna",
+    "display_examples": [
+      "yamunA"
+    ]
+  },
+  {
+    "key": "yamunakalyani",
+    "display_examples": [
+      "yamunA kalyANi",
+      "Yamuna kalyaani"
+    ]
+  },
+  {
+    "key": "yaukulakambhoji",
+    "display_examples": [
+      "yaukulakAmbhOji"
+    ]
+  }
+]

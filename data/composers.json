@@ -1,0 +1,2128 @@
+[
+  {
+    "key": "aadi-shankara",
+    "name": "Aadi Shankara",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "aandaal",
+    "name": "Aandaal",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 32,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "aandaal-tiruppaavai",
+    "name": "AandaaL Tiruppaavai",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 2,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "aandavan-picchai",
+    "name": "AaNDavan Picchai",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "abraham-panditar",
+    "name": "Abraham Panditar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 48,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "agastyar",
+    "name": "Agastyar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "ambujam-krishna",
+    "name": "Ambujam Krishna",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 205,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "ambujam-velaayudam",
+    "name": "Ambujam VElaayudam",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "anai-ayya",
+    "name": "Anai Ayya",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "anayampatti-aadisesha-aiyyar",
+    "name": "Anayampatti AadisEsha Aiyyar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "andal",
+    "name": "Andal",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 26,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "annamaacaarya",
+    "name": "Annamaacaarya",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 45,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "annamaacharya",
+    "name": "Annamaacharya",
+    "aliases": [],
+    "period": null,
+    "tradition": "Vaggeyakara",
+    "song_count": 6,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "annasaami-shastri",
+    "name": "Annasaami Shastri",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 13,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "annaswami-shastry",
+    "name": "Annaswami Shastry",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "annaswamy-shastry",
+    "name": "Annaswamy\nShastry",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "ariyakkudi-raamaanuja-aiyyangaar",
+    "name": "AriyakkuDi Raamaanuja Aiyyangaar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "arunaacala-kavi",
+    "name": "Arunaacala Kavi",
+    "aliases": [
+      "AruNaacala Kavi"
+    ],
+    "period": null,
+    "tradition": null,
+    "song_count": 8,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "arunaagirinaatar",
+    "name": "AruNaagirinaatar",
+    "aliases": [
+      "Arunaagirinaatar"
+    ],
+    "period": null,
+    "tradition": null,
+    "song_count": 4,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "arunachala-kavi",
+    "name": "Arunachala Kavi",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "as-pancaapakesha-aiyyar",
+    "name": "A.S. PancaapakEsha Aiyyar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "ashok-madhav",
+    "name": "Ashok Madhav",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 28,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "atcutadaasar",
+    "name": "ATcutadaasar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "baalamurali-krishna",
+    "name": "BaalamuraLi Krishna",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 201,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "badraacala-raamadaas",
+    "name": "Badraacala Raamadaas",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 55,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "bangalore-naagaraaj",
+    "name": "Bangalore Naagaraaj",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "bangalore-ramamurti",
+    "name": "Bangalore RAmamUrti",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "bhadraacala-raamadaas",
+    "name": "Bhadraacala Raamadaas",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 2,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "bmsundaram",
+    "name": "B.M.Sundaram",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 65,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "ceyyoor-cengalvaraaya-shaastree",
+    "name": "Ceyyoor Cengalvaraaya Shaastree",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "chengalvaraya-shastri",
+    "name": "Chengalvaraya Shastri",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "cinnakrishna-daasar",
+    "name": "Cinnakrishna Daasar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "cittoor-subramanya-pillai",
+    "name": "Cittoor Subramanya PiLLai",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "dayaananda-saraswati",
+    "name": "Dayaananda Saraswati",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 6,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "deshika-vinaayakam-pillai",
+    "name": "DEshika Vinaayakam PiLLai",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "dharmapuri-subbaraaya-aiyyar",
+    "name": "Dharmapuri Subbaraaya Aiyyar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "duraiswaamy-kaviraayar",
+    "name": "Duraiswaamy Kaviraayar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "ev-raamakrishna-bhaagavatar",
+    "name": "E.V. Raamakrishna Bhaagavatar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "ghanam-krishna-aiyyar",
+    "name": "Ghanam Krishna Aiyyar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 4,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "gharbapurivaasa",
+    "name": "Gharbapurivaasa",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "gn-baalasubramaniam",
+    "name": "G.N. Baalasubramaniam",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 63,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "gopaalakrishna-bhaaratiyaar",
+    "name": "GOpaalakrishna Bhaaratiyaar",
+    "aliases": [
+      "Gopaalakrishna Bhaaratiyaar"
+    ],
+    "period": null,
+    "tradition": null,
+    "song_count": 17,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "gopalakrishna-bharati",
+    "name": "Gopalakrishna Bharati",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "guhan",
+    "name": "Guhan",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "h-yoganarasimham",
+    "name": "H. YOganarasimham",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "hh-candrasekhara-saraswati",
+    "name": "H.H. CandrasEkhara Saraswati",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "hn-muttiah-bhaagavatar",
+    "name": "H.N. Muttiah Bhaagavatar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 432,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "ilango-adigal",
+    "name": "IlangO ADigaL",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "iraiyamman-thampi",
+    "name": "Iraiyamman Thampi",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "irayimman-thampi",
+    "name": "Irayimman Thampi",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "jayacamaraaja-wodeyaar",
+    "name": "Jayacamaraaja WODeyaar",
+    "aliases": [
+      "Jayacamaraaja WoDeyaar"
+    ],
+    "period": null,
+    "tradition": null,
+    "song_count": 5,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "jayachaamaraaja-wodeyaar",
+    "name": "Jayachaamaraaja Wodeyaar.",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "jayadeva",
+    "name": "JayadEva",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 7,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "k-ramaraj",
+    "name": "K. Ramaraj",
+    "aliases": [
+      "K Ramaraj"
+    ],
+    "period": null,
+    "tradition": null,
+    "song_count": 83,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "kabir",
+    "name": "Kabir",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 17,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "kadaloor-subramaniam",
+    "name": "KaDaloor Subramaniam",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 5,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "kamalesha-vitthaladaasa",
+    "name": "KamalEsha ViTThaladaasa",
+    "aliases": [
+      "KamalEsha Vitthaladaasa"
+    ],
+    "period": null,
+    "tradition": null,
+    "song_count": 2,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "kanaka-daasa",
+    "name": "Kanaka Daasa",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 4,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "kanaka-dasa",
+    "name": "Kanaka DAsA",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "kannan-aiyyangaar",
+    "name": "KaNNan Aiyyangaar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "kavi-kunjara-bhaarati",
+    "name": "Kavi Kunjara Bhaarati",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 2,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "kavi-kunjara-bharathi",
+    "name": "Kavi Kunjara Bharathi",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "kavi-matrubhootayya",
+    "name": "Kavi\nMatrubhootayya",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "koteeshwara-aiyyar",
+    "name": "KOTeeshwara Aiyyar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 107,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "koteeshwara-iyer",
+    "name": "Koteeshwara\nIyer",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "kothavaasal-venkataraamaiyyar",
+    "name": "Kothavaasal Venkataraamaiyyar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "kotishvara-iyer",
+    "name": "Kotishvara Iyer",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "kovai-subri",
+    "name": "Kovai Subri",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 408,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "kovoor-veeraraaghava-sharma",
+    "name": "KOvoor Veeraraaghava Sharma",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "krishnaswaamy-ayya",
+    "name": "Krishnaswaamy Ayya",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "kshetrajna",
+    "name": "Kshetrajna",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "kskrishnamurti",
+    "name": "K.S.Krishnamurti",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "kumara-ettendra",
+    "name": "Kumara Ettendra",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "laalgudi-jayaraaman",
+    "name": "LaalguDi Jayaraaman",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 2,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "lakshmi-krishna",
+    "name": "Lakshmi Krishna",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "lalgudi-jayaraman",
+    "name": "Lalgudi Jayaraman",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "lalita-daasar",
+    "name": "Lalita Daasar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 3,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "lingaraaj-urs",
+    "name": "Lingaraaj Urs",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "maargadarshi-sesha-aiyyangaar",
+    "name": "Maargadarshi SEsha Aiyyangaar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "madurai-gsmani",
+    "name": "Madurai G.S.Mani",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 81,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "madurai-n-krishnan",
+    "name": "Madurai N Krishnan",
+    "aliases": [
+      "Madurai N. Krishnan"
+    ],
+    "period": null,
+    "tradition": null,
+    "song_count": 2,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "madurai-t-krishnaswaamy",
+    "name": "Madurai T. KrishNaswaamy",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "maha-vaidyanatha-iyer",
+    "name": "Maha Vaidyanatha Iyer.",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "mahaa-vaidyanaatha-aiyyar",
+    "name": "Mahaa Vaidyanaatha Aiyyar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "mahaa-vaidyanaatha-sivan",
+    "name": "Mahaa Vaidyanaatha Sivan",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "maharaajapuram-santaanam",
+    "name": "Maharaajapuram Santaanam",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "marimuttu-pillai",
+    "name": "Marimuttu PiLLai",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "mayooram-vishwanaata-shaastree",
+    "name": "Mayooram Vishwanaata Shaastree",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 2,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "mazhavai-cidambara-bhaarati",
+    "name": "Mazhavai Cidambara Bhaarati",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "meera",
+    "name": "Meera",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 31,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "mishu-krishna-aiyyar",
+    "name": "Mishu Krishna Aiyyar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 2,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "misu-krishna-iyer",
+    "name": "Misu Krishna Iyer",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "mm-dandapaani-deshikar",
+    "name": "M.M. DanDapaaNi DEshikar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 11,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "muthaiah-bhagavatar",
+    "name": "Muthaiah Bhagavatar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "muthaiah-bhagavathar",
+    "name": "Muthaiah Bhagavathar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "muthaiah-bhagavathar-learnt-from-recording-of-hyderabad-brothers",
+    "name": "Muthaiah Bhagavathar. Learnt From Recording of:\nHyderabad Brothers",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "muthiah-bhaagavatar",
+    "name": "Muthiah Bhaagavatar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "muthu-thandavar",
+    "name": "Muthu Thandavar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "muttu-taandavar",
+    "name": "Muttu TaaNDavar",
+    "aliases": [
+      "Muttu TaanDavar"
+    ],
+    "period": null,
+    "tradition": null,
+    "song_count": 4,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "muttuswaamee-dikshitar",
+    "name": "Muttuswaamee Dikshitar",
+    "aliases": [],
+    "period": null,
+    "tradition": "Trinity",
+    "song_count": 898,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "mysore-sadaashiva-rao",
+    "name": "Mysore Sadaashiva Rao",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 66,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "mysore-vaasudevaacaarya",
+    "name": "Mysore VaasudEvaacaarya",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 86,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "mysore-vasudevaachar",
+    "name": "Mysore Vasudevaachar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 4,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "mysore-venkatagiriappa",
+    "name": "Mysore VenkaTagiriappa",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "naaraayana-teertar",
+    "name": "NaaraayaNa Teertar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 15,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "naarsi-mehta",
+    "name": "Naarsi Mehta",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "naraharidasa",
+    "name": "Naraharidasa",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "neelakaanta-shivan",
+    "name": "Neelakaanta Shivan",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 3,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "neelakanta-shivan",
+    "name": "NeelakanTa Shivan",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "nila-ramamurti",
+    "name": "Nila Ramamurti",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "ns-raamacandran",
+    "name": "N.S. Raamacandran",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "ns-ramachandran",
+    "name": "N.S. Ramachandran",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "nschidambaram",
+    "name": "N.S.Chidambaram",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 37,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "oothukadu-venkata-kavi-subbaiyer",
+    "name": "Oothukadu Venkata (Kavi) Subbaiyer",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "ootukkaadu-venkatasubbaiyyar",
+    "name": "OotukkaaDu VenkaTasubbaiyyar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 398,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "origala-veeraraaghava-sharma",
+    "name": "Origala Veeraraaghava Sharma",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "paapanaasa-mudaliaar",
+    "name": "Paapanaasa Mudaliaar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "paapanaasam-shivan",
+    "name": "Paapanaasam Shivan",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 566,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "paapanasam-sivan",
+    "name": "Paapanasam Sivan",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "padma-veeraraaghavan",
+    "name": "Padma Veeraraaghavan",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "padma-veeraraghavan",
+    "name": "Padma Veeraraghavan",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 12,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "paidala-gurumoorti-shaastri",
+    "name": "PaiDala Gurumoorti Shaastri",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 6,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "paidala-gurumurti-shastri",
+    "name": "Paidala Gurumurti Shastri",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "pallavi-gopaala-aiyyar",
+    "name": "Pallavi GOpaala Aiyyar",
+    "aliases": [
+      "Pallavi Gopaala Aiyyar"
+    ],
+    "period": null,
+    "tradition": null,
+    "song_count": 2,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "pallavi-sesha-aiyyar",
+    "name": "Pallavi SEsha Aiyyar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 2,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "papanasam-sivam",
+    "name": "Papanasam Sivam",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "papanasam-sivan",
+    "name": "Papanasam\nSivan",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "patnam-subramanya-aiyyar",
+    "name": "PaTnam Subramanya Aiyyar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 89,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "patnam-subramanya-iyer",
+    "name": "Patnam\nSubramanya Iyer",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "pattaabhiraamayyaa",
+    "name": "PaTTaabhiraamayyaa",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 4,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "periyasaami-tooran",
+    "name": "Periyasaami Tooran",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 109,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "periyaswamy-thooran",
+    "name": "Periyaswamy Thooran",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "ponnaiah-pillai",
+    "name": "Ponnaiah Pillai",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 2,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "ponniah-pillai",
+    "name": "Ponniah PiLLai",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 3,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "poochi-srinivasa-iyengar",
+    "name": "Poochi\nSrinivasa Iyengar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "pooci-shreenivaasa-aiyyangaar",
+    "name": "(Pooci) Shreenivaasa Aiyyangaar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 13,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "pooci-sreenivaasa-aiyyangaar",
+    "name": "Pooci Sreenivaasa Aiyyangaar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 49,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "poontanam-nambootiri",
+    "name": "Poontanam Nambootiri",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "pt-narasimhachar",
+    "name": "P.T. Narasimhachar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "puliyoor-shree-duraiswaami-aiyyar",
+    "name": "Puliyoor Shree Duraiswaami Aiyyar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "puliyur-doraiswamy-iyer",
+    "name": "Puliyur Doraiswamy Iyer",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "purandaradaasa",
+    "name": "Purandaradaasa",
+    "aliases": [],
+    "period": null,
+    "tradition": "Haridasa",
+    "song_count": 1089,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "r-paarttasaarathy-aiyyangaar",
+    "name": "R. Paarttasaarathy Aiyyangaar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "raajaaji",
+    "name": "Raajaaji",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "raajee-naaraayan",
+    "name": "Raajee NaaraayaN",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "raamalinga-swaamy",
+    "name": "Raamalinga Swaamy",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "raamanaadapuram-pooci-shreenivaasa-aiyyangaar",
+    "name": "Raamanaadapuram (Pooci) Shreenivaasa Aiyyangaar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "raamaswaamy-shivan",
+    "name": "Raamaswaamy Shivan",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 3,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "raghavendra-swaami",
+    "name": "RaghavEndra Swaami",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "rajee-krishnan",
+    "name": "Rajee Krishnan",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 54,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "ramaswami-shivan",
+    "name": "RAmaswAmi Shivan",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "ramaswami-sivan",
+    "name": "Ramaswami Sivan",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "s-kalyaanaraaman",
+    "name": "S KalyaaNaraaman",
+    "aliases": [
+      "S. KalyaaNaraaman"
+    ],
+    "period": null,
+    "tradition": null,
+    "song_count": 2,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "s-v-venkataraaman",
+    "name": "S V Venkataraaman",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "sadaashiva-bruhmendrar",
+    "name": "Sadaashiva Bruhmendrar",
+    "aliases": [
+      "Sadaashiva BruhmEndrar"
+    ],
+    "period": null,
+    "tradition": null,
+    "song_count": 25,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "sadasiva-brahmendrar",
+    "name": "Sadasiva Brahmendrar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "salem-eeshwar",
+    "name": "Salem Eeshwar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "sangeetha-narayanan",
+    "name": "Sangeetha Narayanan",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "sattur-krishna-aiyyangaar",
+    "name": "Sattur Krishna Aiyyangaar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "seetaaraama-aiyyar",
+    "name": "Seetaaraama Aiyyar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "sethumaadhava-rao",
+    "name": "SEthumaadhava Rao",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "shankaraacaarya",
+    "name": "Shankaraacaarya",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 2,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "shyaama-shaastri",
+    "name": "Shyaama Shaastri",
+    "aliases": [],
+    "period": null,
+    "tradition": "Trinity",
+    "song_count": 6,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "shyaamaa-shaastree",
+    "name": "Shyaamaa Shaastree",
+    "aliases": [
+      "Shyaamaa shaastree"
+    ],
+    "period": null,
+    "tradition": null,
+    "song_count": 80,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "shyama-shastri",
+    "name": "Shyama\nShastri",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "shyama-shastry",
+    "name": "Shyama\nShastry",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 2,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "spencer-venugopaal",
+    "name": "Spencer VENugOpaal",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "subbaraama-aiyyar",
+    "name": "Subbaraama Aiyyar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 3,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "subbaraaya-shaastree",
+    "name": "Subbaraaya Shaastree",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 13,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "subbaraya-shastry",
+    "name": "Subbaraya Shastry",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "subramanya-bhaaratiyaar",
+    "name": "Subramanya Bhaaratiyaar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 112,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "suddhaananda-bhaarati",
+    "name": "Suddhaananda Bhaarati",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1050,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "surdas",
+    "name": "Surdas",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 12,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "swaami-dayaananda-saraswati",
+    "name": "Swaami Dayaananda Saraswati",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "swaati-tirunaal",
+    "name": "Swaati TirunaaL",
+    "aliases": [],
+    "period": null,
+    "tradition": "Royal Composer",
+    "song_count": 637,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "t-chowdiah",
+    "name": "T. Chowdiah",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "t-n-baala",
+    "name": "T. N. Baala",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "tanangambadi-pancanaada-aiyyar",
+    "name": "TanangambaDi Pancanaada Aiyyar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "tanjavur-sankara-iyer",
+    "name": "Tanjavur Sankara Iyer",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "tanjavur-shankara-iyer",
+    "name": "Tanjavur Shankara Iyer",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 21,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "tanjore",
+    "name": "Tanjore",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "thanangampadi-pancanaada-aiyyar",
+    "name": "Thanangampadi Pancanaada Aiyyar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "thanjavur-shankara-iyer",
+    "name": "Thanjavur Shankara Iyer",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "thulaseevanam",
+    "name": "Thulaseevanam",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 6,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "tirupati-naaraayanaswaami",
+    "name": "Tirupati NaaraayaNaswaami",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "tiruvaaroor-raamaswaami-pillai",
+    "name": "Tiruvaaroor Raamaswaami PiLLai",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "tiruvettiyoor-tyaagayya",
+    "name": "TiruveTTiyoor Tyaagayya",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 52,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "tk-rangacaari",
+    "name": "T.K. Rangacaari",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "tmthiagarajan",
+    "name": "T.M.Thiagarajan",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 40,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "tn-baala",
+    "name": "T.N. Baala",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "tulaseevanam",
+    "name": "Tulaseevanam",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 48,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "tulsidaas",
+    "name": "Tulsidaas",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 10,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "tyaagaraaja",
+    "name": "Tyaagaraaja",
+    "aliases": [],
+    "period": null,
+    "tradition": "Trinity",
+    "song_count": 1200,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "tyajaraja",
+    "name": "Tyajaraja",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "v-v-srivatsan",
+    "name": "V V Srivatsan",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "vaali",
+    "name": "vaali",
+    "aliases": [
+      "Vaali"
+    ],
+    "period": null,
+    "tradition": null,
+    "song_count": 16,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "vadiraja-swami",
+    "name": "VADirAja SwAmi",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "vadivelu",
+    "name": "VaDivElu",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "vallabhaacaarya",
+    "name": "Vallabhaacaarya",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "vallalar-raamalinga-adiyalaar",
+    "name": "VaLLaLar Raamalinga ADiyaLaar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "vanamaamalia-jiyar-swaami",
+    "name": "VaNamaamalia Jiyar Swaami",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "vedanaayakam-pillai",
+    "name": "VEdanaayakam PiLLai",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 2,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "veena-bhairavamurti",
+    "name": "Veena Bhairavamurti",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "veenai-kuppayyar",
+    "name": "Veenai Kuppayyar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 62,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "veerabhadrayya",
+    "name": "Veerabhadrayya",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "vijayavitthaladaasa",
+    "name": "VijayaviTThaladaasa",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "vinjamuri-varadaraaja-ayyangaar",
+    "name": "Vinjamuri Varadaraaja Ayyangaar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "vyasaradi",
+    "name": "Vyasaradi",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "walajapet-venkatramana-bhaagavatar",
+    "name": "Walajapet Venkatramana Bhaagavatar",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 70,
+    "summary": null,
+    "summary_source_ids": []
+  },
+  {
+    "key": "yaman-kalyan",
+    "name": "yaman kalyAN",
+    "aliases": [],
+    "period": null,
+    "tradition": null,
+    "song_count": 1,
+    "summary": null,
+    "summary_source_ids": []
+  }
+]

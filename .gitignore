@@ -3,5 +3,8 @@ dist
 .env
 data/html
 data/raw
+data/aug/fetched.json
+data/aug/structured.json
+data/aug/*.checkpoint.json
 *.pyc
 __pycache__

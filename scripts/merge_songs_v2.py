@@ -221,12 +221,28 @@ def build_final_db(songs: list[dict]) -> list[dict]:
         if s["name"] not in names:
             names = [s["name"]] + names
 
+        composer = canonicalize_composer(s.get("composer", ""))
+        ragam = s.get("ragam", "")
+
+        # Stable join keys
+        ragam_key = normalize_ragam(ragam)
+        composer_lower = composer.lower().strip()
+        composer_key_val = composer.strip()
+        for ckey, cval in COMPOSER_CANONICAL.items():
+            if ckey in composer_lower:
+                composer_key_val = cval
+                break
+        composer_slug = re.sub(r'[^a-z0-9\s]', '', composer_key_val.lower())
+        composer_slug = re.sub(r'\s+', '-', composer_slug).strip('-')
+
         entry = {
             "id": str(uuid.uuid4())[:8],
             "names": names,
-            "ragam": s.get("ragam", ""),
+            "ragam": ragam,
+            "ragam_key": ragam_key,
             "talam": s.get("talam", ""),
-            "composer": canonicalize_composer(s.get("composer", "")),
+            "composer": composer,
+            "composer_key": composer_slug,
             "language": s.get("language", ""),
             "pallavi": s.get("pallavi", ""),
             "links": s.get("links", []),

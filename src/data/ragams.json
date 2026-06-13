@@ -8,7 +8,10 @@
     "mela_number": 1,
     "arohana": "S R1 G1 M1 P D1 N1 S",
     "avarohana": "S N1 D1 P M1 G1 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "kanakangi",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "ratnangi",
@@ -19,7 +22,10 @@
     "mela_number": 2,
     "arohana": "S R1 G1 M1 P D1 N2 S",
     "avarohana": "S N2 D1 P M1 G1 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "ratnangi",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "ganamurthi",
@@ -31,7 +37,10 @@
     "mela_number": 3,
     "arohana": "S R1 G1 M1 P D1 N3 S",
     "avarohana": "S N3 D1 P M1 G1 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "ganamurti",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "vanaspati",
@@ -42,7 +51,10 @@
     "mela_number": 4,
     "arohana": "S R1 G1 M1 P D2 N2 S",
     "avarohana": "S N2 D2 P M1 G1 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "vanaspati",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "manavati",
@@ -53,7 +65,10 @@
     "mela_number": 5,
     "arohana": "S R1 G1 M1 P D2 N3 S",
     "avarohana": "S N3 D2 P M1 G1 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "manavati",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "tanarupi",
@@ -65,7 +80,10 @@
     "mela_number": 6,
     "arohana": "S R1 G1 M1 P D3 N3 S",
     "avarohana": "S N3 D3 P M1 G1 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "tanarupi",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "senavati",
@@ -76,7 +94,10 @@
     "mela_number": 7,
     "arohana": "S R1 G2 M1 P D1 N1 S",
     "avarohana": "S N1 D1 P M1 G2 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "senavati",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "hanumatodi",
@@ -88,7 +109,10 @@
     "mela_number": 8,
     "arohana": "S R1 G2 M1 P D1 N2 S",
     "avarohana": "S N2 D1 P M1 G2 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "hanumatodi",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "dhenuka",
@@ -99,7 +123,10 @@
     "mela_number": 9,
     "arohana": "S R1 G2 M1 P D1 N3 S",
     "avarohana": "S N3 D1 P M1 G2 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "denuka",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "natakapriya",
@@ -110,7 +137,10 @@
     "mela_number": 10,
     "arohana": "S R1 G2 M1 P D2 N2 S",
     "avarohana": "S N2 D2 P M1 G2 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "natakapriya",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "kokilapriya",
@@ -121,7 +151,10 @@
     "mela_number": 11,
     "arohana": "S R1 G2 M1 P D2 N3 S",
     "avarohana": "S N3 D2 P M1 G2 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "kokilapriya",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "rupavati",
@@ -132,7 +165,10 @@
     "mela_number": 12,
     "arohana": "S R1 G2 M1 P D3 N3 S",
     "avarohana": "S N3 D3 P M1 G2 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "rupavati",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "gayakapriya",
@@ -143,7 +179,10 @@
     "mela_number": 13,
     "arohana": "S R1 G3 M1 P D1 N1 S",
     "avarohana": "S N1 D1 P M1 G3 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "gayakapriya",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "vakulabharanam",
@@ -155,7 +194,10 @@
     "mela_number": 14,
     "arohana": "S R1 G3 M1 P D1 N2 S",
     "avarohana": "S N2 D1 P M1 G3 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "vakulabharanam",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "mayamalavagowla",
@@ -167,7 +209,10 @@
     "mela_number": 15,
     "arohana": "S R1 G3 M1 P D1 N3 S",
     "avarohana": "S N3 D1 P M1 G3 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "mayamalavagowla",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "chakravakam",
@@ -178,7 +223,10 @@
     "mela_number": 16,
     "arohana": "S R1 G3 M1 P D2 N2 S",
     "avarohana": "S N2 D2 P M1 G3 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "chakravakam",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "suryakantam",
@@ -190,7 +238,10 @@
     "mela_number": 17,
     "arohana": "S R1 G3 M1 P D2 N3 S",
     "avarohana": "S N3 D2 P M1 G3 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "suryakantam",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "hatakambari",
@@ -201,7 +252,10 @@
     "mela_number": 18,
     "arohana": "S R1 G3 M1 P D3 N3 S",
     "avarohana": "S N3 D3 P M1 G3 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "hatakambari",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "jhankaradhwani",
@@ -212,7 +266,10 @@
     "mela_number": 19,
     "arohana": "S R2 G2 M1 P D1 N1 S",
     "avarohana": "S N1 D1 P M1 G2 R2 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "jhankaradwani",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "natabhairavi",
@@ -222,7 +279,10 @@
     "mela_number": 20,
     "arohana": "S R2 G2 M1 P D1 N2 S",
     "avarohana": "S N2 D1 P M1 G2 R2 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "natabhairavi",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "keeravani",
@@ -233,7 +293,10 @@
     "mela_number": 21,
     "arohana": "S R2 G2 M1 P D1 N3 S",
     "avarohana": "S N3 D1 P M1 G2 R2 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "kiravani",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "kharaharapriya",
@@ -244,7 +307,10 @@
     "mela_number": 22,
     "arohana": "S R2 G2 M1 P D2 N2 S",
     "avarohana": "S N2 D2 P M1 G2 R2 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "kharaharapriya",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "gourimanohari",
@@ -255,7 +321,10 @@
     "mela_number": 23,
     "arohana": "S R2 G2 M1 P D2 N3 S",
     "avarohana": "S N3 D2 P M1 G2 R2 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "gourimanohari",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "varunapriya",
@@ -266,7 +335,10 @@
     "mela_number": 24,
     "arohana": "S R2 G2 M1 P D3 N3 S",
     "avarohana": "S N3 D3 P M1 G2 R2 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "varunapriya",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "mararanjani",
@@ -276,7 +348,10 @@
     "mela_number": 25,
     "arohana": "S R2 G3 M1 P D1 N1 S",
     "avarohana": "S N1 D1 P M1 G3 R2 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "mararanjani",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "charukesi",
@@ -287,7 +362,10 @@
     "mela_number": 26,
     "arohana": "S R2 G3 M1 P D1 N2 S",
     "avarohana": "S N2 D1 P M1 G3 R2 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "charukesi",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "sarasangi",
@@ -298,7 +376,10 @@
     "mela_number": 27,
     "arohana": "S R2 G3 M1 P D1 N3 S",
     "avarohana": "S N3 D1 P M1 G3 R2 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "sarasangi",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "harikambhoji",
@@ -310,7 +391,10 @@
     "mela_number": 28,
     "arohana": "S R2 G3 M1 P D2 N2 S",
     "avarohana": "S N2 D2 P M1 G3 R2 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "harikambhoji",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "dhirasankarabharanam",
@@ -323,7 +407,10 @@
     "mela_number": 29,
     "arohana": "S R2 G3 M1 P D2 N3 S",
     "avarohana": "S N3 D2 P M1 G3 R2 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "dirasankarabharanam",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "naganandini",
@@ -333,7 +420,10 @@
     "mela_number": 30,
     "arohana": "S R2 G3 M1 P D3 N3 S",
     "avarohana": "S N3 D3 P M1 G3 R2 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "naganandini",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "yagapriya",
@@ -344,7 +434,10 @@
     "mela_number": 31,
     "arohana": "S R3 G3 M1 P D1 N1 S",
     "avarohana": "S N1 D1 P M1 G3 R3 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "yagapriya",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "ragavardhini",
@@ -356,7 +449,10 @@
     "mela_number": 32,
     "arohana": "S R3 G3 M1 P D1 N2 S",
     "avarohana": "S N2 D1 P M1 G3 R3 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "ragavardini",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "gangeyabhushani",
@@ -368,7 +464,10 @@
     "mela_number": 33,
     "arohana": "S R3 G3 M1 P D1 N3 S",
     "avarohana": "S N3 D1 P M1 G3 R3 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "gangeyabhushani",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "vagadheeswari",
@@ -381,7 +480,10 @@
     "mela_number": 34,
     "arohana": "S R3 G3 M1 P D2 N2 S",
     "avarohana": "S N2 D2 P M1 G3 R3 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "vagadiswari",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "sulini",
@@ -393,7 +495,10 @@
     "mela_number": 35,
     "arohana": "S R3 G3 M1 P D2 N3 S",
     "avarohana": "S N3 D2 P M1 G3 R3 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "sulini",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "chalanata",
@@ -405,7 +510,10 @@
     "mela_number": 36,
     "arohana": "S R3 G3 M1 P D3 N3 S",
     "avarohana": "S N3 D3 P M1 G3 R3 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "chalanata",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "salagam",
@@ -417,7 +525,10 @@
     "mela_number": 37,
     "arohana": "S R1 G1 M2 P D1 N1 S",
     "avarohana": "S N1 D1 P M2 G1 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "salagam",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "jalarnavam",
@@ -428,7 +539,10 @@
     "mela_number": 38,
     "arohana": "S R1 G1 M2 P D1 N2 S",
     "avarohana": "S N2 D1 P M2 G1 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "jalarnavam",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "jhalavarali",
@@ -439,7 +553,10 @@
     "mela_number": 39,
     "arohana": "S R1 G1 M2 P D1 N3 S",
     "avarohana": "S N3 D1 P M2 G1 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "jhalavarali",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "navaneetam",
@@ -450,7 +567,10 @@
     "mela_number": 40,
     "arohana": "S R1 G1 M2 P D2 N2 S",
     "avarohana": "S N2 D2 P M2 G1 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "navanitam",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "pavani",
@@ -461,7 +581,10 @@
     "mela_number": 41,
     "arohana": "S R1 G1 M2 P D2 N3 S",
     "avarohana": "S N3 D2 P M2 G1 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "pavani",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "raghupriya",
@@ -472,7 +595,10 @@
     "mela_number": 42,
     "arohana": "S R1 G1 M2 P D3 N3 S",
     "avarohana": "S N3 D3 P M2 G1 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "raghupriya",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "gavambhodhi",
@@ -484,7 +610,10 @@
     "mela_number": 43,
     "arohana": "S R1 G2 M2 P D1 N1 S",
     "avarohana": "S N1 D1 P M2 G2 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "gavambhodi",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "bhavapriya",
@@ -495,7 +624,10 @@
     "mela_number": 44,
     "arohana": "S R1 G2 M2 P D1 N2 S",
     "avarohana": "S N2 D1 P M2 G2 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "bhavapriya",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "shubhapantuvarali",
@@ -507,7 +639,10 @@
     "mela_number": 45,
     "arohana": "S R1 G2 M2 P D1 N3 S",
     "avarohana": "S N3 D1 P M2 G2 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "shubhapantuvarali",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "shadvidamargini",
@@ -519,7 +654,10 @@
     "mela_number": 46,
     "arohana": "S R1 G2 M2 P D2 N2 S",
     "avarohana": "S N2 D2 P M2 G2 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "shadvidamargini",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "suvarnangi",
@@ -531,7 +669,10 @@
     "mela_number": 47,
     "arohana": "S R1 G2 M2 P D2 N3 S",
     "avarohana": "S N3 D2 P M2 G2 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "suvarnangi",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "divyamani",
@@ -542,7 +683,10 @@
     "mela_number": 48,
     "arohana": "S R1 G2 M2 P D3 N3 S",
     "avarohana": "S N3 D3 P M2 G2 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "divyamani",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "dhavalambari",
@@ -553,7 +697,10 @@
     "mela_number": 49,
     "arohana": "S R1 G3 M2 P D1 N1 S",
     "avarohana": "S N1 D1 P M2 G3 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "davalambari",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "namanarayani",
@@ -564,7 +711,10 @@
     "mela_number": 50,
     "arohana": "S R1 G3 M2 P D1 N2 S",
     "avarohana": "S N2 D1 P M2 G3 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "namanarayani",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "kamavardhani",
@@ -576,7 +726,10 @@
     "mela_number": 51,
     "arohana": "S R1 G3 M2 P D1 N3 S",
     "avarohana": "S N3 D1 P M2 G3 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "kamavardani",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "ramapriya",
@@ -587,7 +740,10 @@
     "mela_number": 52,
     "arohana": "S R1 G3 M2 P D2 N2 S",
     "avarohana": "S N2 D2 P M2 G3 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "ramapriya",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "gamanasrama",
@@ -599,7 +755,10 @@
     "mela_number": 53,
     "arohana": "S R1 G3 M2 P D2 N3 S",
     "avarohana": "S N3 D2 P M2 G3 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "gamanasrama",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "visvambhari",
@@ -610,7 +769,10 @@
     "mela_number": 54,
     "arohana": "S R1 G3 M2 P D3 N3 S",
     "avarohana": "S N3 D3 P M2 G3 R1 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "visvambhari",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "syamalangi",
@@ -621,7 +783,10 @@
     "mela_number": 55,
     "arohana": "S R2 G2 M2 P D1 N1 S",
     "avarohana": "S N1 D1 P M2 G2 R2 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "syamalangi",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "shanmukhapriya",
@@ -632,7 +797,10 @@
     "mela_number": 56,
     "arohana": "S R2 G2 M2 P D1 N2 S",
     "avarohana": "S N2 D1 P M2 G2 R2 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "shanmukhapriya",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "simhendramadhyamam",
@@ -643,7 +811,10 @@
     "mela_number": 57,
     "arohana": "S R2 G2 M2 P D1 N3 S",
     "avarohana": "S N3 D1 P M2 G2 R2 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "simhendramadyamam",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "hemavati",
@@ -654,7 +825,10 @@
     "mela_number": 58,
     "arohana": "S R2 G2 M2 P D2 N2 S",
     "avarohana": "S N2 D2 P M2 G2 R2 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "hemavati",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "dharmavati",
@@ -665,7 +839,10 @@
     "mela_number": 59,
     "arohana": "S R2 G2 M2 P D2 N3 S",
     "avarohana": "S N3 D2 P M2 G2 R2 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "darmavati",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "nitimati",
@@ -676,7 +853,10 @@
     "mela_number": 60,
     "arohana": "S R2 G2 M2 P D3 N3 S",
     "avarohana": "S N3 D3 P M2 G2 R2 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "nitimati",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "kantamani",
@@ -687,7 +867,10 @@
     "mela_number": 61,
     "arohana": "S R2 G3 M2 P D1 N1 S",
     "avarohana": "S N1 D1 P M2 G3 R2 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "kantamani",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "rishabhapriya",
@@ -698,7 +881,10 @@
     "mela_number": 62,
     "arohana": "S R2 G3 M2 P D1 N2 S",
     "avarohana": "S N2 D1 P M2 G3 R2 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "rishabhapriya",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "latangi",
@@ -709,7 +895,10 @@
     "mela_number": 63,
     "arohana": "S R2 G3 M2 P D1 N3 S",
     "avarohana": "S N3 D1 P M2 G3 R2 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "latangi",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "vachaspati",
@@ -720,7 +909,10 @@
     "mela_number": 64,
     "arohana": "S R2 G3 M2 P D2 N2 S",
     "avarohana": "S N2 D2 P M2 G3 R2 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "vachaspati",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "mechakalyani",
@@ -732,7 +924,10 @@
     "mela_number": 65,
     "arohana": "S R2 G3 M2 P D2 N3 S",
     "avarohana": "S N3 D2 P M2 G3 R2 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "mechakalyani",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "chitrambari",
@@ -744,7 +939,10 @@
     "mela_number": 66,
     "arohana": "S R2 G3 M2 P D3 N3 S",
     "avarohana": "S N3 D3 P M2 G3 R2 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "chitrambari",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "sucharitra",
@@ -756,7 +954,10 @@
     "mela_number": 67,
     "arohana": "S R3 G3 M2 P D1 N1 S",
     "avarohana": "S N1 D1 P M2 G3 R3 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "sucharitra",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "jyotisvarupini",
@@ -768,7 +969,10 @@
     "mela_number": 68,
     "arohana": "S R3 G3 M2 P D1 N2 S",
     "avarohana": "S N2 D1 P M2 G3 R3 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "jyotisvarupini",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "dhatuvardhani",
@@ -780,7 +984,10 @@
     "mela_number": 69,
     "arohana": "S R3 G3 M2 P D1 N3 S",
     "avarohana": "S N3 D1 P M2 G3 R3 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "datuvardani",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "nasikabhushani",
@@ -792,7 +999,10 @@
     "mela_number": 70,
     "arohana": "S R3 G3 M2 P D2 N2 S",
     "avarohana": "S N2 D2 P M2 G3 R3 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "nasikabhushani",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "kosalam",
@@ -804,7 +1014,10 @@
     "mela_number": 71,
     "arohana": "S R3 G3 M2 P D2 N3 S",
     "avarohana": "S N3 D2 P M2 G3 R3 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "kosalam",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "rasikapriya",
@@ -815,7 +1028,10 @@
     "mela_number": 72,
     "arohana": "S R3 G3 M2 P D3 N3 S",
     "avarohana": "S N3 D3 P M2 G3 R3 S",
-    "janaka_or_janya": "melakarta"
+    "janaka_or_janya": "melakarta",
+    "key": "rasikapriya",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Kadanakutuhalam",
@@ -825,7 +1041,10 @@
     "arohana": "S R2 M1 D2 N3 G3 P S",
     "avarohana": "S N3 D2 P M1 G3 R2 S",
     "parent_mela": 29,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "kadanakutuhalam",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Kalyanavasantam",
@@ -835,7 +1054,10 @@
     "arohana": "S G2 M1 D1 N3 S",
     "avarohana": "S N3 D1 M1 G2 R2 S",
     "parent_mela": 21,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "kalyanavasantam",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Kamas",
@@ -846,7 +1068,10 @@
     "arohana": "S M1 G3 M1 P D2 N2 S",
     "avarohana": "S N2 D2 P M1 G3 R2 S",
     "parent_mela": 28,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "kamas",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Kannada",
@@ -854,7 +1079,10 @@
     "arohana": "S G3 M1 P M1 D2 N3 S",
     "avarohana": "S N3 D2 P M1 G3 S R2 S",
     "parent_mela": 29,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "kannada",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Kannadagaula",
@@ -864,7 +1092,10 @@
     "arohana": "S R2 G2 M1 P N2 S",
     "avarohana": "S N2 D2 P M1 G2 S",
     "parent_mela": 22,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "kannadagaula",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Kapi",
@@ -874,7 +1105,10 @@
     "arohana": "S R2 M1 P N3 S",
     "avarohana": "S N2 D2 P M1 G2 R2 S",
     "parent_mela": 22,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "kapi",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Karnataka Devagandhari",
@@ -884,7 +1118,10 @@
     "arohana": "S G2 M1 P N2 S",
     "avarohana": "S N2 D2 P M1 G2 R2 S",
     "parent_mela": 22,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "karnatakadevagandari",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Karnataka Kapi",
@@ -892,7 +1129,10 @@
     "arohana": "S R2 G2 M1 P D2 N2 S",
     "avarohana": "S N2 D2 P M1 G2 R2 S",
     "parent_mela": 22,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "karnatakakapi",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Kedaragaula",
@@ -902,7 +1142,10 @@
     "arohana": "S R2 M1 P N2 S",
     "avarohana": "S N2 D2 P M1 G3 R2 S",
     "parent_mela": 28,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "kedaragaula",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Kedaram",
@@ -910,7 +1153,10 @@
     "arohana": "S M1 G3 M1 P N3 S",
     "avarohana": "S N3 P M1 G3 R2 S",
     "parent_mela": 29,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "kedaram",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Kiranavali",
@@ -918,7 +1164,10 @@
     "arohana": "S R2 G2 M1 P D1 S",
     "avarohana": "S N3 D1 P M1 G2 R2 S",
     "parent_mela": 21,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "kiranavali",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Kokilavarali",
@@ -926,7 +1175,10 @@
     "arohana": "S R2 M1 P D2 N2 D2 S",
     "avarohana": "S N2 D2 P M1 G3 R2 S",
     "parent_mela": 28,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "kokilavarali",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Kolahasam",
@@ -934,7 +1186,10 @@
     "arohana": "S R2 G3 M1 P D2 N3 S",
     "avarohana": "S N3 P D2 M1 G3 R2 S",
     "parent_mela": 29,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "kolahasam",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Kuntalavarali",
@@ -942,7 +1197,10 @@
     "arohana": "S M1 P D2 N2 D2 S",
     "avarohana": "S N2 D2 P M1 S",
     "parent_mela": 28,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "kuntalavarali",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Kurinji",
@@ -952,7 +1210,10 @@
     "arohana": "S N3 S R2 G3 M1 P",
     "avarohana": "P M1 G3 R2 S N3 D2 N3 S",
     "parent_mela": 29,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "kurinji",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Lalitha",
@@ -962,7 +1223,10 @@
     "arohana": "S R1 G3 M1 D1 N3 S",
     "avarohana": "S N3 D1 M1 G3 R1 S",
     "parent_mela": 15,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "lalita",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Madhuvanti",
@@ -972,7 +1236,10 @@
     "arohana": "S G2 M2 P N3 S",
     "avarohana": "S N3 D2 P M2 G2 R2 S",
     "parent_mela": 59,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "maduvanti",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Madhyamavati",
@@ -982,7 +1249,10 @@
     "arohana": "S R2 M1 P N2 S",
     "avarohana": "S N2 P M1 R2 S",
     "parent_mela": 22,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "madyamavati",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Malahari",
@@ -990,7 +1260,10 @@
     "arohana": "S R1 M1 P D1 S",
     "avarohana": "S D1 P M1 G3 R1 S",
     "parent_mela": 15,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "malahari",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Malavi",
@@ -998,7 +1271,10 @@
     "arohana": "S R2 G3 M1 P M1 D2 N2 S",
     "avarohana": "S N2 D2 P M1 G3 R2 S",
     "parent_mela": 28,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "malavi",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Malayamarutam",
@@ -1009,7 +1285,10 @@
     "arohana": "S R1 G3 P D2 N2 S",
     "avarohana": "S N2 D2 P G3 R1 S",
     "parent_mela": 16,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "malayamarutam",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Manirangu",
@@ -1019,7 +1298,10 @@
     "arohana": "S R2 M1 P N2 S",
     "avarohana": "S N2 P M1 G2 R2 S",
     "parent_mela": 22,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "manirangu",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Manjari",
@@ -1027,7 +1309,10 @@
     "arohana": "S R2 G2 M1 P N2 D2 N2 S",
     "avarohana": "S N2 D2 P M1 G2 R2 S",
     "parent_mela": 22,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "manjari",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Manohari",
@@ -1035,7 +1320,10 @@
     "arohana": "S G2 M1 P D2 S",
     "avarohana": "S N2 D2 P M1 G2 R2 S",
     "parent_mela": 22,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "manohari",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Margahindolam",
@@ -1045,7 +1333,10 @@
     "arohana": "S R2 G2 M1 P D1 S",
     "avarohana": "S N2 D1 P M1 G2 S",
     "parent_mela": 20,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "margahindolam",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Mukhari",
@@ -1053,7 +1344,10 @@
     "arohana": "S R2 M1 P N2 S",
     "avarohana": "S N2 D1 P M1 G2 R2 S",
     "parent_mela": 22,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "mukhari",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Nagasvaravali",
@@ -1063,7 +1357,10 @@
     "arohana": "S G3 M1 P D2 S",
     "avarohana": "S D2 P M1 G3 S",
     "parent_mela": 29,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "nagasvaravali",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Nalinakanti",
@@ -1073,7 +1370,10 @@
     "arohana": "S G3 M1 P N3 S",
     "avarohana": "S N3 P M1 G3 R2 S",
     "parent_mela": 27,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "nalinakanti",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Navarasa Kannada",
@@ -1081,7 +1381,10 @@
     "arohana": "S G3 M1 P S",
     "avarohana": "S N2 D2 M1 G3 R2 S",
     "parent_mela": 28,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "navarasakannada",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Navaroj",
@@ -1091,7 +1394,10 @@
     "arohana": "P D2 N3 S R2 G3 M1 P",
     "avarohana": "M1 G3 R2 S N3 D2 P",
     "parent_mela": 29,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "navaroj",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Nayaki",
@@ -1101,7 +1407,10 @@
     "arohana": "S R2 M1 P D2 N2 D2 S",
     "avarohana": "S N2 D2 P M1 R2 G2 R2 S",
     "parent_mela": 22,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "nayaki",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Nilambari",
@@ -1111,7 +1420,10 @@
     "arohana": "S R2 G3 M1 P D2 P N3 S",
     "avarohana": "S N3 P M1 G3 R2 G3 S",
     "parent_mela": 29,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "nilambari",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Phalamanjari",
@@ -1119,7 +1431,10 @@
     "arohana": "S G2 M1 P D2 S",
     "avarohana": "S N2 D2 P M1 G2 R2 S",
     "parent_mela": 22,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "phalamanjari",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Poornachandrika",
@@ -1129,7 +1444,10 @@
     "arohana": "S R2 G3 M1 P D2 P S",
     "avarohana": "S N3 P M1 R2 G3 M1 R2 S",
     "parent_mela": 29,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "purnachandrika",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Rageshri",
@@ -1140,7 +1458,10 @@
     "arohana": "S G3 M1 D2 N2 S",
     "avarohana": "S N2 D2 M1 G3 R2 S",
     "parent_mela": 28,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "rageshri",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Ranjani",
@@ -1148,7 +1469,10 @@
     "arohana": "S R2 G2 M2 D2 S",
     "avarohana": "S N3 D2 M2 G2 S",
     "parent_mela": 59,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "ranjani",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Ravichandrika",
@@ -1156,7 +1480,10 @@
     "arohana": "S R2 G3 M1 D2 S",
     "avarohana": "S D2 M1 G3 R2 S",
     "parent_mela": 28,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "ravichandrika",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Reethigowla",
@@ -1167,7 +1494,10 @@
     "arohana": "S G2 R2 G2 M1 N2 D2 M1 N2 S",
     "avarohana": "S N2 D2 M1 G2 M1 P M1 G2 R2 S",
     "parent_mela": 22,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "ritigowla",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Revati",
@@ -1177,7 +1507,10 @@
     "arohana": "S R1 M1 P N2 S",
     "avarohana": "S N2 P M1 R1 S",
     "parent_mela": 14,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "revati",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Sahana",
@@ -1187,7 +1520,10 @@
     "arohana": "S R2 G3 M1 P M1 D2 N2 S",
     "avarohana": "S N2 D2 P M1 G3 M1 R2 G3 R2 S",
     "parent_mela": 28,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "sahana",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Sama",
@@ -1197,7 +1533,10 @@
     "arohana": "S R2 M1 P D2 S",
     "avarohana": "S D2 P M1 G3 R2 S",
     "parent_mela": 29,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "sama",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Saramati",
@@ -1208,7 +1547,10 @@
     "arohana": "S R2 G2 M1 D1 N2 S",
     "avarohana": "S N2 D1 M1 G2 S",
     "parent_mela": 20,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "saramati",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Saurashtram",
@@ -1219,7 +1561,10 @@
     "arohana": "S R1 G3 M1 P M1 D1 N3 S",
     "avarohana": "S N3 D1 P M1 G3 R1 S",
     "parent_mela": 17,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "saurashtram",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Savitri",
@@ -1227,7 +1572,10 @@
     "arohana": "S R1 M1 P N3 S",
     "avarohana": "S N3 P M1 R1 S",
     "parent_mela": 15,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "savitri",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Sindhu Bhairavi",
@@ -1237,7 +1585,10 @@
     "arohana": "S R1 G2 M1 P D1 N2 S",
     "avarohana": "S N2 D1 P M1 G2 R1 S",
     "parent_mela": 8,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "sindubhairavi",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Sriranjani",
@@ -1247,7 +1598,10 @@
     "arohana": "S R2 G2 M1 D2 N2 S",
     "avarohana": "S N2 D2 M1 G2 R2 S",
     "parent_mela": 22,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "sriranjani",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Suddha Bangala",
@@ -1257,7 +1611,10 @@
     "arohana": "S R2 M1 P D2 S",
     "avarohana": "S D2 P M1 R2 G2 R2 S",
     "parent_mela": 22,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "suddabangala",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Suddha Dhanyasi",
@@ -1268,7 +1625,10 @@
     "arohana": "S G2 M1 P N2 S",
     "avarohana": "S N2 P M1 G2 S",
     "parent_mela": 22,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "suddadanyasi",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Suddha Saveri",
@@ -1279,7 +1639,10 @@
     "arohana": "S R2 M1 P D2 S",
     "avarohana": "S D2 P M1 R2 S",
     "parent_mela": 29,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "suddasaveri",
+    "summary": null,
+    "summary_source_ids": []
   },
   {
     "name": "Surutti",
@@ -1290,6 +1653,9 @@
     "arohana": "S R2 M1 P N2 S",
     "avarohana": "S N2 D2 P M1 G3 P M1 R2 S",
     "parent_mela": 28,
-    "janaka_or_janya": "janya"
+    "janaka_or_janya": "janya",
+    "key": "surutti",
+    "summary": null,
+    "summary_source_ids": []
   }
 ]
