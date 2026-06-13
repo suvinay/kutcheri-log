@@ -530,8 +530,10 @@
     "avarohana": "S N3 D3 P M1 G3 R3 S",
     "janaka_or_janya": "melakarta",
     "key": "chalanata",
-    "summary": null,
-    "summary_source_ids": []
+    "summary": "As the 36th melakarta, Chalanata serves as the final raga of the Ritu chakra, concluding the Shuddha Madhyama portion of the system. This vivadi scale is characterized by the presence of Shatsruti Rishabha and Shatsruti Dhaivata, which lend it a bright and energetic personality. It is most famously recognized as the parent scale of the auspicious raga Nattai, a staple for concert openers. Beyond its structural importance, the raga is spiritually associated with the heart chakra, symbolizing a bridge between the physical and the divine. Its symmetrical structure employs Antara Gandhara and Kakali Nishada, creating a vibrant tonal landscape. For the rasika, it represents a foundational yet complex pillar of the melakarta scheme.",
+    "summary_source_ids": [
+      "b71d7e352c99"
+    ]
   },
   {
     "name": "salagam",
@@ -1143,8 +1145,10 @@
     "parent_mela": 22,
     "janaka_or_janya": "janya",
     "key": "kapi",
-    "summary": null,
-    "summary_source_ids": []
+    "summary": "Kapi is a versatile and emotive raga defined by a bhashanga structure that incorporates both varieties of nishada. The ascending scale is represented as S R2 M1 P N3 S, while the descent follows a S N2 D2 P M1 G2 R2 S pattern, highlighting the use of Chatusruti Dhaivata and Sadharana Gandhara. This raga is a staple in the Carnatic concert circuit, frequently used for compositions that bridge the gap between complex classical forms and lighter melodic styles. Its expansive repertoire includes a diverse array of pieces such as 'Abadh sukhadayi,' 'Anja varuvadum uNDO,' and 'Adi shankararin mEdai.' Notable musicians, including M. Balamurali Krishna, have contributed to its literature, with the maestro featuring his own self-composed works in this raga during historical performances. The raga's",
+    "summary_source_ids": [
+      "20a0d2f51c2c"
+    ]
   },
   {
     "name": "Karnataka Devagandhari",
@@ -1191,10 +1195,11 @@
     "parent_mela": 29,
     "janaka_or_janya": "janya",
     "key": "kedaram",
-    "summary": "Kedaram is a vakra janya raga derived from the 29th melakarta Dhirasankarabharanam, with a distinctive ascending phrase that introduces gandhara after madhyama (S M1 G3 M1 P N3 S) and a comparatively simpler descent. This crooked movement gives the raga a brisk, engaging, and devotional character particularly associated with compositions dedicated to Shiva, reflecting its connection to the sacred Kedara pilgrimage site. The raga appears in the repertoire of stalwarts such as Sankaran Namboothiri and Shankar Mahadevan at the Cleveland Thyagaraja Aradhana, and Tyagaraja Guru composed in honor of the great saint is one of its celebrated pieces. The raga balances technical display with a meditative mood.",
+    "summary": "Kedaram is a popular janya of the 29th Melakarta, Dheerasankarabharanam, distinguished by its vakra arohana movement: S M1 G3 M1 P N3 S. The avarohana utilizes a graceful S N3 P M1 G3 R2 S structure, where the rishabham adds a definitive character to the descent. Traditionally associated with auspicious and majestic themes, it is frequently used for compositions dedicated to Lord Nataraja of Chidambaram, such as Muthuswami Dikshitar's Ananda naTana prakAsam. The raga's legacy is further enriched by Tamil compositions from Muttu Tandavar and the foundational works of Saint Tyagaraja. Modern concert practice often features these classic items, with renditions by legendary artists like GNB and M.S. Subbulakshmi setting the standard for its expression. Its bright, energetic nature makes it a f",
     "summary_source_ids": [
       "89ae445beb83",
-      "1131ad14d54d"
+      "1131ad14d54d",
+      "09d48f3cccc2"
     ]
   },
   {
@@ -1264,9 +1269,10 @@
     "parent_mela": 15,
     "janaka_or_janya": "janya",
     "key": "lalita",
-    "summary": "Lalita (Lalitha) is an audava (pentatonic) janya raga derived from the 15th melakarta Mayamalavagowla, employing shuddha rishabha, antara gandhara, shuddha madhyama, shuddha dhaivata, and kakali nishada while omitting panchama. Its scale creates a dignified, meditative, and contemplative mood, and the absence of panchama gives it a leaner, more ethereal texture compared to its parent melakarta. The raga is associated with devotional compositions in praise of deities such as Lakshmi, and it has been performed by artists including Vaikom Vijayalakshmi. Its elegant simplicity and the interplay of its characteristic swaras make it suitable for lyrical, unhurried elaboration.",
+    "summary": "Lalitha is a serene shadava raga derived from the Mayamalavagowla scale, distinguished by the complete omission of the Panchamam. Utilizing shuddha rishabham, antara gandharam, shuddha madhyamam, shuddha dhaivatham, and kakali nishadam, it evokes a deeply meditative and devotional atmosphere. While it shares a similar scale with Ragam Vasantha, Lalitha is defined by its more subdued temperament and specific melodic prayogas. Its spiritual depth is captured in iconic compositions like Muthuswami Dikshitar’s 'Hiranmayim Lakshmim' and Tyagaraja’s 'Cedipoke O.' Modern practitioners such as T.M. Krishna and D.K. Jayaraman have highlighted the raga's beauty through the works of the Carnatic Trinity, including Syama Sastri. Furthermore, the raga provides a platform for both vocal and instrumental",
     "summary_source_ids": [
-      "b586f6a91859"
+      "b586f6a91859",
+      "b7e8b720e4ad"
     ]
   },
   {
@@ -1493,9 +1499,10 @@
     "parent_mela": 29,
     "janaka_or_janya": "janya",
     "key": "purnachandrika",
-    "summary": "Poornachandrika (Purnachandrika) is a janya raga derived from the 29th melakarta Dhirasankarabharanam, featuring a vakra ascending pattern (S R2 G3 M1 P D2 P S) that reintroduces panchama after dhaivata before reaching the upper tonic. This unusual oscillation in the ascent combined with a complex descent gives the raga a distinctive, ornate, and celebratory character — its name evoking the full moon in all its splendor. It is a specialty janya raga appearing in focused repertoire and was included in the Navarathri 2011 veena recital by Anuradha Mahesh. Compositions in this raga typically explore its characteristic melodic inflections with careful elaboration.",
+    "summary": "Poornachandrika is a spirited janya of Dheerasankarabharanam, defined by its intricate zig-zag melodic structure. Its scales are marked by a specific Dhaivata phrasing in the arohana and a notable Nishada-to-Panchama transition in the avarohana. Characteristic prayogas such as R2-G3-M1-R2-S provide the raga with its recognizable, bright identity. Iconic kritis like 'Sri Ranganatham' by Dikshitar and Swati Tirunal’s 'Paalayamamdeva' serve as definitive models for this raga. Its enduring appeal in the concert circuit is reflected in Navarathri performances by artists like the Thrissur Brothers and veena exponent Anuradha Mahesh. For the rasika, it offers a blend of rhythmic vitality and melodic charm.",
     "summary_source_ids": [
-      "fb5605ef3c96"
+      "fb5605ef3c96",
+      "afa479108462"
     ]
   },
   {
