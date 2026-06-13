@@ -101,7 +101,7 @@ export function Settings({ onClose, onAdminChange }: Props) {
               <div className="mt-2">
                 <div className="flex gap-2">
                   <div className={`flex-1 flex items-center rounded-lg border min-h-[44px] ${
-                    adminError ? 'border-red-300' : 'border-stone-200 focus-within:border-stone-400'
+                    adminError ? 'border-[var(--color-brand)]' : 'border-stone-200 focus-within:border-stone-400'
                   }`}>
                     <input
                       type={showPass ? 'text' : 'password'}
@@ -132,7 +132,7 @@ export function Settings({ onClose, onAdminChange }: Props) {
                   </button>
                 </div>
                 {adminError && (
-                  <p className="text-red-500 text-xs mt-1">Wrong password</p>
+                  <p className="text-[var(--color-brand)] text-xs mt-1">Wrong password</p>
                 )}
               </div>
             )}

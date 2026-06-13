@@ -51,7 +51,7 @@ export function SetlistItem({ item, expanded, onToggle, onUpdate, onDelete, onSh
               {item.kriti_name}
             </span>
             {item.uncertain && (
-              <span className="text-red-400 text-xs ml-1">(?)</span>
+              <span className="text-[var(--color-brand)] text-xs ml-1">(?)</span>
             )}
             <div className="flex gap-3 text-xs text-stone-400 mt-0.5">
               <span
@@ -158,7 +158,7 @@ export function SetlistItem({ item, expanded, onToggle, onUpdate, onDelete, onSh
             </label>
             <button
               onClick={onDelete}
-              className="text-stone-400 hover:text-red-500 text-sm min-h-[44px] px-3"
+              className="text-stone-400 hover:text-[var(--color-brand)] text-sm min-h-[44px] px-3"
             >
               Delete
             </button>

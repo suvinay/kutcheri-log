@@ -57,7 +57,7 @@ export function ExportModal({ concert, onClose }: Props) {
               className={`px-3 py-2 rounded-lg text-xs font-medium min-h-[40px] transition-colors ${
                 copiedLink
                   ? 'bg-emerald-50 text-emerald-600 border border-emerald-200'
-                  : 'bg-red-600 hover:bg-red-700 text-white'
+                  : 'bg-[var(--color-brand)] hover:bg-[var(--color-brand-hover)] text-white'
               }`}
             >
               {copiedLink ? 'Copied!' : 'Copy link'}

@@ -5,6 +5,8 @@
 @theme {
   --font-sans: 'Inter', system-ui, -apple-system, sans-serif;
   --font-mono: 'JetBrains Mono', ui-monospace, monospace;
+  --color-brand: #990000;
+  --color-brand-hover: #660000;
 }
 
 @keyframes slide-up {

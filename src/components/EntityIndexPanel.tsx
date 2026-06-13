@@ -104,7 +104,7 @@ export function EntityIndexPanel({ onClose }: Props) {
               onClick={() => { setTab(t.key); setQuery(''); }}
               className={`px-2.5 py-2 text-xs font-medium whitespace-nowrap border-b-2 transition-colors ${
                 tab === t.key
-                  ? 'border-red-600 text-stone-800'
+                  ? 'border-[var(--color-brand)] text-stone-800'
                   : 'border-transparent text-stone-400 hover:text-stone-600'
               }`}
             >

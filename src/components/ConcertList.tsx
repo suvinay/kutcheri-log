@@ -13,7 +13,7 @@ export function ConcertList({ concerts, onSelect, onNew, onDelete }: Props) {
       {/* Hero */}
       <header className="mb-10 pt-4">
         <div className="flex items-center gap-3 mb-4">
-          <div className="w-10 h-10 bg-red-600 rounded-lg flex items-center justify-center">
+          <div className="w-10 h-10 bg-[var(--color-brand)] rounded-lg flex items-center justify-center">
             <span className="text-white text-lg font-bold tracking-tight">K</span>
           </div>
           <h1 className="text-xl font-semibold tracking-tight text-stone-900">
@@ -22,7 +22,7 @@ export function ConcertList({ concerts, onSelect, onNew, onDelete }: Props) {
         </div>
 
         <p className="text-stone-800 text-lg font-light">
-          Log<span className="text-red-500 mx-1.5">·</span>Share<span className="text-red-500 mx-1.5">·</span>Discover
+          Log<span className="text-[var(--color-brand)] mx-1.5">·</span>Share<span className="text-[var(--color-brand)] mx-1.5">·</span>Discover
         </p>
 
         <p className="text-stone-400 text-sm mt-3 leading-relaxed max-w-md">
@@ -38,7 +38,7 @@ export function ConcertList({ concerts, onSelect, onNew, onDelete }: Props) {
                 creditsTab?.click();
               }, 100);
             }}
-            className="text-red-500 hover:text-red-600 underline underline-offset-2"
+            className="text-[var(--color-brand)] hover:text-[var(--color-brand)] underline underline-offset-2"
           >
             View credits
           </button>
@@ -47,7 +47,7 @@ export function ConcertList({ concerts, onSelect, onNew, onDelete }: Props) {
 
       <button
         onClick={onNew}
-        className="w-full bg-red-600 hover:bg-red-700 text-white px-4 py-3 rounded-lg text-sm font-medium min-h-[44px] transition-colors mb-10 active:scale-[0.98] transition-transform"
+        className="w-full bg-[var(--color-brand)] hover:bg-[var(--color-brand-hover)] text-white px-4 py-3 rounded-lg text-sm font-medium min-h-[44px] transition-colors mb-10 active:scale-[0.98] transition-transform"
       >
         + New Concert
       </button>
@@ -93,7 +93,7 @@ export function ConcertList({ concerts, onSelect, onNew, onDelete }: Props) {
                         e.stopPropagation();
                         if (confirm('Delete this concert?')) onDelete(concert.id);
                       }}
-                      className="text-stone-300 hover:text-red-400 p-2 ml-2 min-h-[44px] min-w-[44px] flex items-center justify-center shrink-0"
+                      className="text-stone-300 hover:text-[var(--color-brand)] p-2 ml-2 min-h-[44px] min-w-[44px] flex items-center justify-center shrink-0"
                     >
                       ×
                     </button>

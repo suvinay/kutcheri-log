@@ -156,7 +156,7 @@ export function SongSearch({ onAdd }: Props) {
             {asking ? 'Asking Gemini…' : 'Ask Gemini →'}
           </button>
           {askError && (
-            <p className="text-red-500 text-sm mt-2">{askError}</p>
+            <p className="text-[var(--color-brand)] text-sm mt-2">{askError}</p>
           )}
         </div>
       )}
@@ -167,7 +167,7 @@ export function SongSearch({ onAdd }: Props) {
             <div className={`text-xs px-2 py-1 rounded inline-block ${
               confidence === 'high' ? 'bg-emerald-50 text-emerald-600' :
               confidence === 'medium' ? 'bg-amber-50 text-amber-600' :
-              'bg-red-50 text-red-600'
+              'bg-[#990000/8] text-[var(--color-brand)]'
             }`}>
               Gemini confidence: {confidence}
             </div>
@@ -262,7 +262,7 @@ export function SongSearch({ onAdd }: Props) {
           <div className="flex gap-2 pt-1">
             <button
               onClick={submitItem}
-              className="flex-1 bg-red-600 hover:bg-red-700 text-white py-3 rounded-lg min-h-[44px] text-sm font-medium active:scale-[0.98] transition-all"
+              className="flex-1 bg-[var(--color-brand)] hover:bg-[var(--color-brand-hover)] text-white py-3 rounded-lg min-h-[44px] text-sm font-medium active:scale-[0.98] transition-all"
             >
               Add to concert
             </button>

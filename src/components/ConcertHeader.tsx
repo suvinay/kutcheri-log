@@ -125,7 +125,7 @@ export function ConcertHeader({ concert, onUpdate, onUpdateArtists }: Props) {
                   {concert.artists.length > 1 && (
                     <button
                       onClick={() => removeArtist(idx)}
-                      className="text-stone-300 hover:text-red-400 min-w-[44px] min-h-[44px] flex items-center justify-center"
+                      className="text-stone-300 hover:text-[var(--color-brand)] min-w-[44px] min-h-[44px] flex items-center justify-center"
                     >
                       ×
                     </button>
