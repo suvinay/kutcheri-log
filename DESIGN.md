@@ -546,7 +546,7 @@ Discovers URLs to fetch from three source types:
 - **Wikipedia API targets**: Generates Wikipedia article URLs for all ragams and composers in the database using the MediaWiki REST API naming convention.
 
 **Input**: `src/data/songs.json`, `src/data/ragams.json`, `src/data/composers.json`
-**Output**: `data/aug/urls.json` (deduplicated URL list with source site metadata)
+**Output**: `data/augmented/urls.json` (deduplicated URL list with source site metadata)
 
 ```bash
 uv run scripts/aug_discover.py
@@ -559,10 +559,10 @@ Fetches page content from discovered URLs with polite rate limiting and content 
 - **Blogspot**: Extracts post body from Blogger HTML structure.
 - **WordPress**: Extracts post content from WordPress HTML structure.
 - **Wikipedia**: Uses the MediaWiki REST API (`/api/rest_v1/page/html/`) for clean content extraction.
-- **Checkpointing**: Each fetched page is hashed (`content_hash`). Re-runs skip pages whose content has not changed. Progress is checkpointed incrementally to `data/aug/fetched.json`.
+- **Checkpointing**: Each fetched page is hashed (`content_hash`). Re-runs skip pages whose content has not changed. Progress is checkpointed incrementally to `data/augmented/fetched.json`.
 
-**Input**: `data/aug/urls.json`
-**Output**: `data/aug/fetched.json` (fetched content with metadata and content hashes)
+**Input**: `data/augmented/urls.json`
+**Output**: `data/augmented/fetched.json` (fetched content with metadata and content hashes)
 
 ```bash
 uv run scripts/aug_fetch.py
@@ -573,12 +573,12 @@ uv run scripts/aug_fetch.py
 Uses the Gemini API to analyze each fetched page and produce structured `PageRecord` objects:
 
 1. **Page structuring**: Sends page content to Gemini with a prompt that extracts: page summary (<=3 sentences), mentioned kritis (song name + ragam), mentioned ragams, mentioned composers.
-2. **Kriti matching**: Matches extracted kritis to songs in `songs.json` using `normalize_for_dedup(name)` + `ragam_key` join. Unmatched kritis are logged to `data/aug/orphan_ragams.json`.
+2. **Kriti matching**: Matches extracted kritis to songs in `songs.json` using `normalize_for_dedup(name)` + `ragam_key` join. Unmatched kritis are logged to `data/augmented/orphan_ragams.json`.
 3. **Entity linking**: Builds the three link maps (`song_links`, `ragam_links`, `composer_links`) by associating each structured page with the entities it references.
 4. **Output assembly**: Writes the complete `augmentations.json` (source registry + link maps) to `src/data/augmentations.json`.
 
-**Input**: `data/aug/fetched.json`, `src/data/songs.json`, `src/data/ragams.json`, `src/data/composers.json`
-**Output**: `data/aug/structured.json` (intermediate), `src/data/augmentations.json`, `data/aug/orphan_ragams.json`, `data/aug/unmatched.json` (diagnostic)
+**Input**: `data/augmented/fetched.json`, `src/data/songs.json`, `src/data/ragams.json`, `src/data/composers.json`
+**Output**: `data/augmented/structured.json` (intermediate), `src/data/augmentations.json`, `data/augmented/orphan_ragams.json`, `data/augmented/unmatched.json` (diagnostic)
 
 Requires `GEMINI_API_KEY` in `.env`.
 
@@ -684,15 +684,15 @@ A reusable component that renders a compact row of clickable source links with d
 | `scripts/aug_structure.py` | Stage 3: Gemini-powered page structuring, entity linking, builds augmentations.json |
 | `scripts/aug_synthesize.py` | Stage 4: Per-entity summary synthesis from page summaries |
 
-### 14.2 Intermediate Data (`data/aug/`)
+### 14.2 Intermediate Data (`data/augmented/`)
 
 | File | Purpose |
 |------|---------|
-| `data/aug/urls.json` | Discovered URLs from all augmentation sources |
-| `data/aug/fetched.json` | Fetched page content with content hashes |
-| `data/aug/structured.json` | Intermediate structured PageRecords (before assembly into augmentations.json) |
-| `data/aug/orphan_ragams.json` | Ragam names found in pages that do not match any ragam in the database |
-| `data/aug/unmatched.json` | Kritis mentioned in pages that could not be matched to songs in the database |
+| `data/augmented/urls.json` | Discovered URLs from all augmentation sources |
+| `data/augmented/fetched.json` | Fetched page content with content hashes |
+| `data/augmented/structured.json` | Intermediate structured PageRecords (before assembly into augmentations.json) |
+| `data/augmented/orphan_ragams.json` | Ragam names found in pages that do not match any ragam in the database |
+| `data/augmented/unmatched.json` | Kritis mentioned in pages that could not be matched to songs in the database |
 
 ### 14.3 Bundled Data (`src/data/`)
 

@@ -58,7 +58,7 @@ swapped. The repo's `claudeService.ts` (song identification) is unrelated and st
 - Honor each site's `robots.txt`. Rate-limit ≤ 1 req/sec/host, small concurrency. Set a
   descriptive `User-Agent`. These are personal blogs on shared hosting.
 - **Checkpoint everything** to state files so a wave can stop and resume without re-fetching:
-  `data/aug/<stage>.checkpoint.json`. Discovery, fetch, and summarize are **separate
+  `data/augmented/<stage>.checkpoint.json`. Discovery, fetch, and summarize are **separate
   invocations** precisely so each wave is bounded and interruptible.
 - Cache page summaries by **content hash**: re-summarize a page only if its content changed.
 
@@ -198,12 +198,12 @@ Goal: three consistent, cross-referenced entity files; app builds.
    `song_count` = count. **Merge, don't clobber** on re-run: preserve `summary`, `period`,
    `tradition`, manual alias edits; refresh `song_count`.
 3. Add `key` to every `ragams.json` entry (= `normalize_ragam(name)`). Verify every
-   `song.ragam_key` maps to a ragam `key`; log orphans to `data/aug/orphan_ragams.json`
+   `song.ragam_key` maps to a ragam `key`; log orphans to `data/augmented/orphan_ragams.json`
    (these are janya ragas missing from the 122-entry ragam DB — fine to backfill later).
 4. Add the TS interfaces above. Copy updated files to `src/data/`.
 - **Deliverable:** `songs.json` (+keys), `ragams.json` (+key), `composers.json`; `npm run build` green.
 
-### Stage 1 — URL discovery (waves) → `data/aug/urls.json`
+### Stage 1 — URL discovery (waves) → `data/augmented/urls.json`
 Parse the saved index HTML for the three Vaibhavam blogs (cleanest 1:1), the WP.com sitemaps
 for the blogs, the Raga Surabhi sitemap (filtered), and build the Wikipedia target list (raga
 aliases + composer names). Write a per-site target list + per-URL state for resume.
@@ -218,7 +218,7 @@ For each page, call Gemini (JSON-only) to produce one `PageRecord` with an **ori
 summary and the ragas/composers/kritis it discusses. Then normalize each extracted entity and
 append to `song_links` (resolve to `song_id` via the match key), `ragam_links` (by `ragam_key`),
 `composer_links` (by `composer_key`). Only attach when the key exists in the entity tables;
-log misses to `data/aug/unmatched.json` for normalizer tuning. Cache by `content_hash`.
+log misses to `data/augmented/unmatched.json` for normalizer tuning. Cache by `content_hash`.
 
 Structuring prompt (system): *"You are an expert in Carnatic music. Given the main text of one
 web page, return ONLY JSON matching the PageRecord schema. `summary` must be your own words
@@ -270,7 +270,7 @@ Update `DESIGN.md` to reflect what was actually built:
 - **Architecture**: the three-entity model + augmentation registry; static-bundle, offline.
 - **Directory Structure**: new `scripts/` (`aug_keys.py`, `build_composers.py`,
   `aug_discover.py`, `aug_fetch.py`, `aug_structure.py`, `aug_synthesize.py` — name to match
-  what you implement), new `data/aug/` artifacts, new `src/data/composers.json` +
+  what you implement), new `data/augmented/` artifacts, new `src/data/composers.json` +
   `augmentations.json`, new components/hooks.
 - **Data Pipeline**: add the discovery → fetch → structure → synthesize stages and the
   re-run/wave commands.

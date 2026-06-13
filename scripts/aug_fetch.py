@@ -15,7 +15,7 @@ import requests
 from bs4 import BeautifulSoup
 
 DATA_DIR = Path(__file__).parent.parent / "data"
-AUG_DIR = DATA_DIR / "aug"
+AUG_DIR = DATA_DIR / "augmented"
 URLS_FILE = AUG_DIR / "urls.json"
 FETCH_FILE = AUG_DIR / "fetched.json"
 

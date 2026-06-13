@@ -9,7 +9,7 @@ import re
 from pathlib import Path
 
 DATA_DIR = Path(__file__).parent.parent / "data"
-AUG_DIR = DATA_DIR / "aug"
+AUG_DIR = DATA_DIR / "augmented"
 AUG_DIR.mkdir(parents=True, exist_ok=True)
 
 

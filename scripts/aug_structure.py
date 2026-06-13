@@ -17,7 +17,7 @@ from google import genai
 load_dotenv(Path(__file__).parent.parent / ".env")
 
 DATA_DIR = Path(__file__).parent.parent / "data"
-AUG_DIR = DATA_DIR / "aug"
+AUG_DIR = DATA_DIR / "augmented"
 FETCH_FILE = AUG_DIR / "fetched.json"
 STRUCT_FILE = AUG_DIR / "structured.json"
 AUG_OUT = DATA_DIR / "augmentations.json"

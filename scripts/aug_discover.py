@@ -2,7 +2,7 @@
 # requires-python = ">=3.11"
 # dependencies = ["requests", "beautifulsoup4", "lxml"]
 # ///
-"""Stage 1: URL discovery for augmentation sources. Builds data/aug/urls.json."""
+"""Stage 1: URL discovery for augmentation sources. Builds data/augmented/urls.json."""
 
 import json
 import re
@@ -14,7 +14,7 @@ from bs4 import BeautifulSoup
 
 DATA_DIR = Path(__file__).parent.parent / "data"
 HTML_DIR = DATA_DIR / "html"
-AUG_DIR = DATA_DIR / "aug"
+AUG_DIR = DATA_DIR / "augmented"
 AUG_DIR.mkdir(parents=True, exist_ok=True)
 
 URLS_FILE = AUG_DIR / "urls.json"
