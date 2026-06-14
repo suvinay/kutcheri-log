@@ -39,7 +39,7 @@ Paste the hash into `.env` as `VITE_ADMIN_HASH`, then restart the dev server.
 
 ## Updating the Song Database
 
-The bundled database (`src/data/songs.json`, `src/data/ragams.json`) was built by scraping 5 reference sites. See `DESIGN.md` for full details and `TODO-next-session.md` for pending enrichment steps.
+The bundled database (`src/data/songs.json`, `src/data/ragams.json`) was built by scraping 5 reference sites. See `DESIGN.md` for details.
 
 ```bash
 # 1. Parse index pages (already done, re-run if HTML files updated)
