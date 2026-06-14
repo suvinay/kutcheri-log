@@ -6,13 +6,24 @@ import type { StorageProvider } from '../storage/StorageProvider';
 
 const storage: StorageProvider = new LocalStorageProvider();
 
+function mergeConcerts(bundled: Concert[], local: Concert[]): Concert[] {
+  const byId = new Map<string, Concert>();
+  for (const c of bundled) byId.set(c.id, c);
+  // Local overrides bundled (user may have edited a published concert)
+  for (const c of local) byId.set(c.id, c);
+  return Array.from(byId.values()).sort((a, b) => b.date.localeCompare(a.date));
+}
+
 export function useConcerts() {
   const [concerts, setConcerts] = useState<Concert[]>([]);
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    storage.loadConcerts().then(c => {
-      setConcerts(c.sort((a, b) => b.date.localeCompare(a.date)));
+    Promise.all([
+      import('../data/concerts.json').then(m => m.default as Concert[]),
+      storage.loadConcerts(),
+    ]).then(([bundled, local]) => {
+      setConcerts(mergeConcerts(bundled, local));
       setLoading(false);
     });
   }, []);
