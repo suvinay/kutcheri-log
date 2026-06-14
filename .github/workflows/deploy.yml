@@ -30,6 +30,7 @@ jobs:
       - run: npm run build
         env:
           VITE_ADMIN_HASH: ${{ secrets.VITE_ADMIN_HASH }}
+          VITE_SHEETS_URL: ${{ secrets.VITE_SHEETS_URL }}
       - uses: actions/upload-pages-artifact@v3
         with:
           path: dist
