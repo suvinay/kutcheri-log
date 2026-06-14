@@ -91,14 +91,33 @@ export function Settings({ onClose, onAdminChange }: Props) {
           <div className="border-t border-stone-100 pt-4">
             <label className="text-stone-400 text-xs font-medium">Admin</label>
             {admin ? (
-              <div className="flex items-center justify-between mt-2">
-                <span className="text-emerald-600 text-sm">Admin mode active</span>
-                <button
-                  onClick={handleAdminLogout}
-                  className="text-stone-400 hover:text-stone-600 text-sm min-h-[44px] px-3"
-                >
-                  Log out
-                </button>
+              <div className="space-y-4 mt-2">
+                <div className="flex items-center justify-between">
+                  <span className="text-emerald-600 text-sm">Admin mode active</span>
+                  <button
+                    onClick={handleAdminLogout}
+                    className="text-stone-400 hover:text-stone-600 text-sm min-h-[44px] px-3"
+                  >
+                    Log out
+                  </button>
+                </div>
+                <div>
+                  <p className="text-stone-300 text-xs mb-2">
+                    Clear locally cached concerts and user-entered songs. Only cloud-synced data will remain.
+                  </p>
+                  <button
+                    onClick={() => {
+                      if (confirm('Clear all local concert data? Only cloud-synced concerts will remain.')) {
+                        localStorage.removeItem('carnatic-log-concerts');
+                        localStorage.removeItem('kutcheri-user-songs');
+                        window.location.reload();
+                      }
+                    }}
+                    className="border border-stone-200 hover:border-[var(--color-brand)] text-stone-500 hover:text-[var(--color-brand)] px-4 py-2 rounded-lg text-sm min-h-[44px] transition-colors"
+                  >
+                    Clear local cache
+                  </button>
+                </div>
               </div>
             ) : (
               <div className="mt-2">
