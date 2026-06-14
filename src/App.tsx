@@ -28,6 +28,7 @@ export default function App() {
   const {
     concerts,
     loading,
+    syncError,
     createConcert,
     updateConcert,
     deleteConcert,
@@ -92,6 +93,7 @@ export default function App() {
       {activeConcert ? (
         <ConcertEditor
           concert={activeConcert}
+          syncError={syncError}
           onBack={() => setActiveConcert(null)}
           onUpdate={updateConcert}
           onAddItem={item => addItem(activeConcert.id, item)}

@@ -3,13 +3,13 @@ import { v4 as uuidv4 } from 'uuid';
 import type { Concert, ConcertItem, Artist } from '../types';
 import { LocalStorageProvider } from '../storage/LocalStorageProvider';
 import type { StorageProvider } from '../storage/StorageProvider';
+import { fetchPublishedConcerts, publishConcertToSheet, isSheetsConfigured } from '../services/sheetSync';
 
 const storage: StorageProvider = new LocalStorageProvider();
 
-function mergeConcerts(bundled: Concert[], local: Concert[]): Concert[] {
+function mergeConcerts(published: Concert[], local: Concert[]): Concert[] {
   const byId = new Map<string, Concert>();
-  for (const c of bundled) byId.set(c.id, c);
-  // Local overrides bundled (user may have edited a published concert)
+  for (const c of published) byId.set(c.id, c);
   for (const c of local) byId.set(c.id, c);
   return Array.from(byId.values()).sort((a, b) => b.date.localeCompare(a.date));
 }
@@ -17,15 +17,26 @@ function mergeConcerts(bundled: Concert[], local: Concert[]): Concert[] {
 export function useConcerts() {
   const [concerts, setConcerts] = useState<Concert[]>([]);
   const [loading, setLoading] = useState(true);
+  const [syncError, setSyncError] = useState('');
 
   useEffect(() => {
     Promise.all([
-      import('../data/concerts.json').then(m => m.default as Concert[]),
+      fetchPublishedConcerts().catch(() => [] as Concert[]),
       storage.loadConcerts(),
-    ]).then(([bundled, local]) => {
-      setConcerts(mergeConcerts(bundled, local));
+    ]).then(([published, local]) => {
+      setConcerts(mergeConcerts(published, local));
       setLoading(false);
     });
+  }, []);
+
+  const syncToSheet = useCallback(async (concert: Concert) => {
+    if (!isSheetsConfigured()) return;
+    try {
+      await publishConcertToSheet(concert);
+      setSyncError('');
+    } catch (e) {
+      setSyncError(e instanceof Error ? e.message : 'Sync failed');
+    }
   }, []);
 
   const createConcert = useCallback(async (): Promise<Concert> => {
@@ -53,8 +64,9 @@ export function useConcerts() {
       prev.map(c => (c.id === updated.id ? updated : c))
         .sort((a, b) => b.date.localeCompare(a.date)),
     );
+    syncToSheet(updated);
     return updated;
-  }, []);
+  }, [syncToSheet]);
 
   const deleteConcert = useCallback(async (id: string) => {
     await storage.deleteConcert(id);
@@ -77,9 +89,10 @@ export function useConcerts() {
       };
       await storage.saveConcert(updated);
       setConcerts(prev => prev.map(c => (c.id === updated.id ? updated : c)));
+      syncToSheet(updated);
       return updated;
     },
-    [concerts],
+    [concerts, syncToSheet],
   );
 
   const updateItem = useCallback(
@@ -93,9 +106,10 @@ export function useConcerts() {
       };
       await storage.saveConcert(updated);
       setConcerts(prev => prev.map(c => (c.id === updated.id ? updated : c)));
+      syncToSheet(updated);
       return updated;
     },
-    [concerts],
+    [concerts, syncToSheet],
   );
 
   const deleteItem = useCallback(
@@ -112,9 +126,10 @@ export function useConcerts() {
       };
       await storage.saveConcert(updated);
       setConcerts(prev => prev.map(c => (c.id === updated.id ? updated : c)));
+      syncToSheet(updated);
       return updated;
     },
-    [concerts],
+    [concerts, syncToSheet],
   );
 
   const reorderItems = useCallback(
@@ -156,6 +171,7 @@ export function useConcerts() {
   return {
     concerts,
     loading,
+    syncError,
     createConcert,
     updateConcert,
     deleteConcert,

@@ -8,7 +8,6 @@ interface Props {
 
 export function Settings({ onClose, onAdminChange }: Props) {
   const [apiKey, setApiKey] = useState(localStorage.getItem('gemini-api-key') || '');
-  const [githubPat, setGithubPat] = useState(localStorage.getItem('github-pat') || '');
   const [saved, setSaved] = useState(false);
   const [adminPass, setAdminPass] = useState('');
   const [adminError, setAdminError] = useState(false);
@@ -20,11 +19,6 @@ export function Settings({ onClose, onAdminChange }: Props) {
       localStorage.setItem('gemini-api-key', apiKey.trim());
     } else {
       localStorage.removeItem('gemini-api-key');
-    }
-    if (githubPat.trim()) {
-      localStorage.setItem('github-pat', githubPat.trim());
-    } else {
-      localStorage.removeItem('github-pat');
     }
     setSaved(true);
     setTimeout(() => setSaved(false), 2000);
@@ -77,26 +71,6 @@ export function Settings({ onClose, onAdminChange }: Props) {
               value={apiKey}
               onChange={e => setApiKey(e.target.value)}
               placeholder="AI..."
-              className="w-full bg-white text-stone-800 rounded-lg px-3 py-2 min-h-[44px] border border-stone-200 focus:border-stone-400 focus:outline-none font-mono text-sm placeholder-stone-300"
-            />
-          </div>
-
-          <div>
-            <label className="text-stone-400 text-xs font-medium">
-              GitHub Token
-            </label>
-            <p className="text-stone-300 text-xs mt-1 mb-2">
-              Required to publish concerts. Create a{' '}
-              <a href="https://github.com/settings/tokens/new?scopes=repo&description=kutcheri-log" target="_blank" rel="noopener noreferrer" className="underline">
-                personal access token
-              </a>{' '}
-              with repo scope.
-            </p>
-            <input
-              type="password"
-              value={githubPat}
-              onChange={e => setGithubPat(e.target.value)}
-              placeholder="ghp_..."
               className="w-full bg-white text-stone-800 rounded-lg px-3 py-2 min-h-[44px] border border-stone-200 focus:border-stone-400 focus:outline-none font-mono text-sm placeholder-stone-300"
             />
           </div>
