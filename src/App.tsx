@@ -42,9 +42,11 @@ export default function App() {
     initDb().then(() => setDbReady(true));
   }, []);
 
-  // URL-based concert routing
+  // URL-based concert routing — only on initial load
+  const [urlChecked, setUrlChecked] = useState(false);
   useEffect(() => {
-    if (!loading && concerts.length > 0 && !activeConcert) {
+    if (!loading && concerts.length > 0 && !urlChecked) {
+      setUrlChecked(true);
       const params = new URLSearchParams(window.location.search);
       const concertId = params.get('concert');
       if (concertId) {
@@ -52,22 +54,26 @@ export default function App() {
         if (found) setActiveConcert(found);
       }
     }
-  }, [loading, concerts, activeConcert]);
+  }, [loading, concerts, urlChecked]);
 
-  // Keep activeConcert in sync and update URL
+  // Keep activeConcert in sync with concerts state
   useEffect(() => {
     if (activeConcert) {
       const updated = concerts.find(c => c.id === activeConcert.id);
-      if (updated) setActiveConcert(updated);
-      const url = new URL(window.location.href);
-      url.searchParams.set('concert', activeConcert.id);
-      window.history.replaceState({}, '', url.toString());
-    } else {
-      const url = new URL(window.location.href);
-      url.searchParams.delete('concert');
-      window.history.replaceState({}, '', url.toString());
+      if (updated && updated !== activeConcert) setActiveConcert(updated);
     }
   }, [concerts, activeConcert]);
+
+  // Sync URL with active concert
+  useEffect(() => {
+    const url = new URL(window.location.href);
+    if (activeConcert) {
+      url.searchParams.set('concert', activeConcert.id);
+    } else {
+      url.searchParams.delete('concert');
+    }
+    window.history.replaceState({}, '', url.toString());
+  }, [activeConcert]);
 
   const handleAdminChange = useCallback(() => {
     setAdmin(isAdmin());

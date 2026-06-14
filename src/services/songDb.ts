@@ -1,5 +1,6 @@
 import Fuse from 'fuse.js';
 import type { Song, Ragam, Composer, Augmentations, PageRecord, AugSourceLink } from '../types';
+import { loadUserSongs } from './userSongs';
 
 let songDb: Song[] = [];
 let ragamDb: Ragam[] = [];
@@ -48,7 +49,9 @@ export async function initDb() {
     import('../data/composers.json'),
     import('../data/augmentations.json'),
   ]);
-  songDb = songsModule.default as Song[];
+  const bundledSongs = songsModule.default as Song[];
+  const userSongs = loadUserSongs();
+  songDb = [...bundledSongs, ...userSongs];
   ragamDb = ragamsModule.default as Ragam[];
   composerDb = composersModule.default as Composer[];
   augmentations = augModule.default as unknown as Augmentations;
@@ -249,4 +252,33 @@ export function getAllRagams(): Ragam[] {
 
 export function getAllComposers(): Composer[] {
   return composerDb;
+}
+
+export function addSongToIndex(song: Song): void {
+  songDb.push(song);
+  // Rebuild song Fuse index with the new entry
+  const searchable: SearchableSong = {
+    ...song,
+    _normalized_names: song.names.map(normalizeForSearch),
+    _normalized_ragam: normalizeForSearch(song.ragam),
+    _normalized_composer: normalizeForSearch(song.composer),
+  };
+  if (songFuse) {
+    songFuse.add(searchable);
+  }
+  // Update reverse indices
+  if (song.ragam_key) {
+    const list = ragamToSongs.get(song.ragam_key) || [];
+    list.push(song);
+    ragamToSongs.set(song.ragam_key, list);
+  }
+  if (song.composer_key) {
+    const list = composerToSongs.get(song.composer_key) || [];
+    list.push(song);
+    composerToSongs.set(song.composer_key, list);
+  }
+}
+
+export function isUserEntered(song: Song): boolean {
+  return song.tags?.includes('user-entered') ?? false;
 }
