@@ -3,7 +3,7 @@ import { v4 as uuidv4 } from 'uuid';
 import type { Concert, ConcertItem, Artist } from '../types';
 import { LocalStorageProvider } from '../storage/LocalStorageProvider';
 import type { StorageProvider } from '../storage/StorageProvider';
-import { fetchPublishedConcerts, publishConcertToSheet, isSheetsConfigured } from '../services/sheetSync';
+import { fetchPublishedConcerts, publishConcertToSheet, deleteConcertFromSheet, isSheetsConfigured } from '../services/sheetSync';
 
 const storage: StorageProvider = new LocalStorageProvider();
 
@@ -71,6 +71,7 @@ export function useConcerts() {
   const deleteConcert = useCallback(async (id: string) => {
     await storage.deleteConcert(id);
     setConcerts(prev => prev.filter(c => c.id !== id));
+    deleteConcertFromSheet(id).catch(() => {});
   }, []);
 
   const addItem = useCallback(
