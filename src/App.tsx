@@ -97,6 +97,7 @@ export default function App() {
           editable={admin || activeConcert.device_id === getDeviceId()}
           syncError={syncError}
           onBack={() => setActiveConcert(null)}
+          onDiscard={deleteConcert}
           onUpdate={updateConcert}
           onAddItem={item => addItem(activeConcert.id, item)}
           onUpdateItem={item => updateItem(activeConcert.id, item)}

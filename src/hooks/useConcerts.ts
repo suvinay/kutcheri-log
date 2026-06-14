@@ -32,6 +32,9 @@ export function useConcerts() {
 
   const syncToSheet = useCallback(async (concert: Concert) => {
     if (!isSheetsConfigured()) return;
+    // Don't sync empty concerts
+    const hasContent = concert.items.length > 0 || concert.artists.some(a => a.name.trim());
+    if (!hasContent) return;
     try {
       await publishConcertToSheet(concert);
       setSyncError('');

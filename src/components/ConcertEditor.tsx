@@ -5,11 +5,19 @@ import { SongSearch } from './SongSearch';
 import { Setlist } from './Setlist';
 import { ExportModal } from './ExportModal';
 
+function isConcertEmpty(concert: Concert): boolean {
+  const hasArtists = concert.artists.some(a => a.name.trim());
+  const hasVenue = concert.venue.trim().length > 0;
+  const hasItems = concert.items.length > 0;
+  return !hasArtists && !hasVenue && !hasItems;
+}
+
 interface Props {
   concert: Concert;
   editable: boolean;
   syncError?: string;
   onBack: () => void;
+  onDiscard: (id: string) => void;
   onUpdate: (concert: Concert) => void;
   onAddItem: (item: Omit<ConcertItem, 'id' | 'position'>) => void;
   onUpdateItem: (item: ConcertItem) => void;
@@ -23,6 +31,7 @@ export function ConcertEditor({
   editable,
   syncError,
   onBack,
+  onDiscard,
   onUpdate,
   onAddItem,
   onUpdateItem,
@@ -31,12 +40,27 @@ export function ConcertEditor({
   onUpdateArtists,
 }: Props) {
   const [showExport, setShowExport] = useState(false);
+  const empty = isConcertEmpty(concert);
+
+  const handleBack = () => {
+    if (empty) {
+      onDiscard(concert.id);
+    }
+    onBack();
+  };
+
+  const handleDiscard = () => {
+    if (confirm('Discard this concert? This cannot be undone.')) {
+      onDiscard(concert.id);
+      onBack();
+    }
+  };
 
   return (
     <div className="min-h-screen bg-white text-stone-900 px-4 py-6 max-w-xl mx-auto pb-20 font-sans">
       <header className="flex items-center justify-between mb-6">
         <button
-          onClick={onBack}
+          onClick={handleBack}
           className="text-stone-400 hover:text-stone-600 min-h-[44px] min-w-[44px] flex items-center justify-center -ml-2 text-sm"
         >
           ← Back
@@ -45,12 +69,22 @@ export function ConcertEditor({
           {!editable && (
             <span className="text-stone-300 text-xs">View only</span>
           )}
-          <button
-            onClick={() => setShowExport(true)}
-            className="border border-stone-200 hover:border-stone-300 text-stone-500 hover:text-stone-700 px-4 py-2 rounded-lg min-h-[44px] text-sm transition-colors"
-          >
-            Share
-          </button>
+          {editable && !empty && (
+            <button
+              onClick={handleDiscard}
+              className="text-stone-300 hover:text-[var(--color-brand)] px-3 py-2 rounded-lg min-h-[44px] text-sm transition-colors"
+            >
+              Discard
+            </button>
+          )}
+          {!empty && (
+            <button
+              onClick={() => setShowExport(true)}
+              className="border border-stone-200 hover:border-stone-300 text-stone-500 hover:text-stone-700 px-4 py-2 rounded-lg min-h-[44px] text-sm transition-colors"
+            >
+              Share
+            </button>
+          )}
         </div>
       </header>
 
