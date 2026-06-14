@@ -3,11 +3,12 @@ import type { Concert, Artist } from '../types';
 
 interface Props {
   concert: Concert;
+  editable: boolean;
   onUpdate: (concert: Concert) => void;
   onUpdateArtists: (artists: Artist[]) => void;
 }
 
-export function ConcertHeader({ concert, onUpdate, onUpdateArtists }: Props) {
+export function ConcertHeader({ concert, editable, onUpdate, onUpdateArtists }: Props) {
   const [expanded, setExpanded] = useState(!concert.venue);
 
   const updateField = (field: keyof Concert, value: string) => {
@@ -52,10 +53,11 @@ export function ConcertHeader({ concert, onUpdate, onUpdateArtists }: Props) {
           <div>
             <label className="text-stone-400 text-xs font-medium">Date</label>
             <input
-              type="date"
+              type={editable ? 'date' : 'text'}
               value={concert.date}
-              onChange={e => updateField('date', e.target.value)}
-              className="w-full bg-white text-stone-800 rounded-lg px-3 py-2 mt-1 min-h-[44px] border border-stone-200 focus:border-stone-400 focus:outline-none"
+              onChange={e => editable && updateField('date', e.target.value)}
+              readOnly={!editable}
+              className={`w-full text-stone-800 rounded-lg px-3 py-2 mt-1 min-h-[44px] border focus:outline-none ${editable ? 'bg-white border-stone-200 focus:border-stone-400' : 'bg-stone-50 border-stone-100'}`}
             />
           </div>
           <div>
@@ -63,9 +65,10 @@ export function ConcertHeader({ concert, onUpdate, onUpdateArtists }: Props) {
             <input
               type="text"
               value={concert.venue}
-              onChange={e => updateField('venue', e.target.value)}
-              placeholder="Concert hall, city"
-              className="w-full bg-white text-stone-800 rounded-lg px-3 py-2 mt-1 min-h-[44px] border border-stone-200 focus:border-stone-400 focus:outline-none placeholder-stone-300"
+              onChange={e => editable && updateField('venue', e.target.value)}
+              readOnly={!editable}
+              placeholder={editable ? 'Concert hall, city' : ''}
+              className={`w-full text-stone-800 rounded-lg px-3 py-2 mt-1 min-h-[44px] border focus:outline-none ${editable ? 'bg-white border-stone-200 focus:border-stone-400 placeholder-stone-300' : 'bg-stone-50 border-stone-100'}`}
             />
           </div>
           <div>
@@ -73,9 +76,10 @@ export function ConcertHeader({ concert, onUpdate, onUpdateArtists }: Props) {
             <input
               type="text"
               value={concert.organization}
-              onChange={e => updateField('organization', e.target.value)}
-              placeholder="Presenting organization"
-              className="w-full bg-white text-stone-800 rounded-lg px-3 py-2 mt-1 min-h-[44px] border border-stone-200 focus:border-stone-400 focus:outline-none placeholder-stone-300"
+              onChange={e => editable && updateField('organization', e.target.value)}
+              readOnly={!editable}
+              placeholder={editable ? 'Presenting organization' : ''}
+              className={`w-full text-stone-800 rounded-lg px-3 py-2 mt-1 min-h-[44px] border focus:outline-none ${editable ? 'bg-white border-stone-200 focus:border-stone-400 placeholder-stone-300' : 'bg-stone-50 border-stone-100'}`}
             />
           </div>
 
@@ -84,9 +88,10 @@ export function ConcertHeader({ concert, onUpdate, onUpdateArtists }: Props) {
             <input
               type="text"
               value={concert.logged_by || ''}
-              onChange={e => updateField('logged_by', e.target.value)}
-              placeholder="Your name (optional)"
-              className="w-full bg-white text-stone-800 rounded-lg px-3 py-2 mt-1 min-h-[44px] border border-stone-200 focus:border-stone-400 focus:outline-none placeholder-stone-300"
+              onChange={e => editable && updateField('logged_by', e.target.value)}
+              readOnly={!editable}
+              placeholder={editable ? 'Your name (optional)' : ''}
+              className={`w-full text-stone-800 rounded-lg px-3 py-2 mt-1 min-h-[44px] border focus:outline-none ${editable ? 'bg-white border-stone-200 focus:border-stone-400 placeholder-stone-300' : 'bg-stone-50 border-stone-100'}`}
             />
           </div>
 
@@ -95,34 +100,41 @@ export function ConcertHeader({ concert, onUpdate, onUpdateArtists }: Props) {
             <div className="space-y-2 mt-2">
               {concert.artists.map((artist, idx) => (
                 <div key={idx} className="flex gap-2">
-                  <select
-                    value={artist.role}
-                    onChange={e => updateArtist(idx, 'role', e.target.value)}
-                    className="bg-white text-stone-800 rounded-lg px-2 py-2 min-h-[44px] border border-stone-200 focus:border-stone-400 focus:outline-none w-28 text-sm"
-                  >
-                    <option value="">Role</option>
-                    <option value="Vocal">Vocal</option>
-                    <option value="Violin">Violin</option>
-                    <option value="Mridangam">Mridangam</option>
-                    <option value="Ghatam">Ghatam</option>
-                    <option value="Kanjira">Kanjira</option>
-                    <option value="Morsing">Morsing</option>
-                    <option value="Flute">Flute</option>
-                    <option value="Veena">Veena</option>
-                    <option value="Chitraveena">Chitraveena</option>
-                    <option value="Nadaswaram">Nadaswaram</option>
-                    <option value="Tavil">Tavil</option>
-                    <option value="Mandolin">Mandolin</option>
-                    <option value="Saxophone">Saxophone</option>
-                  </select>
+                  {editable ? (
+                    <select
+                      value={artist.role}
+                      onChange={e => updateArtist(idx, 'role', e.target.value)}
+                      className="bg-white text-stone-800 rounded-lg px-2 py-2 min-h-[44px] border border-stone-200 focus:border-stone-400 focus:outline-none w-28 text-sm"
+                    >
+                      <option value="">Role</option>
+                      <option value="Vocal">Vocal</option>
+                      <option value="Violin">Violin</option>
+                      <option value="Mridangam">Mridangam</option>
+                      <option value="Ghatam">Ghatam</option>
+                      <option value="Kanjira">Kanjira</option>
+                      <option value="Morsing">Morsing</option>
+                      <option value="Flute">Flute</option>
+                      <option value="Veena">Veena</option>
+                      <option value="Chitraveena">Chitraveena</option>
+                      <option value="Nadaswaram">Nadaswaram</option>
+                      <option value="Tavil">Tavil</option>
+                      <option value="Mandolin">Mandolin</option>
+                      <option value="Saxophone">Saxophone</option>
+                    </select>
+                  ) : (
+                    <span className="bg-stone-50 text-stone-800 rounded-lg px-2 py-2 min-h-[44px] border border-stone-100 w-28 text-sm flex items-center">
+                      {artist.role}
+                    </span>
+                  )}
                   <input
                     type="text"
                     value={artist.name}
-                    onChange={e => updateArtist(idx, 'name', e.target.value)}
-                    placeholder="Artist name"
-                    className="flex-1 bg-white text-stone-800 rounded-lg px-3 py-2 min-h-[44px] border border-stone-200 focus:border-stone-400 focus:outline-none placeholder-stone-300"
+                    onChange={e => editable && updateArtist(idx, 'name', e.target.value)}
+                    readOnly={!editable}
+                    placeholder={editable ? 'Artist name' : ''}
+                    className={`flex-1 text-stone-800 rounded-lg px-3 py-2 min-h-[44px] border focus:outline-none ${editable ? 'bg-white border-stone-200 focus:border-stone-400 placeholder-stone-300' : 'bg-stone-50 border-stone-100'}`}
                   />
-                  {concert.artists.length > 1 && (
+                  {editable && concert.artists.length > 1 && (
                     <button
                       onClick={() => removeArtist(idx)}
                       className="text-stone-300 hover:text-[var(--color-brand)] min-w-[44px] min-h-[44px] flex items-center justify-center"
@@ -132,12 +144,14 @@ export function ConcertHeader({ concert, onUpdate, onUpdateArtists }: Props) {
                   )}
                 </div>
               ))}
-              <button
-                onClick={addArtist}
-                className="text-stone-400 hover:text-stone-600 text-sm py-2 min-h-[44px]"
-              >
-                + Add artist
-              </button>
+              {editable && (
+                <button
+                  onClick={addArtist}
+                  className="text-stone-400 hover:text-stone-600 text-sm py-2 min-h-[44px]"
+                >
+                  + Add artist
+                </button>
+              )}
             </div>
           </div>
         </div>

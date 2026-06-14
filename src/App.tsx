@@ -2,6 +2,7 @@ import { useState, useEffect, useCallback } from 'react';
 import type { Concert } from './types';
 import { initDb } from './services/songDb';
 import { isAdmin } from './services/admin';
+import { getDeviceId } from './services/deviceId';
 import { useConcerts } from './hooks/useConcerts';
 import { ConcertList } from './components/ConcertList';
 import { ConcertEditor } from './components/ConcertEditor';
@@ -93,6 +94,7 @@ export default function App() {
       {activeConcert ? (
         <ConcertEditor
           concert={activeConcert}
+          editable={admin || activeConcert.device_id === getDeviceId()}
           syncError={syncError}
           onBack={() => setActiveConcert(null)}
           onUpdate={updateConcert}

@@ -19,12 +19,13 @@ import { RagamInfo } from './RagamInfo';
 
 interface Props {
   items: ConcertItem[];
+  editable?: boolean;
   onReorder: (items: ConcertItem[]) => void;
   onUpdate: (item: ConcertItem) => void;
   onDelete: (itemId: string) => void;
 }
 
-export function Setlist({ items, onReorder, onUpdate, onDelete }: Props) {
+export function Setlist({ items, editable = true, onReorder, onUpdate, onDelete }: Props) {
   const [expandedId, setExpandedId] = useState<string | null>(null);
   const [showRagam, setShowRagam] = useState<string | null>(null);
   const [undoItem, setUndoItem] = useState<{ item: ConcertItem; timer: number } | null>(null);
@@ -94,6 +95,7 @@ export function Setlist({ items, onReorder, onUpdate, onDelete }: Props) {
                 <SetlistItem
                   key={item.id}
                   item={item}
+                  editable={editable}
                   expanded={expandedId === item.id}
                   onToggle={() => setExpandedId(expandedId === item.id ? null : item.id)}
                   onUpdate={onUpdate}

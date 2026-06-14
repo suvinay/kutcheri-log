@@ -4,6 +4,7 @@ import type { Concert, ConcertItem, Artist } from '../types';
 import { LocalStorageProvider } from '../storage/LocalStorageProvider';
 import type { StorageProvider } from '../storage/StorageProvider';
 import { fetchPublishedConcerts, publishConcertToSheet, deleteConcertFromSheet, isSheetsConfigured } from '../services/sheetSync';
+import { getDeviceId } from '../services/deviceId';
 
 const storage: StorageProvider = new LocalStorageProvider();
 
@@ -49,6 +50,7 @@ export function useConcerts() {
       items: [],
       notes: '',
       logged_by: '',
+      device_id: getDeviceId(),
       created_at: new Date().toISOString(),
       updated_at: new Date().toISOString(),
     };

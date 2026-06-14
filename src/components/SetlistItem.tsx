@@ -5,6 +5,7 @@ import { SourceLinks } from './SourceLinks';
 
 interface Props {
   item: ConcertItem;
+  editable?: boolean;
   expanded: boolean;
   onToggle: () => void;
   onUpdate: (item: ConcertItem) => void;
@@ -12,7 +13,7 @@ interface Props {
   onShowRagam: (name: string) => void;
 }
 
-export function SetlistItem({ item, expanded, onToggle, onUpdate, onDelete, onShowRagam }: Props) {
+export function SetlistItem({ item, editable = true, expanded, onToggle, onUpdate, onDelete, onShowRagam }: Props) {
   const {
     attributes,
     listeners,
@@ -31,13 +32,15 @@ export function SetlistItem({ item, expanded, onToggle, onUpdate, onDelete, onSh
   return (
     <li ref={setNodeRef} style={style} className="border-b border-stone-100 last:border-b-0">
       <div className="flex items-center">
-        <button
-          {...attributes}
-          {...listeners}
-          className="px-1 py-3 text-stone-300 hover:text-stone-400 cursor-grab active:cursor-grabbing min-w-[28px] min-h-[44px] flex items-center justify-center touch-none text-xs"
-        >
-          ⠿
-        </button>
+        {editable && (
+          <button
+            {...attributes}
+            {...listeners}
+            className="px-1 py-3 text-stone-300 hover:text-stone-400 cursor-grab active:cursor-grabbing min-w-[28px] min-h-[44px] flex items-center justify-center touch-none text-xs"
+          >
+            ⠿
+          </button>
+        )}
 
         <button
           onClick={onToggle}
@@ -80,7 +83,7 @@ export function SetlistItem({ item, expanded, onToggle, onUpdate, onDelete, onSh
         </button>
       </div>
 
-      {expanded && (
+      {expanded && editable && (
         <div className="px-4 pb-4 pt-1 space-y-3 border-t border-stone-100 ml-7">
           <div className="grid grid-cols-2 gap-3">
             <div className="col-span-2">

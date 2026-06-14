@@ -80,6 +80,7 @@ export interface Concert {
   items: ConcertItem[];
   notes: string;
   logged_by: string;
+  device_id?: string;
   created_at: string;
   updated_at: string;
 }

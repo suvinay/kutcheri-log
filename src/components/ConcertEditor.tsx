@@ -7,6 +7,7 @@ import { ExportModal } from './ExportModal';
 
 interface Props {
   concert: Concert;
+  editable: boolean;
   syncError?: string;
   onBack: () => void;
   onUpdate: (concert: Concert) => void;
@@ -19,6 +20,7 @@ interface Props {
 
 export function ConcertEditor({
   concert,
+  editable,
   syncError,
   onBack,
   onUpdate,
@@ -39,12 +41,17 @@ export function ConcertEditor({
         >
           ← Back
         </button>
-        <button
-          onClick={() => setShowExport(true)}
-          className="border border-stone-200 hover:border-stone-300 text-stone-500 hover:text-stone-700 px-4 py-2 rounded-lg min-h-[44px] text-sm transition-colors mr-12"
-        >
-          Share
-        </button>
+        <div className="flex items-center gap-2 mr-12">
+          {!editable && (
+            <span className="text-stone-300 text-xs">View only</span>
+          )}
+          <button
+            onClick={() => setShowExport(true)}
+            className="border border-stone-200 hover:border-stone-300 text-stone-500 hover:text-stone-700 px-4 py-2 rounded-lg min-h-[44px] text-sm transition-colors"
+          >
+            Share
+          </button>
+        </div>
       </header>
 
       {syncError && (
@@ -55,14 +62,16 @@ export function ConcertEditor({
 
       <ConcertHeader
         concert={concert}
+        editable={editable}
         onUpdate={onUpdate}
         onUpdateArtists={onUpdateArtists}
       />
 
-      <SongSearch onAdd={onAddItem} />
+      {editable && <SongSearch onAdd={onAddItem} />}
 
       <Setlist
         items={concert.items}
+        editable={editable}
         onReorder={onReorderItems}
         onUpdate={onUpdateItem}
         onDelete={onDeleteItem}
