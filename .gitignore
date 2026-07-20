@@ -8,3 +8,5 @@ data/augmented/structured.json
 data/augmented/*.checkpoint.json
 *.pyc
 __pycache__
+*.xlsx
+*.xlsm
