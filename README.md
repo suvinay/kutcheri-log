@@ -39,7 +39,7 @@ Paste the hash into `.env` as `VITE_ADMIN_HASH`, then restart the dev server.
 
 ## Updating the Song Database
 
-The bundled database (`src/data/songs.json`, `src/data/ragams.json`) was built by scraping 5 reference sites. See `DESIGN.md` for details.
+The bundled database (`public/data/songs.json`, `public/data/ragams.json`) was built by scraping 5 reference sites. See `DESIGN.md` for details.
 
 ```bash
 # 1. Parse index pages (already done, re-run if HTML files updated)
@@ -52,8 +52,8 @@ uv run scripts/scrape_karnatik_details.py
 uv run scripts/merge_songs_v2.py
 
 # 4. Copy to app
-cp data/songs.json src/data/songs.json
-cp data/ragams.json src/data/ragams.json
+cp data/songs.json public/data/songs.json
+cp data/ragams.json public/data/ragams.json
 ```
 
 ## Troubleshooting
@@ -65,7 +65,7 @@ Vite reads `.env` only at startup. Kill and restart `npm run dev`.
 The hash is embedded at build time. After changing `VITE_ADMIN_HASH` in `.env`, restart the dev server. Verify the hash: `echo -n 'password' | shasum -a 256`.
 
 **Song search returns no results**
-Check that `src/data/songs.json` exists and is valid JSON. The DB is loaded at app boot — check the browser console for errors.
+Check that `public/data/songs.json` exists and is valid JSON. The DB is loaded at app boot — check the browser console for errors.
 
 **"Ask Gemini" fails**
 Enter your Gemini API key in Settings (⚙). The key is stored in `localStorage` under `gemini-api-key`.

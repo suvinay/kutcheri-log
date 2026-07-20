@@ -81,7 +81,7 @@ export default function App() {
     setAdmin(isAdmin());
   }, []);
 
-  if (!dbReady || loading) {
+  if (loading) {
     return (
       <div className="min-h-screen bg-stone-50 flex items-center justify-center">
         <div className="text-stone-400 text-sm">Loading…</div>
@@ -92,19 +92,25 @@ export default function App() {
   return (
     <>
       {activeConcert ? (
-        <ConcertEditor
-          concert={activeConcert}
-          editable={admin || activeConcert.device_id === getDeviceId()}
-          syncError={syncError}
-          onBack={() => setActiveConcert(null)}
-          onDiscard={deleteConcert}
-          onUpdate={updateConcert}
-          onAddItem={item => addItem(activeConcert.id, item)}
-          onUpdateItem={item => updateItem(activeConcert.id, item)}
-          onDeleteItem={itemId => deleteItem(activeConcert.id, itemId)}
-          onReorderItems={items => reorderItems(activeConcert.id, items)}
-          onUpdateArtists={artists => updateArtists(activeConcert.id, artists)}
-        />
+        dbReady ? (
+          <ConcertEditor
+            concert={activeConcert}
+            editable={admin || activeConcert.device_id === getDeviceId()}
+            syncError={syncError}
+            onBack={() => setActiveConcert(null)}
+            onDiscard={deleteConcert}
+            onUpdate={updateConcert}
+            onAddItem={item => addItem(activeConcert.id, item)}
+            onUpdateItem={item => updateItem(activeConcert.id, item)}
+            onDeleteItem={itemId => deleteItem(activeConcert.id, itemId)}
+            onReorderItems={items => reorderItems(activeConcert.id, items)}
+            onUpdateArtists={artists => updateArtists(activeConcert.id, artists)}
+          />
+        ) : (
+          <div className="min-h-screen bg-stone-50 flex items-center justify-center">
+            <div className="text-stone-400 text-sm">Loading song database…</div>
+          </div>
+        )
       ) : (
         <ConcertList
           concerts={concerts}
@@ -141,7 +147,7 @@ export default function App() {
           onAdminChange={handleAdminChange}
         />
       )}
-      {showIndex && (
+      {showIndex && dbReady && (
         <EntityIndexPanel onClose={() => setShowIndex(false)} />
       )}
     </>

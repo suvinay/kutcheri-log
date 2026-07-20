@@ -43,18 +43,18 @@ function normalizeForSearch(s: string): string {
 }
 
 export async function initDb() {
-  const [songsModule, ragamsModule, composersModule, augModule] = await Promise.all([
-    import('../data/songs.json'),
-    import('../data/ragams.json'),
-    import('../data/composers.json'),
-    import('../data/augmentations.json'),
+  const dataUrl = (file: string) => `${import.meta.env.BASE_URL}data/${file}`;
+  const [bundledSongs, ragams, composers, aug] = await Promise.all([
+    fetch(dataUrl('songs.json')).then(r => r.json()) as Promise<Song[]>,
+    fetch(dataUrl('ragams.json')).then(r => r.json()) as Promise<Ragam[]>,
+    fetch(dataUrl('composers.json')).then(r => r.json()) as Promise<Composer[]>,
+    fetch(dataUrl('augmentations.json')).then(r => r.json()) as Promise<Augmentations>,
   ]);
-  const bundledSongs = songsModule.default as Song[];
   const userSongs = loadUserSongs();
   songDb = [...bundledSongs, ...userSongs];
-  ragamDb = ragamsModule.default as Ragam[];
-  composerDb = composersModule.default as Composer[];
-  augmentations = augModule.default as unknown as Augmentations;
+  ragamDb = ragams;
+  composerDb = composers;
+  augmentations = aug;
 
   // Build searchable songs with normalized fields
   const searchableSongs: SearchableSong[] = songDb.map(song => ({

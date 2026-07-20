@@ -33,9 +33,9 @@ uv run scripts/augmented_keys.py
 uv run scripts/build_composers.py
 
 # 8. Copy to app
-cp data/songs.json src/data/songs.json
-cp data/ragams.json src/data/ragams.json
-cp data/composers.json src/data/composers.json
+cp data/songs.json public/data/songs.json
+cp data/ragams.json public/data/ragams.json
+cp data/composers.json public/data/composers.json
 
 # 9. Build and verify
 npx vite build
@@ -47,7 +47,7 @@ npx vite build
 uv run scripts/merge_songs_v2.py
 uv run scripts/augmented_keys.py
 uv run scripts/build_composers.py
-cp data/{songs,ragams,composers}.json src/data/
+cp data/{songs,ragams,composers}.json public/data/
 npx vite build
 ```
 
@@ -57,7 +57,7 @@ npx vite build
 uv run scripts/review_user_songs.py                    # list pending
 uv run scripts/review_user_songs.py --approve-all      # approve all
 uv run scripts/review_user_songs.py --approve ID1 ID2  # approve specific
-cp data/songs.json src/data/songs.json && npx vite build
+cp data/songs.json public/data/songs.json && npx vite build
 ```
 
 ## Notes

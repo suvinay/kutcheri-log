@@ -14,7 +14,7 @@ Skim these files in order (read headers/structure, not every line):
 ## Step 2: Understand the stack
 
 - **Frontend**: React 19 + Vite + TypeScript + Tailwind CSS v4. Single-page app, no router.
-- **Data**: Bundled JSON databases in `src/data/` (songs, ragams, composers, augmentations). Built by Python scripts in `scripts/`.
+- **Data**: JSON databases (songs, ragams, composers, augmentations) in `public/data/`, fetched at runtime rather than bundled into the JS. Built by Python scripts in `scripts/`.
 - **Storage**: localStorage (immediate/offline) + Google Sheets via Apps Script (shared persistence). Concerts auto-sync to sheet on save.
 - **Search**: Fuse.js with transliteration-aware normalization (see `src/services/songDb.ts`).
 - **Deploy**: GitHub Pages via GitHub Actions. Push to `main` → auto-deploy.

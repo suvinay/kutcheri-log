@@ -149,7 +149,7 @@ def main():
     print(f"  Composers with summaries: {comp_updated}", flush=True)
     (DATA_DIR / "composers.json").write_text(json.dumps(composers, indent=2, ensure_ascii=False))
 
-    print("\nDone. Copy to src/data/ and rebuild.", flush=True)
+    print("\nDone. Copy to public/data/ and rebuild.", flush=True)
 
 
 if __name__ == "__main__":

@@ -23,9 +23,9 @@ uv run scripts/augmented_structure.py
 uv run scripts/augmented_synthesize.py
 
 # Copy to app
-cp data/augmentations.json src/data/augmentations.json
-cp data/ragams.json src/data/ragams.json
-cp data/composers.json src/data/composers.json
+cp data/augmentations.json public/data/augmentations.json
+cp data/ragams.json public/data/ragams.json
+cp data/composers.json public/data/composers.json
 npx vite build
 ```
 

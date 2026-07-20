@@ -136,7 +136,7 @@ def approve_songs(user_songs: list[dict], db_songs: list[dict], approve_ids: lis
         songs_file = DATA_DIR / "songs.json"
         songs_file.write_text(json.dumps(db_songs, indent=2, ensure_ascii=False))
         print(f"\n  {added} songs added to {songs_file}")
-        print(f"  Run: cp data/songs.json src/data/songs.json && npm run build")
+        print(f"  Run: cp data/songs.json public/data/songs.json && npm run build")
 
     return added
 

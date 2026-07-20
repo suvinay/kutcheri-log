@@ -64,11 +64,13 @@ carnatic-log/
     types/
       index.ts                  # TypeScript interfaces: Song, Ragam, Composer, Concert, ConcertItem, Artist, AugSourceLink, etc.
 
+  public/
     data/
-      songs.json                # Bundled song database (~9,500 entries, with ragam_key + composer_key)
-      ragams.json               # Bundled ragam database (122 entries, with key + summary)
+      songs.json                # Bundled song database (~42,700 entries, with ragam_key + composer_key)
+      ragams.json               # Bundled ragam database (994 entries, with key + summary)
       composers.json            # Bundled composer database (derived from songs, with summaries)
       augmentations.json        # Source registry + entity link maps for augmentation
+      # Fetched at runtime (not bundled into the JS chunk) -- see songDb.ts initDb()
 
   scripts/
     parse_all_sources.py        # Parse saved HTML into per-source raw JSON
@@ -106,8 +108,8 @@ carnatic-log/
       structured.json           # Stage 3 intermediate: structured PageRecords
       orphan_ragams.json        # Ragams from pages not matching DB
       unmatched.json            # Kritis from pages not matching songs DB
-    songs.json                  # Final merged song DB (copied to src/data/)
-    ragams.json                 # Final ragam DB (copied to src/data/)
+    songs.json                  # Final merged song DB (copied to public/data/)
+    ragams.json                 # Final ragam DB (copied to public/data/)
 
   package.json
   vite.config.ts
@@ -203,9 +205,9 @@ uv run scripts/merge_songs_v2.py
 # 5. Build ragam DB (requires GEMINI_API_KEY)
 uv run scripts/build_ragam_db.py
 
-# 6. Copy final databases into src/data/ for bundling
-cp data/songs.json src/data/songs.json
-cp data/ragams.json src/data/ragams.json
+# 6. Copy final databases into public/data/ (fetched at runtime, not bundled)
+cp data/songs.json public/data/songs.json
+cp data/ragams.json public/data/ragams.json
 ```
 
 ---
@@ -502,7 +504,7 @@ The build script is merge-safe: re-running it preserves any existing `summary`, 
 
 ### 10.1 augmentations.json
 
-A single file at `src/data/augmentations.json` that stores all augmentation metadata. It contains two top-level sections:
+A single file at `public/data/augmentations.json` that stores all augmentation metadata. It contains two top-level sections:
 
 **Source Registry** (`sources`): A deduplicated array of `PageRecord` objects, each representing one fetched and structured web page:
 
@@ -545,7 +547,7 @@ Discovers URLs to fetch from three source types:
 - **WordPress sitemaps**: Fetches `sitemap.xml` from WordPress blog sites to discover all post URLs.
 - **Wikipedia API targets**: Generates Wikipedia article URLs for all ragams and composers in the database using the MediaWiki REST API naming convention.
 
-**Input**: `src/data/songs.json`, `src/data/ragams.json`, `src/data/composers.json`
+**Input**: `public/data/songs.json`, `public/data/ragams.json`, `public/data/composers.json`
 **Output**: `data/augmented/urls.json` (deduplicated URL list with source site metadata)
 
 ```bash
@@ -575,10 +577,10 @@ Uses the Gemini API to analyze each fetched page and produce structured `PageRec
 1. **Page structuring**: Sends page content to Gemini with a prompt that extracts: page summary (<=3 sentences), mentioned kritis (song name + ragam), mentioned ragams, mentioned composers.
 2. **Kriti matching**: Matches extracted kritis to songs in `songs.json` using `normalize_for_dedup(name)` + `ragam_key` join. Unmatched kritis are logged to `data/augmented/orphan_ragams.json`.
 3. **Entity linking**: Builds the three link maps (`song_links`, `ragam_links`, `composer_links`) by associating each structured page with the entities it references.
-4. **Output assembly**: Writes the complete `augmentations.json` (source registry + link maps) to `src/data/augmentations.json`.
+4. **Output assembly**: Writes the complete `augmentations.json` (source registry + link maps) to `public/data/augmentations.json`.
 
-**Input**: `data/augmented/fetched.json`, `src/data/songs.json`, `src/data/ragams.json`, `src/data/composers.json`
-**Output**: `data/augmented/structured.json` (intermediate), `src/data/augmentations.json`, `data/augmented/orphan_ragams.json`, `data/augmented/unmatched.json` (diagnostic)
+**Input**: `data/augmented/fetched.json`, `public/data/songs.json`, `public/data/ragams.json`, `public/data/composers.json`
+**Output**: `data/augmented/structured.json` (intermediate), `public/data/augmentations.json`, `data/augmented/orphan_ragams.json`, `data/augmented/unmatched.json` (diagnostic)
 
 Requires `GEMINI_API_KEY` in `.env`.
 
@@ -590,12 +592,12 @@ uv run scripts/augmented_structure.py
 
 Generates per-entity curated summaries from the page-level summaries in the augmentation registry:
 
-1. **Ragam summaries**: For each ragam with linked sources, collects the page summaries and sends them to Gemini to produce a <=6-sentence synthesis. Writes `summary` and `summary_source_ids` onto the ragam entry in `src/data/ragams.json`.
-2. **Composer summaries**: Same process for composers, writing onto `src/data/composers.json`.
+1. **Ragam summaries**: For each ragam with linked sources, collects the page summaries and sends them to Gemini to produce a <=6-sentence synthesis. Writes `summary` and `summary_source_ids` onto the ragam entry in `public/data/ragams.json`.
+2. **Composer summaries**: Same process for composers, writing onto `public/data/composers.json`.
 3. **Incremental**: Only regenerates a summary when the set of source IDs for an entity has changed since the last run.
 
-**Input**: `src/data/augmentations.json`, `src/data/ragams.json`, `src/data/composers.json`, `src/data/songs.json`
-**Output**: Updated `src/data/ragams.json`, updated `src/data/composers.json`
+**Input**: `public/data/augmentations.json`, `public/data/ragams.json`, `public/data/composers.json`, `public/data/songs.json`
+**Output**: Updated `public/data/ragams.json`, updated `public/data/composers.json`
 
 Requires `GEMINI_API_KEY` in `.env`.
 
@@ -694,12 +696,12 @@ A reusable component that renders a compact row of clickable source links with d
 | `data/augmented/orphan_ragams.json` | Ragam names found in pages that do not match any ragam in the database |
 | `data/augmented/unmatched.json` | Kritis mentioned in pages that could not be matched to songs in the database |
 
-### 14.3 Bundled Data (`src/data/`)
+### 14.3 Bundled Data (`public/data/`)
 
 | File | Purpose |
 |------|---------|
-| `src/data/composers.json` | Composer entity database (derived from songs, enriched by augmentation) |
-| `src/data/augmentations.json` | Source registry + entity link maps (loaded at runtime for Entity Index) |
+| `public/data/composers.json` | Composer entity database (derived from songs, enriched by augmentation) |
+| `public/data/augmentations.json` | Source registry + entity link maps (loaded at runtime for Entity Index) |
 
 ### 14.4 Components (`src/components/`)
 
