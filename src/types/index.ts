@@ -15,6 +15,7 @@ export interface Song {
   pallavi: string;
   links: SongLink[];
   tags: string[];
+  book_refs?: string[];
 }
 
 export interface Ragam {
