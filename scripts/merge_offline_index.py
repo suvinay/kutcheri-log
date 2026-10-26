@@ -4,7 +4,7 @@
 # ///
 """Merge two offline Excel song indices into songs.json.
 
-Sources (see log/2026.07.19--offline-index-merge/ for rationale):
+Sources live in data/offline-index/ (gitignored; see that folder's README.md):
 - "Song index1.xlsx" :: "Song index" sheet   -- ~33.4k structured kriti entries
 - "Songlist for tagging.xlsx" :: "varna" sheet -- ~1.4k structured varnam entries
 
@@ -29,8 +29,9 @@ import openpyxl
 ROOT = Path(__file__).parent.parent
 DATA_DIR = ROOT / "data"
 
-SONG_INDEX_XLSX = ROOT / "Song index1.xlsx"
-VARNA_XLSX = ROOT / "Songlist for tagging.xlsx"
+OFFLINE_INDEX_DIR = DATA_DIR / "offline-index"
+SONG_INDEX_XLSX = OFFLINE_INDEX_DIR / "Song index1.xlsx"
+VARNA_XLSX = OFFLINE_INDEX_DIR / "Songlist for tagging.xlsx"
 
 # --- Production key functions (must match scripts/augmented_keys.py exactly) ---
 
