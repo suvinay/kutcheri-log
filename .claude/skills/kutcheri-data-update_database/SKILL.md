@@ -1,5 +1,5 @@
 ---
-name: update-database
+name: kutcheri-data-update_database
 description: Re-run the song/ragam database pipeline — scrape, merge, enrich, and rebuild
 ---
 

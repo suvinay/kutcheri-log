@@ -1,5 +1,5 @@
 ---
-name: augmentation-pipeline
+name: kutcheri-data-augment
 description: Run the source augmentation pipeline — discover URLs, fetch pages, structure with Gemini, synthesize entity summaries
 ---
 

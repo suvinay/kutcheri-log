@@ -7,8 +7,8 @@ Read this file at the start of every session before doing anything else.
 Skim these files in order (read headers/structure, not every line):
 
 1. **`DESIGN.md`** — Architecture, directory structure, data models, pipeline stages, UI components. This is the source of truth for how everything fits together.
-2. **`CLAUDE.md`** — Repo conventions (uv for Python, Gemini for batch LLM, Opus for orchestration).
-3. **`.claude/skills/`** — Available skills: `session-log`, `update-database`, `augmentation-pipeline`. Read the descriptions to know what's automatable.
+2. **`AGENTS.md`** — Repo conventions. Node/Vite, not Python. (`CLAUDE.md` is a symlink to it.)
+3. **`.claude/skills/INDEX.md`** — Available skills: `meta-session-log`, `kutcheri-data-update_database`, `kutcheri-data-augment`.
 4. **`log/`** — Session history. Read the most recent `HANDOFF.md` for pending work, and `LEARNINGS.md` for gotchas to avoid.
 
 ## Step 2: Understand the stack

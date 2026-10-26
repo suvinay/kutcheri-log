@@ -1,5 +1,5 @@
 ---
-name: session-log
+name: meta-session-log
 description: End-of-session logging — creates a dated log entry with session summary, learnings, and handoff notes
 ---
 

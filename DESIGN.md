@@ -11,7 +11,7 @@ Carnatic Concert Logger is a React single-page application for logging setlists 
 - **localStorage persistence** behind a `StorageProvider` interface, designed so Google Drive sync can be swapped in as Phase 2 without restructuring.
 - **Bundled JSON databases** for songs (~9,500 kritis), ragams (72 melakartas + 50 janya ragams), composers, and augmentations (source registry + entity link maps), imported as ES modules via Vite's JSON support.
 - **Fuse.js** for fuzzy search across song names, ragams, composers, and pallavi text -- critical because Carnatic transliterations vary widely.
-- **Claude API fallback** (`claude-sonnet-4-6`) for songs not found in the local database. The API key is stored in localStorage and configured via a Settings modal.
+- **Claude API fallback** (Sonnet — the model id is the `MODEL` constant in `src/services/claudeService.ts`; keep it at the current Sonnet generation) for songs not found in the local database. The API key is stored in localStorage and configured via a Settings modal.
 - **Fully offline-capable**: all saved data and the bundled database work without network. Only the "Ask Claude" fallback requires connectivity.
 
 **Runtime flow:**
@@ -273,7 +273,7 @@ The primary interaction during a concert. A persistent search bar at the top of 
 
 1. **Fuzzy search**: As the user types (minimum 2 characters), Fuse.js searches across song names (weight 3), ragam (weight 1.5), composer (weight 1), and pallavi text (weight 0.8). Results appear as compact cards showing name, ragam, talam, composer.
 2. **Select from results**: Tapping a result pre-fills the add-item form with all metadata from the database.
-3. **Claude fallback**: When no DB match is found, an "Ask Claude" button sends the query to `claude-sonnet-4-6` with a structured system prompt. The response is parsed as JSON and pre-fills the form. A confidence indicator (high/medium/low) is shown.
+3. **Claude fallback**: When no DB match is found, an "Ask Claude" button sends the query to Sonnet (see `MODEL` in `src/services/claudeService.ts`) with a structured system prompt. The response is parsed as JSON and pre-fills the form. A confidence indicator (high/medium/low) is shown.
 4. **Edit and add**: All fields are editable before adding. The user can change the type (kriti/RTP/tillana/etc.), add notes, and mark as uncertain. "Add to Concert" appends to the setlist.
 
 ### 5.4 Setlist Management

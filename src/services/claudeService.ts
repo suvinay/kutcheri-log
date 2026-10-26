@@ -1,5 +1,9 @@
 import type { SongMetadata } from '../types';
 
+// Song identification is a well-defined extraction task, so it runs on Sonnet rather than
+// the top-tier model. Keep this at the CURRENT Sonnet generation — don't let it go stale.
+const MODEL = 'claude-sonnet-5';
+
 const SYSTEM_PROMPT = `You are an expert in Carnatic classical music. When given a partial song name, phrase, ragam, or any identifying information, identify the kriti and return its metadata as a JSON object with exactly these fields: name (canonical transliterated name), ragam, talam, composer, language, pallavi (opening line if known), confidence ("high" | "medium" | "low"). Return only the JSON object, no explanation.`;
 
 export async function identifySong(
@@ -15,7 +19,7 @@ export async function identifySong(
       'anthropic-dangerous-direct-browser-access': 'true',
     },
     body: JSON.stringify({
-      model: 'claude-sonnet-4-6',
+      model: MODEL,
       max_tokens: 300,
       system: SYSTEM_PROMPT,
       messages: [{ role: 'user', content: query }],
